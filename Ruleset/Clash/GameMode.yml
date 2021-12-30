@@ -1,0 +1,31 @@
+payload:
+# 游戏模式（⚠️所用节点需开启 UDP 转发支持）
+PROTOCOL,UDP
+
+# -> Steam
+DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamstat.us
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN,steambroadcast.akamaized.net
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN,steamcommunity-a.akamaihd.net
+DOMAIN,steamstore-a.akamaihd.net
+DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,steamuserimages-a.akamaihd.net
+
+# -> Epic
+DOMAIN-SUFFIX,epicgames.com
+DOMAIN-KEYWORD,epic
+
+# -> Uplayer
+DOMAIN-SUFFIX,ubisoft.com
+DOMAIN-KEYWORD,ubisoft
+
+# -> RockStart
+DOMAIN-SUFFIX,rockstargames.com
+DOMAIN-KEYWORD,rockstar

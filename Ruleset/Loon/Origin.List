@@ -1,0 +1,5 @@
+# 游戏模式（⚠️所用节点需开启 UDP 转发支持）
+PROTOCOL,UDP
+
+DOMAIN-SUFFIX,origin.com
+DOMAIN-KEYWORD,origin
