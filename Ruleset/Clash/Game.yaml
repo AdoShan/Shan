@@ -2,7 +2,6 @@ payload:
 # -->> 游戏模式（⚠️所用节点需开启 UDP 转发支持）
   #PROTOCOL,UDP
 
-
 # -->> Xbox
 # --> XBox云同步
   - DOMAIN, titlestorage.xboxlive.com
@@ -27,8 +26,6 @@ payload:
   - DOMAIN, profile.gamepass.com
 # --> XboxApp下载地址读取(解决0X87e00005)
   - DOMAIN, packagespc.xboxlive.com
-
-
 
 
 # -->> Steam
@@ -56,11 +53,9 @@ payload:
   #DOMAIN,steamcommunity-a.akamaihd.net   ---> SteamCommubity广告托管已存在
   - DOMAIN, community.akamai.steamstatic.com
 
-
 # -->> Epic
   - DOMAIN-SUFFIX, epicgames.com
   - DOMAIN-KEYWORD, epic
-
 
 # -->> Ubisoft
 # --> 账户登录
@@ -94,8 +89,6 @@ payload:
   - DOMAIN-KEYWORD, ubisoft
 
 
-
-
 # -->> RockStart
 # --> 账户登录域名(与GTA5线上模式相斥)
   - DOMAIN, ps-rgl-prod.ros.rockstargames.com
@@ -115,15 +108,11 @@ payload:
   - DOMAIN-SUFFIX, rockstargames.com
 
 
-
-
   - DOMAIN-SUFFIX, rockstargames.com
   - DOMAIN-KEYWORD, rockstar
 
-
 # -->> EA
   - DOMAIN-SUFFIX, ea.com
-
 
 # -->> Origin
   - DOMAIN-SUFFIX, origin.com
@@ -140,7 +129,6 @@ payload:
 # --> 202错误/卡同步
   - DOMAIN, patches.rockstargames.com
 
-
 # -->> Sony
 # 来源：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
 # 内容：Sony
@@ -150,7 +138,6 @@ payload:
   - DOMAIN-SUFFIX, playstationnetwork.com
   - DOMAIN-SUFFIX, sony.com
   - DOMAIN-SUFFIX, sonyentertainmentnetwork.com
-
 
 # -->> GOG
   - DOMAIN-SUFFIX, gog.com

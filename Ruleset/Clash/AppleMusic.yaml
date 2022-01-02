@@ -6,7 +6,6 @@ payload:
   - DOMAIN, mvod.itunes.apple.com
   - DOMAIN, streamingaudio.itunes.apple.com
 
-
 # (Region-Restricted Access Denied)
 # -->> Apple Music Web
   - DOMAIN, beta.music.apple.com

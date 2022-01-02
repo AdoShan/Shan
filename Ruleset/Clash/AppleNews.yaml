@@ -3,7 +3,6 @@ payload:
   - DOMAIN-SUFFIX,  ls.apple.com
   - DOMAIN,  gs-loc-cn.apple.com
 
-
 # -->> Apple News
   - DOMAIN,  gspe1-ssl.ls.apple.com // 必要，但会导致「地图」使用「TOMTOM」版本数据
   - PROCESS-NAME,  News

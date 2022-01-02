@@ -2,26 +2,21 @@ payload:
 # -->> 绕过企业证书到期
   - DOMAIN,  ocsp.apple.com, Reject // 证书过期
 
-
 # -->> 图形验证码
   - DOMAIN,  api-us-west-2.ndsopaapl.nudatasecurity.com
-
 
 # -->> iMaeeage
   - DOMAIN-SUFFIX,  courier.push.apple.com
   - DOMAIN-SUFFIX,  ess.apple.com
-
 
 # -->> Find My
   - DOMAIN,  fmfmobile.icloud.com
   - DOMAIN,  fmipmobile.icloud.com
   - DOMAIN,  statici.icloud.com
 
-
 # -->> iCloud email
   - DOMAIN-SUFFIX,  mail.icloud.com.cn
   - DOMAIN-SUFFIX,  mail.me.com
-
 
 # -->> Apple Music
   - PROCESS-NAME,  Music
@@ -30,11 +25,9 @@ payload:
   - DOMAIN,  mvod.itunes.apple.com
   - DOMAIN,  streamingaudio.itunes.apple.com
 
-
 # -- >> Map
   - DOMAIN-SUFFIX,  ls.apple.com
   - DOMAIN,  gs-loc-cn.apple.com
-
 
 # -->> Apple News
   - DOMAIN,  gspe1-ssl.ls.apple.com // 必要，但会导致「地图」使用「TOMTOM」版本数据
@@ -48,10 +41,8 @@ payload:
   - DOMAIN,  news-events.apple.com
   - DOMAIN,  apple.comscoreresearch.com
 
-
 # -->> Siri
   - DOMAIN,  guzzoni.apple.com
-
 
 # Software Update
 # -->> macOS updates
@@ -78,7 +69,6 @@ payload:
   - DOMAIN,  updates-http.cdn-apple.com
   - DOMAIN,  xp.apple.com
 
-
 # -->> TV
   - PROCESS-NAME,  TV
   #USER-AGENT, AppleTV*
@@ -88,7 +78,6 @@ payload:
   - DOMAIN,  hls-amt.itunes.apple.com // Trailers
   - DOMAIN,  play-edge.itunes.apple.com // Unblock Region
 
-
 # -->>iCloud
   - DOMAIN-SUFFIX,  apple-cloudkit.com
   - DOMAIN-SUFFIX,  icloud.com
@@ -96,10 +85,8 @@ payload:
   - DOMAIN-SUFFIX,  icloud-content.com
   - DOMAIN,  www-cdn.icloud.com.akadns.net
 
-
 # Apple Health
   - DOMAIN-SUFFIX,  health.apple.com
-
 
 # (Region-Restricted Access Denied)
 # ---(Apple)---

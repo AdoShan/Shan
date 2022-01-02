@@ -2,26 +2,20 @@ payload:
 # -->> Steam价格查询脚本需要
   - DOMAIN, steamdb.info
 
-
 # -->> 解决微信表情包无法加载
   - IP-CIDR, 182.254.116.0/24
-
 
 # -->> 修正知乎直播
   #URL-REGEX,^https?:\/\/api\.zhihu\.com\/drama\/
 
-
 # -->> GeoIP China
   #GEOIP,CN
-
 
 # -->> AppRaven
   - DOMAIN-SUFFIX, appraven.net
 
-
 # -->> 微信二维码识别
   - DOMAIN-SUFFIX, qrcd.org
-
 
   - IP-CIDR, 8.128.0.0/10,no-resolve
   - IP-CIDR, 8.208.0.0/12,no-resolve
@@ -6056,7 +6050,6 @@ payload:
   - IP-CIDR, 223.255.236.0/22,no-resolve
   - IP-CIDR, 223.255.252.0/23,no-resolve
 
-
   - PROCESS-NAME, aria2c
   - PROCESS-NAME, fdm
   - PROCESS-NAME, Folx
@@ -6077,7 +6070,6 @@ payload:
   #URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
   - PROCESS-NAME, Weiyun
   - PROCESS-NAME, baidunetdisk
-
 
   - DOMAIN-SUFFIX, local
   - IP-CIDR, 192.168.0.0/16,no-resolve
