@@ -1,10 +1,13 @@
+payload:
 # -->> Global
   - #DOMAIN-KEYWORD, cdn
 
 # -->> Apple_CDN
 # --> Apple Music
+  - DOMAIN, aod.itunes.apple.com
   - DOMAIN, api.smoot.apple.cn
   - DOMAIN, music.apple.com
+  - DOMAIN, mvod.itunes.apple.com
 # --> App Store
 USER-AGENT,com.apple.appstored*
   - DOMAIN-SUFFIX, mzstatic.com
@@ -12,6 +15,7 @@ USER-AGENT,com.apple.appstored*
   - DOMAIN, osxapps.itunes.apple.com
 # --> Update
   - DOMAIN, supportdownload.apple.com
+  - DOMAIN, appldnld.apple.com
   - DOMAIN, swcdn.apple.com
   - DOMAIN, apptrailers.itunes.apple.com
   - DOMAIN, updates-http.cdn-apple.com
@@ -73,12 +77,11 @@ USER-AGENT,com.apple.appstored*
   - DOMAIN-SUFFIX, ssl-lvlt.cdn.ea.com
 
 # -->> Ubisoft
-# --> 游戏下载
-  - DOMAIN, uplaypc-s-ubisoft.cdn.ubi.com
-  - DOMAIN, uplaypc-s-ubisoft-ww.cdn.ubi.com
 # --> 客户端更新(有中国服务器)
   - DOMAIN, static3.cdn.ubi.com
 # --> 游戏下载(有中国服务器)走CDN
+  - DOMAIN, uplaypc-s-ubisoft.cdn.ubi.com
+  - DOMAIN, uplaypc-s-ubisoft-ww.cdn.ubi.com
 # --> 兜底
   - #DOMAIN-SUFFIX, cdn.ubi.com
 

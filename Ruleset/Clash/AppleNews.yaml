@@ -1,3 +1,4 @@
+payload:
 # -->> Map
   - DOMAIN-SUFFIX,  ls.apple.com
   - DOMAIN,  gs-loc-cn.apple.com
