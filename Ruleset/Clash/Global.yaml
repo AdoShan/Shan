@@ -1,23 +1,28 @@
 payload:
 #https://github.com/787a68/Rules/blob/master/QuantumultX/Filter/Global.txt
 
+
 # -->>Script
   - DOMAIN-SUFFIX, ooxx.be
   - DOMAIN-SUFFIX, qxzy.top
   - DOMAIN-SUFFIX, blog.jetbrains.com
 
+
 # -->>V2EX
   - DOMAIN-SUFFIX, v2ex.com
+
 
 # -->> WiKi
   - DOMAIN-SUFFIX, wikibooks.org
   - DOMAIN-SUFFIX, wikimedia.org
   - DOMAIN-SUFFIX, wikipedia.org
   - DOMAIN-SUFFIX, fastston.org
-  - #//DOMAIN-KEYWORD, wiki
+  #//DOMAIN-KEYWORD,wiki
+
 
 # -->> IMDB
   - DOMAIN-SUFFIX, imdb.com
+
 
 # (DNS Cache Pollution)
 # -->> Facebook
@@ -47,6 +52,7 @@ payload:
   - IP-CIDR, 54.235.23.242/32
   - IP-CIDR, 169.45.248.118/32
 
+
 # -->> Twitter
   - DOMAIN-SUFFIX, pscp.tv
   - DOMAIN-SUFFIX, periscope.tv
@@ -56,6 +62,7 @@ payload:
   - DOMAIN-SUFFIX, twitpic.com
   - DOMAIN-SUFFIX, twitter.com
   - DOMAIN-SUFFIX, vine.co
+
 
 # -->> Line
   - DOMAIN-SUFFIX, line.me
@@ -67,12 +74,15 @@ payload:
   - IP-CIDR, 147.92.128.0/17,no-resolve
   - IP-CIDR, 203.104.144.0/21,no-resolve
 
+
 # -->> Akamai
   - DOMAIN, a248.e.akamai.net
   - DOMAIN, a771.dscq.akamai.net
 
+
 # -->> Amazon CloudFront
   - DOMAIN, d3c33hcgiwev3.cloudfront.net
+
 
 # -->> Others
   - DOMAIN-SUFFIX, 4shared.com
@@ -439,6 +449,7 @@ payload:
   - DOMAIN-KEYWORD, porn
   - DOMAIN-KEYWORD, wikileaks
 
+
   - DOMAIN, cc.tvbs.com.tw
   - DOMAIN, ocsp.int-x3.letsencrypt.org
   - DOMAIN, payments-jp.amazon.com
@@ -447,9 +458,11 @@ payload:
   - DOMAIN, search.avira.com
   - DOMAIN, us.weibo.com
 
+
   - DOMAIN-KEYWORD, jav
   - DOMAIN-KEYWORD, pinterest
   - DOMAIN-KEYWORD, porn
+
 
 # (IP Blackhole)
 # -->> Facebook
@@ -461,13 +474,16 @@ payload:
   - DOMAIN-SUFFIX, facebook.se
   - DOMAIN-SUFFIX, facebookmail.com
 
+
 # -->> Others
   - DOMAIN-SUFFIX, noxinfluencer.com
   - DOMAIN-SUFFIX, smartmailcloud.com
   - DOMAIN-SUFFIX, weebly.com
   - DOMAIN-SUFFIX, twitter.jp
 
+
 # (Region-Restricted Access Denied)
+
 
 # -->> Others
   - DOMAIN-SUFFIX, apartmentratings.com
@@ -516,18 +532,19 @@ payload:
   - DOMAIN-SUFFIX, vsco.co
   - DOMAIN-SUFFIX, xfinity.com
   - DOMAIN-SUFFIX, zattoo.com
-USER-AGENT,Roam*
+  #USER-AGENT,Roam*
   - DOMAIN-SUFFIX, ifixit.com
   - DOMAIN-SUFFIX, mangakakalot.com
   - DOMAIN-SUFFIX, shopeemobile.com
-URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
+  #URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
   - DOMAIN-SUFFIX, v2rayssr.com
+
 
 # (Network Jitter)
 # -->> Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
   - DOMAIN-KEYWORD, buy.itunes.apple.com
   - DOMAIN-SUFFIX, cloudcone.com.cn
-  - # DOMAIN-SUFFIX, evernote.com
+  # DOMAIN-SUFFIX,evernote.com
   - DOMAIN-SUFFIX, inkbunny.net
   - DOMAIN-SUFFIX, metapix.net
   - DOMAIN-SUFFIX, s3.amazonaws.com

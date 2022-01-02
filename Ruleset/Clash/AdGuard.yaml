@@ -623,6 +623,7 @@ payload:
   - DOMAIN-SUFFIX, hivedata.cc
   - DOMAIN-SUFFIX, navi.gd.chinamobile.com
 
+
 # -- >> 补充来自eHop1
 #https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Liby.txt
 # -- >> Internet Service Providers Hijacking 运营商劫持
@@ -780,9 +781,10 @@ payload:
   - IP-CIDR,  220.115.251.25/32
   - IP-CIDR,  222.73.156.235/32
 
+
 # Advertising 广告
 # -->> General
-  - DOMAIN-keyword,  adservice
+  #DOMAIN-keyword, adservice
   - DOMAIN-SUFFIX,  ad.cmvideo.cn
   - DOMAIN-SUFFIX,  ad.daum.net
   - DOMAIN-SUFFIX,  adcolony.com

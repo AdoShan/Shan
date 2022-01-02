@@ -1,4 +1,4 @@
 payload:
 # -- >> Jegotrip
-host-suffix,jegotrip.com
-host-suffix,jegotrip.com.cn
+  #host-suffix,jegotrip.com
+  #host-suffix,jegotrip.com.cn

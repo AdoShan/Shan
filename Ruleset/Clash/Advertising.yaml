@@ -3,6 +3,7 @@ payload:
 # -->> General
   - DOMAIN-KEYWORD, adservice
 
+
   - DOMAIN-SUFFIX, 1phads.com
   - DOMAIN-SUFFIX, 1rtb.com
   - DOMAIN-SUFFIX, 1xl.co.uk
@@ -237,9 +238,11 @@ payload:
   - DOMAIN-SUFFIX, zucks.net
   - DOMAIN-SUFFIX, zumobi.com
 
+
   - DOMAIN-SUFFIX, ad.cmvideo.cn
   - DOMAIN-SUFFIX, ad.daum.net
   - DOMAIN-SUFFIX, aiseet.atianqi.com
+
 
   - DOMAIN, abema-adx.ameba.jp
   - DOMAIN, ad.12306.cn
@@ -278,12 +281,14 @@ payload:
   - DOMAIN, nativeadv.dftoutiao.com
   - DOMAIN, toots-a.akamaihd.net
 
+
 # (0~9)
 # -->> 51wnl
   - DOMAIN, ad.51wnl-cq.com
   - DOMAIN, adextra.51wnl-cq.com
   - DOMAIN, log.51wnl-cq.com
   - DOMAIN, r.51wnl-cq.com
+
 
 # (A)
 # -->> Apple
@@ -312,6 +317,7 @@ payload:
   - DOMAIN, adm2.autoimg.cn
   - DOMAIN, adm3.autoimg.cn
 
+
 # (B)
 # --- (Baidu) ---
   - DOMAIN-SUFFIX, cpro.baidu.com
@@ -336,6 +342,7 @@ payload:
   - DOMAIN, adx.yiche.com
   - DOMAIN, log.ycapp.yiche.com
 
+
 # (C)
 # -->> CNTV
   - DOMAIN, galaxy.bjcathay.com
@@ -355,6 +362,7 @@ payload:
   - DOMAIN, ad.360in.com
   - DOMAIN, exp.360in.com
 
+
 # (G)
 # -->> Google
   - DOMAIN-SUFFIX, doubleclick.net
@@ -363,6 +371,7 @@ payload:
   - DOMAIN-SUFFIX, googlesyndication.com
   - DOMAIN-SUFFIX, googletagservices.com
   - DOMAIN, ads.youtube.com
+
 
 # (H)
 # -->> HunanTV
@@ -382,6 +391,7 @@ payload:
   - DOMAIN, rp.hpplay.cn
   - DOMAIN, rpt.hpplay.cn
 
+
 # (J)
 # -->> Kingsoft
   - DOMAIN, ad-stat.ksosoft.com
@@ -392,6 +402,7 @@ payload:
   - DOMAIN, mobad.ijinshan.com
   - DOMAIN, ups.ksmobile.net
   - DOMAIN, ws.ksmobile.net
+
 
 # (L)
 # -->> Le
@@ -405,6 +416,7 @@ payload:
   - DOMAIN, cwx.lianwangtech.com
   - DOMAIN, c1wx.lianwangtech.com
 
+
 # (M)
 # -->> MI
   - DOMAIN-SUFFIX, ad.intl.xiaomi.com
@@ -417,6 +429,7 @@ payload:
   - DOMAIN, adlaunch.moji.com
   - DOMAIN, ads.mojicdn.com
   - DOMAIN, v1.log.moji.com
+
 
 # (N)
 # -->> NetEase
@@ -436,6 +449,7 @@ payload:
   - DOMAIN, nex.163.com
   - DOMAIN, yt-adp.nosdn.127.net
   - DOMAIN, yt-adp.ws.126.net
+
 
 # (P)
 # -->> PPTV
@@ -461,11 +475,13 @@ payload:
   - DOMAIN, api.newad.ifeng.com
   - DOMAIN, ifengad.3g.ifeng.com
 
+
 # (Q)
 # -->> QingTing
   - DOMAIN, ad.qingting.fm
   - DOMAIN, adlaunch.qingting.fm
   - DOMAIN, ad-cdn.qingting.fm
+
 
 # (S)
 # -->> Sina
@@ -483,6 +499,7 @@ payload:
   - DOMAIN, imp.optaim.com
   - DOMAIN, v2.reachmax.cn
   - DOMAIN, hui.sohu.com
+
 
 # (T)
 # --- (Tencent) ---
@@ -522,6 +539,7 @@ payload:
   - DOMAIN, adsp.xunlei.com
   - DOMAIN, etl.xlmc.sandai.net
 
+
 # (X)
 # -->> Ximalaya
   - DOMAIN, ad.ximalaya.com
@@ -536,6 +554,7 @@ payload:
   - DOMAIN, ads-video-qc.xhscdn.com
   - DOMAIN, t-ads.xiaohongshu.com
 
+
 # (Y)
 # -->> Yahoo
   - DOMAIN-SUFFIX, adserver.yahoo.com
@@ -548,9 +567,10 @@ payload:
   - DOMAIN, ads.yahoo.com
   - DOMAIN, ads.yahoo.de
 
+
 # (Z)
 # -->> Zhihu
-USER-AGENT,AVOS*
+  #USER-AGENT,AVOS*
   - DOMAIN, appcloud2.zhihu.com
   - DOMAIN, sugar.zhihu.com
   - IP-CIDR, 118.89.204.198/32,no-resolve

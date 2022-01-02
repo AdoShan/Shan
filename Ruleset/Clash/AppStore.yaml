@@ -9,6 +9,7 @@ payload:
 #  https://itunes.apple.com 短链
   - DOMAIN-SUFFIX, appsto.re
 
+
 # Pxx-Buy
-USER-AGENT,iTunes stored*
+  #USER-AGENT,iTunes stored*
   - DOMAIN-KEYWORD, -buy.itunes.apple.com

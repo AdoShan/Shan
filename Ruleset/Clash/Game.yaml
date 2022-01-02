@@ -1,6 +1,7 @@
 payload:
 # -->> 游戏模式（⚠️所用节点需开启 UDP 转发支持）
-PROTOCOL,UDP
+  #PROTOCOL,UDP
+
 
 # -->> Xbox
 # --> XBox云同步
@@ -28,6 +29,8 @@ PROTOCOL,UDP
   - DOMAIN, packagespc.xboxlive.com
 
 
+
+
 # -->> Steam
   - DOMAIN-SUFFIX, steam-chat.com
   - DOMAIN-SUFFIX, steamcontent.com
@@ -50,12 +53,14 @@ PROTOCOL,UDP
   - DOMAIN, media.st.dl.pinyuncloud.com
 # -->> 修复好友列表无法访问
 # 来源：https://www.dogfight360.com/blog/knowledge-base/%e4%bf%ae%e5%a4%8dsteam%e5%a5%bd%e5%8f%8b%e5%88%97%e8%a1%a8%e6%97%a0%e9%99%90%e8%bd%bd%e4%b8%ad-%e6%97%a0%e6%b3%95%e8%ae%bf%e9%97%ae/
-  - #DOMAIN, steamcommunity-a.akamaihd.net   ---> SteamCommubity广告托管已存在
+  #DOMAIN,steamcommunity-a.akamaihd.net   ---> SteamCommubity广告托管已存在
   - DOMAIN, community.akamai.steamstatic.com
+
 
 # -->> Epic
   - DOMAIN-SUFFIX, epicgames.com
   - DOMAIN-KEYWORD, epic
+
 
 # -->> Ubisoft
 # --> 账户登录
@@ -74,10 +79,10 @@ PROTOCOL,UDP
 #该问题为ubistatic3-a.akamaihd.net域名访问异常
   - DOMAIN, ubistatic3-a.akamaihd.net
 # --> 客户端更新(有中国服务器)走CDN
-  - #DOMAIN, static3.cdn.ubi.com
+  #DOMAIN,static3.cdn.ubi.com
 # --> 游戏下载(有中国服务器)走CDN
-  - #DOMAIN, uplaypc-s-ubisoft.cdn.ubi.com
-  - #DOMAIN, uplaypc-s-ubisoft-ww.cdn.ubi.com
+  #DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
+  #DOMAIN,uplaypc-s-ubisoft-ww.cdn.ubi.com
 # --> 商店
   - DOMAIN, store.ubi.com
 # --> 云存储同步
@@ -87,6 +92,8 @@ PROTOCOL,UDP
   - DOMAIN-SUFFIX, ubisoft.com
   - DOMAIN-SUFFIX, ubi.com
   - DOMAIN-KEYWORD, ubisoft
+
+
 
 
 # -->> RockStart
@@ -108,11 +115,15 @@ PROTOCOL,UDP
   - DOMAIN-SUFFIX, rockstargames.com
 
 
+
+
   - DOMAIN-SUFFIX, rockstargames.com
   - DOMAIN-KEYWORD, rockstar
 
+
 # -->> EA
   - DOMAIN-SUFFIX, ea.com
+
 
 # -->> Origin
   - DOMAIN-SUFFIX, origin.com
@@ -129,6 +140,7 @@ PROTOCOL,UDP
 # --> 202错误/卡同步
   - DOMAIN, patches.rockstargames.com
 
+
 # -->> Sony
 # 来源：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
 # 内容：Sony
@@ -138,6 +150,7 @@ PROTOCOL,UDP
   - DOMAIN-SUFFIX, playstationnetwork.com
   - DOMAIN-SUFFIX, sony.com
   - DOMAIN-SUFFIX, sonyentertainmentnetwork.com
+
 
 # -->> GOG
   - DOMAIN-SUFFIX, gog.com

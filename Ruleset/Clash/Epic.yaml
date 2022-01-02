@@ -1,10 +1,12 @@
 payload:
 # -->> 游戏模式（⚠️所用节点需开启 UDP 转发支持）
-PROTOCOL,UDP
+  #PROTOCOL,UDP
+
 
 # -->> Epic
   - DOMAIN-SUFFIX, epicgames.com
   - DOMAIN-KEYWORD, epic
+
 
 # -->> 来源：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
 # -->> 内容：Epic

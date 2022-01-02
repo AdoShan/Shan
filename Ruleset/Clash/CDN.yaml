@@ -1,6 +1,7 @@
 payload:
 # -->> Global
-  - #DOMAIN-KEYWORD, cdn
+  #DOMAIN-KEYWORD,cdn
+
 
 # -->> Apple_CDN
 # --> Apple Music
@@ -9,7 +10,7 @@ payload:
   - DOMAIN, music.apple.com
   - DOMAIN, mvod.itunes.apple.com
 # --> App Store
-USER-AGENT,com.apple.appstored*
+  #USER-AGENT,com.apple.appstored*
   - DOMAIN-SUFFIX, mzstatic.com
   - DOMAIN, iosapps.itunes.apple.com
   - DOMAIN, osxapps.itunes.apple.com
@@ -20,10 +21,12 @@ USER-AGENT,com.apple.appstored*
   - DOMAIN, apptrailers.itunes.apple.com
   - DOMAIN, updates-http.cdn-apple.com
 
+
 # -->> Map导致无法正常切换Tomtom地图,以致于无法正常使用News
 # --> Map
-  - #DOMAIN-SUFFIX, ls.apple.com
-  - #DOMAIN, gs-loc-cn.apple.com
+  #DOMAIN-SUFFIX,ls.apple.com
+  #DOMAIN,gs-loc-cn.apple.com
+
 
 # -->> Microsoft
 # --> Office
@@ -40,10 +43,11 @@ USER-AGENT,com.apple.appstored*
   - DOMAIN, assets1.xboxlive.cn
   - DOMAIN, assets2.xboxlive.cn
   - DOMAIN-SUFFIX, dl.delivery.mp.microsoft.com
-  - #DOMAIN, tlu.dl.delivery.mp.microsoft.com
+  #DOMAIN,tlu.dl.delivery.mp.microsoft.com
 # --> 游戏下载(国际)
   - DOMAIN, xvcf1.xboxlive.com
   - DOMAIN, xvcf2.xboxlive.com
+
 
 # -->> Steam
 #来源&帮助：https://www.dogfight360.com/blog/knowledge-base/%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98steam%E7%9A%84%E4%B8%8B%E8%BD%BD%E9%80%9F%E5%BA%A6%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E5%9C%B0%E5%8C%BA/
@@ -63,18 +67,21 @@ USER-AGENT,com.apple.appstored*
 #阿里云 (仅在蒸汽中国,但可用于国际版)
   - DOMAIN, cdn-ali.content.steamchina.com
 #完美 (注意,完美仅在下载CSGO/Dota2时可用!)
-  - #DOMAIN, *.csgo.wmsj.cn
-  - #DOMAIN, *.dota2.wmsj.cn
+  #DOMAIN,*.csgo.wmsj.cn
+  #DOMAIN,*.dota2.wmsj.cn
+
 
 # -->> Epic
   - DOMAIN-KEYWORD, epicgames-download
   - DOMAIN-KEYWORD, download.epicgames.com
   - DOMAIN-KEYWORD, download2.epicgames.com
 
+
 # -->> EA
   - DOMAIN-SUFFIX, cdn.ea.com
   - DOMAIN-SUFFIX, origin-a.akamaihd.net
   - DOMAIN-SUFFIX, ssl-lvlt.cdn.ea.com
+
 
 # -->> Ubisoft
 # --> 客户端更新(有中国服务器)
@@ -83,7 +90,8 @@ USER-AGENT,com.apple.appstored*
   - DOMAIN, uplaypc-s-ubisoft.cdn.ubi.com
   - DOMAIN, uplaypc-s-ubisoft-ww.cdn.ubi.com
 # --> 兜底
-  - #DOMAIN-SUFFIX, cdn.ubi.com
+  #DOMAIN-SUFFIX,cdn.ubi.com
+
 
 # -->> VMWare
   - DOMAIN-SUFFIX, download2.vmware.com
