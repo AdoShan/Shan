@@ -17,8 +17,6 @@ DOMAIN,xnotify.xboxlive.com
 DOMAIN,images-eds.xboxlive.com
 DOMAIN,xbl-smooth.xboxlive.com
 DOMAIN,compass.xboxlive.com
-DOMAIN,titlehub.xboxlive.com
-DOMAIN,gameclipscontent-d2009.xboxlive.com
 # --> XGP首页游戏加载
 DOMAIN,catalog.gamepass.com
 # --> XGP游戏目录列表加载
@@ -39,10 +37,9 @@ DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN,steambroadcast.akamaized.net
 DOMAIN,steamcdn-a.akamaihd.net
-# -> SteamCommubity广告托管
+# --> SteamCommubity广告托管
 DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN,steamstore-a.akamaihd.net
-DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
 # -->> 修复客户端更新异常
@@ -52,7 +49,7 @@ DOMAIN,media.steampowered.com
 DOMAIN,media.st.dl.pinyuncloud.com
 # -->> 修复好友列表无法访问
 # 来源：https://www.dogfight360.com/blog/knowledge-base/%e4%bf%ae%e5%a4%8dsteam%e5%a5%bd%e5%8f%8b%e5%88%97%e8%a1%a8%e6%97%a0%e9%99%90%e8%bd%bd%e4%b8%ad-%e6%97%a0%e6%b3%95%e8%ae%bf%e9%97%ae/
-DOMAIN,steamcommunity-a.akamaihd.net
+#DOMAIN,steamcommunity-a.akamaihd.net   ---> SteamCommubity广告托管已存在
 DOMAIN,community.akamai.steamstatic.com
 
 # -->> Epic

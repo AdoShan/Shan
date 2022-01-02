@@ -76,9 +76,6 @@ DOMAIN-SUFFIX,origin-a.akamaihd.net
 DOMAIN-SUFFIX,ssl-lvlt.cdn.ea.com
 
 # -->> Ubisoft
-# --> 游戏下载
-DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
-DOMAIN,uplaypc-s-ubisoft-ww.cdn.ubi.com
 # --> 客户端更新(有中国服务器)
 DOMAIN,static3.cdn.ubi.com
 # --> 游戏下载(有中国服务器)走CDN
