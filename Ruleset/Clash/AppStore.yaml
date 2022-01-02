@@ -1,0 +1,13 @@
+# App Store
+# Store content such as apps, books, and music
+  - DOMAIN-SUFFIX, apps.apple.com
+  - DOMAIN-SUFFIX, itunes.apple.com
+  - DOMAIN-SUFFIX, itunes-apple.com.akadns.net
+  - DOMAIN-SUFFIX, mzstatic.com
+  - DOMAIN, ppq.apple.com // Enterprise App validation
+#  https://itunes.apple.com 短链
+  - DOMAIN-SUFFIX, appsto.re
+
+# Pxx-Buy
+USER-AGENT,iTunes stored*
+  - DOMAIN-KEYWORD, -buy.itunes.apple.com
