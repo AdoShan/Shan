@@ -1,6 +1,6 @@
 payload:
 # -->> 绕过企业证书到期
-  - DOMAIN,  ocsp.apple.com, Reject // 证书过期
+  - DOMAIN,  ocsp.apple.com
 
 # -->> 图形验证码
   - DOMAIN,  api-us-west-2.ndsopaapl.nudatasecurity.com
