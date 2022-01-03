@@ -1,5 +1,4 @@
 payload:
-#https://github.com/787a68/Rules/blob/master/QuantumultX/Filter/Global.txt
 
 # -->>Script
   - DOMAIN-SUFFIX, ooxx.be
@@ -18,6 +17,12 @@ payload:
 
 # -->> IMDB
   - DOMAIN-SUFFIX, imdb.com
+
+# -->> Proxy
+  - DOMAIN-SUFFIX,gayv.gay
+  - DOMAIN-SUFFIX,wangzi.uk
+
+#https://github.com/787a68/Rules/blob/master/QuantumultX/Filter/Global.txt
 
 # (DNS Cache Pollution)
 # -->> Facebook
