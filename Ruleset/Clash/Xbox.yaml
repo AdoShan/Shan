@@ -19,7 +19,7 @@ payload:
   - DOMAIN, catalog.gamepass.com
 # --> XGP游戏目录列表加载
   - DOMAIN, beige.xboxservices.com
-# --> 会员权益跨区领取
+# --> 会员权益跨区领取(系统首选语言不能是简中)
   - DOMAIN, profile.gamepass.com
 # --> XboxApp下载地址读取(解决0X87e00005)
   - DOMAIN, packagespc.xboxlive.com
