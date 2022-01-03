@@ -11,14 +11,14 @@ DOMAIN-SUFFIX,wikibooks.org
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,fastston.org
-#//DOMAIN-KEYWORD,wiki
+#DOMAIN-KEYWORD,wiki
 
 # -->> IMDB
 DOMAIN-SUFFIX,imdb.com
 
 # -->> Proxy
-  - DOMAIN-SUFFIX,gayv.gay
-  - DOMAIN-SUFFIX,wangzi.uk
+DOMAIN-SUFFIX,gayv.gay
+DOMAIN-SUFFIX,wangzi.uk
 
 
 #https://github.com/787a68/Rules/blob/master/QuantumultX/Filter/Global.txt

@@ -14,7 +14,7 @@ GEOIP,CN
 DOMAIN-SUFFIX,appraven.net
 
 # -->> 微信二维码识别
-qrcd.org
+DOMAIN-SUFFIX,qrcd.org
 
 # -->> QTranslate OCR API
 DOMAIN-SUFFIX,api.ocr.space

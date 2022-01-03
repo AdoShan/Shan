@@ -4,7 +4,7 @@ payload:
   - PROCESS-NAME, OneDriveUpdater
   #USER-AGENT,OneDrive*
   #USER-AGENT,OneDriveiOSApp*
-  
+
 # -->> OutLook Mail
   - DOMAIN, outlook.office365.com
   - DOMAIN, smtp.office365.com
