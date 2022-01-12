@@ -12,7 +12,7 @@
 // ==/UserScript==
 
 //脚本会拦截所有播放请求并拉起potplayer，如需web播放请禁用
-// ==》 src https://gitee.com/sonata1/emby2potplayer/raw/master/emby2Potplayer
+// ==> src https://gitee.com/sonata1/emby2potplayer/raw/master/emby2Potplayer
 
 function timeFilter (seconds) {
     var ss = parseInt(seconds)/10000000
