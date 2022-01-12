@@ -1,24 +1,24 @@
 # -->> Xbox
 # --> XBox云同步
-DOMAIN,titlestorage.xboxlive.com
+DOMAIN, titlestorage.xboxlive.com
 # --> XboxLive相关服务
-DOMAIN,editorial.xboxlive.com
-DOMAIN,peoplehub.xboxlive.com
-DOMAIN,rta.xboxlive.com
-DOMAIN,images-eds-ssl.xboxlive.com
-DOMAIN,gameclipscontent-d2009.xboxlive.com
-DOMAIN,xboxcare.xboxlive.com
-DOMAIN,titlehub.xboxlive.com
-DOMAIN,activityhub.xboxlive.com
-DOMAIN,xnotify.xboxlive.com
-DOMAIN,images-eds.xboxlive.com
-DOMAIN,xbl-smooth.xboxlive.com
-DOMAIN,compass.xboxlive.com
+DOMAIN, editorial.xboxlive.com
+DOMAIN, peoplehub.xboxlive.com
+DOMAIN, rta.xboxlive.com
+DOMAIN, images-eds-ssl.xboxlive.com
+DOMAIN, gameclipscontent-d2009.xboxlive.com
+DOMAIN, xboxcare.xboxlive.com
+DOMAIN, titlehub.xboxlive.com
+DOMAIN, activityhub.xboxlive.com
+DOMAIN, xnotify.xboxlive.com
+DOMAIN, images-eds.xboxlive.com
+DOMAIN, xbl-smooth.xboxlive.com
+DOMAIN, compass.xboxlive.com
 # --> XGP首页游戏加载
-DOMAIN,catalog.gamepass.com
+DOMAIN, catalog.gamepass.com
 # --> XGP游戏目录列表加载
-DOMAIN,beige.xboxservices.com
+DOMAIN, beige.xboxservices.com
 # --> 会员权益跨区领取(系统首选语言不能是简中)
-DOMAIN,profile.gamepass.com
+DOMAIN, profile.gamepass.com
 # --> XboxApp下载地址读取(解决0X87e00005)
-DOMAIN,packagespc.xboxlive.com
+DOMAIN, packagespc.xboxlive.com
