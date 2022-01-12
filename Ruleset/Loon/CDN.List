@@ -86,3 +86,6 @@ DOMAIN, uplaypc-s-ubisoft-ww.cdn.ubi.com
 
 # -->> VMWare
 DOMAIN-SUFFIX, download2.vmware.com
+
+# -->> Jetbrains
+DOMAIN-SUFFIX, download-cdn.jetbrains.com
