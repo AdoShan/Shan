@@ -2,6 +2,9 @@ payload:
 # -->> Global
   #DOMAIN-KEYWORD,cdn
 
+# -->> CND GitHub加速
+  - DOMAIN, cdn.jsdelivr.net
+
 # -->> Apple_CDN
 # --> Apple Music
   - DOMAIN, aod.itunes.apple.com
