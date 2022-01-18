@@ -100,3 +100,6 @@ DOMAIN, lookup-api.apple.com
 DOMAIN-SUFFIX, smoot.apple.com
 # -->> Apple Music Web
 DOMAIN, beta.music.apple.com
+
+  # -->> Final
+DOMAIN-SUFFIX, apple.com
