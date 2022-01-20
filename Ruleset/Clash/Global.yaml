@@ -4,6 +4,15 @@ payload:
   - DOMAIN-SUFFIX, qxzy.top
   - DOMAIN-SUFFIX, blog.jetbrains.com
 
+# -->> 图床
+  - DOMAIN-SUFFIX, upload.cc
+  - DOMAIN-SUFFIX, imagelol.com
+  - DOMAIN-SUFFIX, imgkr.com
+  - DOMAIN-SUFFIX, imgbox.com
+  - DOMAIN-SUFFIX, imgtu.com
+  - DOMAIN-SUFFIX, postimages.org
+  - DOMAIN-SUFFIX, imgbb.com
+
 # -->>V2EX
   - DOMAIN-SUFFIX, v2ex.com
 
