@@ -6,14 +6,14 @@ payload:
 
 # -->> 图床
 # -> src：https://zhuanlan.zhihu.com/p/58863378
-DOMAIN-SUFFIX, upload.cc
+  - DOMAIN-SUFFIX, upload.cc
 # -> 不支持匿名
-DOMAIN-SUFFIX, imagelol.com
-DOMAIN-SUFFIX, imgkr.com
-DOMAIN-SUFFIX, imgbox.com
+  - DOMAIN-SUFFIX, imagelol.com
+  - DOMAIN-SUFFIX, imgkr.com
+  - DOMAIN-SUFFIX, imgbox.com
 # 不支持代理DOMAIN-SUFFIX, imgtu.com
-DOMAIN-SUFFIX, postimages.org
-DOMAIN-SUFFIX, imgbb.com
+  - DOMAIN-SUFFIX, postimages.org
+  - DOMAIN-SUFFIX, imgbb.com
 
 # -->>V2EX
   - DOMAIN-SUFFIX, v2ex.com
