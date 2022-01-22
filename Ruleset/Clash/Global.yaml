@@ -4,6 +4,11 @@ payload:
   - DOMAIN-SUFFIX, qxzy.top
   - DOMAIN-SUFFIX, blog.jetbrains.com
 
+# -->> Magisk Module Repository
+#  - DOMAIN-SUFFIX, magisk-modules-repo.github.io
+# -->> LSPosed Module Repository
+  - DOMAIN-SUFFIX, modules.lsposed.org
+
 # -->> 图床
 # -> src：https://zhuanlan.zhihu.com/p/58863378
   - DOMAIN-SUFFIX, upload.cc
