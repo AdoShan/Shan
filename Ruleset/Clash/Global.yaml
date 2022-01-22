@@ -28,7 +28,7 @@ payload:
   - DOMAIN-SUFFIX, wikimedia.org
   - DOMAIN-SUFFIX, wikipedia.org
   - DOMAIN-SUFFIX, fastston.org
-  #DOMAIN-KEYWORD,wiki
+#  - DOMAIN-KEYWORD,wiki
 
 # -->> IMDB
   - DOMAIN-SUFFIX, imdb.com
@@ -537,18 +537,18 @@ payload:
   - DOMAIN-SUFFIX, vsco.co
   - DOMAIN-SUFFIX, xfinity.com
   - DOMAIN-SUFFIX, zattoo.com
-  #USER-AGENT,Roam*
+#  - USER-AGENT,Roam*
   - DOMAIN-SUFFIX, ifixit.com
   - DOMAIN-SUFFIX, mangakakalot.com
   - DOMAIN-SUFFIX, shopeemobile.com
-  #URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
+#  - URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
   - DOMAIN-SUFFIX, v2rayssr.com
 
 # (Network Jitter)
 # -->> Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
   - DOMAIN-KEYWORD, buy.itunes.apple.com
   - DOMAIN-SUFFIX, cloudcone.com.cn
-  # DOMAIN-SUFFIX,evernote.com
+#  - DOMAIN-SUFFIX,evernote.com
   - DOMAIN-SUFFIX, inkbunny.net
   - DOMAIN-SUFFIX, metapix.net
   - DOMAIN-SUFFIX, s3.amazonaws.com
