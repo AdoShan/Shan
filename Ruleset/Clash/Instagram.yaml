@@ -1,4 +1,4 @@
 payload:
 # -- >> Instagram
-  - DOMAIN-KEYWORD,  cdninstagram
-  - DOMAIN-SUFFIX,  cdninstagam.com
+  - DOMAIN-KEYWORD, cdninstagram
+  - DOMAIN-SUFFIX, cdninstagam.com

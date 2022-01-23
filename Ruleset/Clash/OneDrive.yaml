@@ -2,5 +2,3 @@ payload:
 # -->> OneDrive
   - PROCESS-NAME, OneDrive
   - PROCESS-NAME, OneDriveUpdater
-  #USER-AGENT,OneDrive*
-  #USER-AGENT,OneDriveiOSApp*

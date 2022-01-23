@@ -101,5 +101,5 @@ DOMAIN-SUFFIX, smoot.apple.com
 # -->> Apple Music Web
 DOMAIN, beta.music.apple.com
 
-  # -->> Final
+# -->> Final
 DOMAIN-SUFFIX, apple.com

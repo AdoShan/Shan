@@ -2,8 +2,6 @@ payload:
 # -->> OneDrive
   - PROCESS-NAME, OneDrive
   - PROCESS-NAME, OneDriveUpdater
-  #USER-AGENT,OneDrive*
-  #USER-AGENT,OneDriveiOSApp*
 
 # -->> OutLook Mail
   - DOMAIN, outlook.office365.com
@@ -14,14 +12,14 @@ payload:
 # -->> DNS Cache Pollution
   - DOMAIN-SUFFIX, onedrive.live.com
   - DOMAIN-SUFFIX, vo.msecnd.net
-  #DOMAIN,az416426.vo.msecnd.net
-  #DOMAIN,az668014.vo.msecnd.net
+#  - DOMAIN, az416426.vo.msecnd.net
+#  - DOMAIN, az668014.vo.msecnd.net
 
 # -->> Visual  Studio Plugin
   - DOMAIN, gallerycdn.vsassets.io
 
 # -->> Xbox
-  #DOMAIN-SUFFIX,xboxlive.com
+#  - DOMAIN-SUFFIX, xboxlive.com
 
   - DOMAIN-KEYWORD, 1drv
   - DOMAIN-KEYWORD, microsoft

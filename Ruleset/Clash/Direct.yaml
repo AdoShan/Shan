@@ -6,10 +6,8 @@ payload:
   - IP-CIDR, 182.254.116.0/24
 
 # -->> 修正知乎直播
-  #URL-REGEX,^https?:\/\/api\.zhihu\.com\/drama\/
 
 # -->> GeoIP China
-  #GEOIP,CN
 
 # -->> AppRaven
   - DOMAIN-SUFFIX, appraven.net
@@ -6064,13 +6062,7 @@ payload:
   - PROCESS-NAME, WebTorrent Helper
   - DOMAIN-SUFFIX, smtp
   - DOMAIN-KEYWORD, aria2
-  #URL-REGEX,(Subject|HELO|SMTP)
-  #URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
-  #URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
-  #URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
-  #URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
   - PROCESS-NAME, DownloadService
-  #URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
   - PROCESS-NAME, Weiyun
   - PROCESS-NAME, baidunetdisk
 
@@ -6080,7 +6072,3 @@ payload:
   - IP-CIDR, 172.16.0.0/12, no-resolve
   - IP-CIDR, 127.0.0.0/8, no-resolve
   - IP-CIDR, 100.64.0.0/10, no-resolve
-  #IP-CIDR6,::1/128,no-resolve
-  #IP-CIDR6,fc00::/7,no-resolve
-  #IP-CIDR6,fe80::/10,no-resolve
-  #IP-CIDR6,fd00::/8,no-resolve

@@ -1,6 +1,5 @@
 payload:
 # -->> 游戏模式（⚠️所用节点需开启 UDP 转发支持）
-  #PROTOCOL,UDP
 
 # -->> Epic
   - DOMAIN-SUFFIX, epicgames.com

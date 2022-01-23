@@ -550,7 +550,6 @@ payload:
 
 # (Z)
 # -->> Zhihu
-  #USER-AGENT,AVOS*
   - DOMAIN, appcloud2.zhihu.com
   - DOMAIN, sugar.zhihu.com
   - IP-CIDR, 118.89.204.198/32, no-resolve
