@@ -1,6 +1,9 @@
 payload:
+  - DOMAIN-SUFFIX, emby.aiyowei.ml  
+  - DOMAIN-SUFFIX, pornemby.club
 # -->> 终点站
   - DOMAIN-SUFFIX, emby.wtf
-  - DOMAIN-SUFFIX, emby.aiyowei.ml
-  - DOMAIN-SUFFIX, pornemby.club
+# -->> 卡戎  
   - DOMAIN-SUFFIX, play.charontv.com
+# -->> 卷毛鼠
+  - DOMAIN-SUFFIX, jmsooo.com
