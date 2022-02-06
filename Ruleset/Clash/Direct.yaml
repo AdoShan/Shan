@@ -18,6 +18,10 @@ payload:
 # -->> QTranslate OCR API
   - DOMAIN-SUFFIX, api.ocr.space
 
+# -->> World Air Quality Index Project API
+  - DOMAIN-SUFFIX, api.waqi.info
+  - DOMAIN-SUFFIX, aqicn.org
+
   - IP-CIDR, 8.128.0.0/10, no-resolve
   - IP-CIDR, 8.208.0.0/12, no-resolve
   - IP-CIDR, 14.1.112.0/22, no-resolve
