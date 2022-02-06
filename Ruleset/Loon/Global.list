@@ -5,9 +5,6 @@ DOMAIN-SUFFIX, blog.jetbrains.com
 
 # —->> Airport
 DOMAIN-SUFFIX, wangzi.uk
-DOMAIN-SUFFIX, lei-su.com
-DOMAIN-SUFFIX, manage.yunjiasu.me
-DOMAIN-SUFFIX, blogtoday.xyz
 DOMAIN-SUFFIX, gayv.gay
 DOMAIN-SUFFIX, git.io
 DOMAIN-SUFFIX, vproxy.us
@@ -41,13 +38,6 @@ DOMAIN-SUFFIX, fastston.org
 
 # -->> IMDB
 DOMAIN-SUFFIX, imdb.com
-
-# -->> Proxy
-DOMAIN-SUFFIX, gayv.gay
-DOMAIN-SUFFIX, wangzi.uk
-DOMAIN-SUFFIX, vproxy.us
-DOMAIN-SUFFIX, bpyun.live
-
 
 #https://github.com/787a68/Rules/blob/master/QuantumultX/Filter/Global.txt
 
