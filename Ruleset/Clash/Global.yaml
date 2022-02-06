@@ -37,6 +37,8 @@ payload:
 # -->> Proxy
   - DOMAIN-SUFFIX, gayv.gay
   - DOMAIN-SUFFIX, wangzi.uk
+  - DOMAIN-SUFFIX, vproxy.us
+  - DOMAIN-SUFFIX, bpyun.live
 
 
 # -> https://github.com/787a68/Rules/blob/master/QuantumultX/Filter/Global.txt
