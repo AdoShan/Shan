@@ -1,0 +1,20 @@
+payload:
+# -->> RockStart
+# --> 账户登录域名(与GTA5线上模式相斥)
+  - DOMAIN, ps-rgl-prod.ros.rockstargames.com
+  - DOMAIN, prs-rgl-prod.ros.rockstargames.com
+  - DOMAIN, prod.ros.rockstargames.com
+  - DOMAIN, auth-rgl-prod.ros.rockstargames.com
+  - DOMAIN, rgl-prod.ros.rockstargames.com
+  - DOMAIN, app-rgl-prod.ros.rockstargames.com
+# --> 客户端下载更新
+  - DOMAIN, gamedownloads-rockstargames-com.akamaized.net
+# --> RockStart官网图片/视频
+  - DOMAIN, media-rockstargames-com.akamaized.net
+  - DOMAIN, videos-rockstargames-com.akamaized.net
+# --> 商店图片
+  - DOMAIN, images.ctfassets.net
+# --> 商店网页
+  - DOMAIN-SUFFIX, rockstargames.com
+  
+  - DOMAIN-KEYWORD, rockstar

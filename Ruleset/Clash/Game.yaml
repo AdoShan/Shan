@@ -106,8 +106,6 @@ payload:
 # --> 商店网页
   - DOMAIN-SUFFIX, rockstargames.com
 
-
-  - DOMAIN-SUFFIX, rockstargames.com
   - DOMAIN-KEYWORD, rockstar
 
 # -->> EA
@@ -123,6 +121,7 @@ payload:
   - DOMAIN, sparta-gw.battlelog.com
   - DOMAIN, sparta-gw-bfv.battlelog.com
   - DOMAIN, sparta-gw-bf4.battlelog.com
+  
 # -->> GTAV
 # --> 差事加载
   - DOMAIN, prod.telemetry.ros.rockstargames.com
