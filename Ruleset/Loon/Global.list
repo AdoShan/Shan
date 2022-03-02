@@ -10,6 +10,9 @@ DOMAIN-SUFFIX, git.io
 DOMAIN-SUFFIX, vproxy.us
 DOMAIN-SUFFIX, bpyun.live
 
+# -->> Other
+DOMAIN-SUFFIX, appsir.shop
+
 # -->> Magisk Module Repository
 #DOMAIN-SUFFIX, magisk-modules-repo.github.io
 # -->> LSPosed Module Repository
