@@ -23,6 +23,5 @@ payload:
   - DOMAIN, profile.gamepass.com
 # --> XboxApp下载地址读取(解决0X87e00005)
   - DOMAIN, packagespc.xboxlive.com
-  
 # --> Global
-  - DOMAIN, xboxlive.com
+  - DOMAIN-SUFFIX, xboxlive.com
