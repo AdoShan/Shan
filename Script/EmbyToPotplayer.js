@@ -2,10 +2,13 @@
 // @name         EmbyToPotplayer
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description:zh-cn emby调用potplayer
+// @description:zh-cn Emby Web调用PotPlayer
 // @author       @tanxp
 // @include       *emby*
 // @include       *:8*
+// @include       *emby.wtf*
+// @include       *.charontv.com*
+// @include       *jmsooo.com*
 // @run-at      document-start
 // @grant       unsafeWindow
 // @require      https://cdn.bootcdn.net/ajax/libs/jquery-url-parser/2.3.1/purl.js
