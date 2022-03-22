@@ -24,6 +24,10 @@ DOMAIN, store.ubi.com
 # --> 云存储同步
 DOMAIN, ubisoft-uplay-savegames.s3.amazonaws.com
 DOMAIN, ubisoft-orbit-savegames.s3.amazonaws.com
+# --> 静态资源
+DOMAIN, ubistatic-a.akamaihd.net
+DOMAIN, ubistatic1-a.akamaihd.net
+DOMAIN, ubistatic2-a.akamaihd.net
 # --> 兜底
 DOMAIN-SUFFIX, ubisoft.com
 DOMAIN-SUFFIX, ubi.com
