@@ -1171,3 +1171,12 @@ payload:
   - DOMAIN, pvnapp.zol.com.cn
 # -->> 知到
   - DOMAIN, app-advertise.zhihuishu.com
+
+# -- >> Adobe Flash
+  - DOMAIN-SUFFIX, flash.cn
+  - DOMAIN, flash.2144.com
+  - DOMAIN, www.2144.cn
+  - DOMAIN, fpdownload2.macromedia.com
+  - DOMAIN, fpdownload.macromedia.com
+  - DOMAIN, macromedia.com
+  - DOMAIN-SUFFIX, geo2.adobe.com
