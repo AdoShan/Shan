@@ -4,6 +4,6 @@ payload:
 # -->> 终点站
   - DOMAIN-SUFFIX, emby.wtf
 # -->> 卡戎  
-  - DOMAIN-SUFFIX, play.charontv.com
+  - DOMAIN-SUFFIX, charontv.com
 # -->> 卷毛鼠
   - DOMAIN-SUFFIX, jmsooo.com
