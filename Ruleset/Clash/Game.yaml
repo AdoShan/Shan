@@ -61,9 +61,10 @@ payload:
 # -->> Ubisoft
 # --> 账户登录
   - DOMAIN, public-ubiservices.ubi.com
-# --> 解决OSCP无法连接导致无法登陆
-  - DOMAIN, ocsp.digicert.com
+# --> 解决OCSP无法连接导致无法登陆
   - DOMAIN, ocsp.comodoca.com
+#  - DOMAIN, ocsp.digicert.com
+# --> (其他服务也使用digicert OCSP服务-在线证书状态协议 例如Apple(App Store))  归类于Global List
 # -> Ubisoft广告服务托管
   - DOMAIN-SUFFIX, ubistayic-a.akamaihd.net
 # --> 修复 下载问题是出现在没任何错误提示.但速度持续为0

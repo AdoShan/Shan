@@ -1,3 +1,7 @@
+# -->> OCSP服务-在线证书状态协议
+# --> 已知使用者 Ubisoft, Apple(App Store)
+DOMAIN, ocsp.digicert.com
+
 # -->> Script
 DOMAIN-SUFFIX, ooxx.be
 DOMAIN-SUFFIX, qxzy.top
