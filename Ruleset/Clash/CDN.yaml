@@ -36,6 +36,9 @@ payload:
   - DOMAIN-SUFFIX, download.microsoft.com
 # --> Visual Studio下载
   - DOMAIN-SUFFIX, download.visualstudio.microsoft.com
+# --> Visual Studio Code Plugin下载
+  - DOMAIN-SUFFIX, gallery.vsassets.io
+#  - DOMAIN-SUFFIX, davidanson.gallery.vsassets.io
 # --> 商店下载地址获取
   - DOMAIN, fe3cr.delivery.mp.microsoft.com
 # --> 商店/Windows更新/Xbox游戏下载(国内)
