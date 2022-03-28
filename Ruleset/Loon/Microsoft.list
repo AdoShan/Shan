@@ -19,6 +19,8 @@ DOMAIN-SUFFIX, vo.msecnd.net
 # -->> Visual  Studio Plugin Download
 DOMAIN-SUFFIX, gallerycdn.vsassets.io
 #DOMAIN-SUFFIX, davidanson.gallery.vsassets.io
+DOMAIN-SUFFIX, gallerycdn.azure.cn
+#DOMAIN-SUFFIX, goessner.gallerycdn.azure.cn
 
 # -->> Xbox
 #DOMAIN-SUFFIX, xboxlive.com
