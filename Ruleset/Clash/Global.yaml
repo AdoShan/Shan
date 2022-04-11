@@ -17,6 +17,12 @@ payload:
 
 # -->> Other
   - DOMAIN-SUFFIX, appsir.shop
+# -->> Freenom
+  - DOMAIN-SUFFIX, freenom.com
+# --> V2EX
+  - DOMAIN-SUFFIX, v2ex.com
+# --> IMDB
+  - DOMAIN-SUFFIX, imdb.com
 
 # -->> Magisk Module Repository
 #  - DOMAIN-SUFFIX, magisk-modules-repo.github.io
@@ -34,18 +40,12 @@ payload:
   - DOMAIN-SUFFIX, postimages.org
   - DOMAIN-SUFFIX, imgbb.com
 
-# -->> V2EX
-  - DOMAIN-SUFFIX, v2ex.com
-
 # -->> WiKi
   - DOMAIN-SUFFIX, wikibooks.org
   - DOMAIN-SUFFIX, wikimedia.org
   - DOMAIN-SUFFIX, wikipedia.org
   - DOMAIN-SUFFIX, fastston.org
 #  - DOMAIN-KEYWORD, wiki
-
-# -->> IMDB
-  - DOMAIN-SUFFIX, imdb.com
 
 # -> https://github.com/787a68/Rules/blob/master/QuantumultX/Filter/Global.txt
 
