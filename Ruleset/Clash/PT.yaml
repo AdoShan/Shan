@@ -24,11 +24,10 @@ payload:
   - DOMAIN-SUFFIX, club.hares.top
 # -> HDAtmos
   - DOMAIN-SUFFIX, hdatmos.club
-
+# -> 馒头
+  - DOMAIN-SUFFIX, m-team.cc
 
 # -->> 未注册
-# -> 馒头
-  - DOMAIN-SUFFIX, pt.m-team.cc
 # -> 天空
   - DOMAIN-SUFFIX, hdsky.me
 # -> TTG
