@@ -26,8 +26,10 @@ payload:
   - DOMAIN-SUFFIX, hdatmos.club
 # -> 馒头
   - DOMAIN-SUFFIX, m-team.cc
-  #观众
+# -> 观众
   - DOMAIN-SUFFIX, audiences.me
+# -> 烧包
+  - DOMAIN-SUFFIX, ptsbao.club
 
 
 # -> 天空
