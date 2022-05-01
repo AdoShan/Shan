@@ -26,8 +26,10 @@ payload:
   - DOMAIN-SUFFIX, hdatmos.club
 # -> 馒头
   - DOMAIN-SUFFIX, m-team.cc
+  #观众
+  - DOMAIN-SUFFIX, audiences.me
 
-# -->> 未注册
+
 # -> 天空
   - DOMAIN-SUFFIX, hdsky.me
 # -> TTG
