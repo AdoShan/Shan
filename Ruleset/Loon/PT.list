@@ -29,6 +29,8 @@ DOMAIN-SUFFIX, m-team.cc
 DOMAIN-SUFFIX, audiences.me
 #烧包
 DOMAIN-SUFFIX, ptsbao.club
+#丐帮
+DOMAIN-SUFFIX, gainbound.net
 
 
 #天空
@@ -59,8 +61,6 @@ DOMAIN-SUFFIX, hdcity.city
 DOMAIN-SUFFIX, hdstreet.club
 #萌猫
 DOMAIN-SUFFIX, moecat.best
-#烧包
-DOMAIN-SUFFIX, ptsbao.club
 #JoyHD
 DOMAIN-SUFFIX, joyhd.net
 #TCCF
