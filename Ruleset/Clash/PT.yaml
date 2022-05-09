@@ -32,6 +32,8 @@ payload:
   - DOMAIN-SUFFIX, ptsbao.club
 # -> 丐帮
   - DOMAIN-SUFFIX, gainbound.net
+# -> PT时间
+  - DOMAIN-SUFFIX, pttime.org
 
 
 # -> 天空
