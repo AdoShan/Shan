@@ -34,6 +34,8 @@ payload:
   - DOMAIN-SUFFIX, gainbound.net
 # -> PT时间
   - DOMAIN-SUFFIX, pttime.org
+# -> 老师
+  - DOMAIN-SUFFIX, nicept.net
 
 
 # -> 天空
