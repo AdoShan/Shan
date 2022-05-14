@@ -36,6 +36,8 @@ payload:
   - DOMAIN-SUFFIX, pttime.org
 # -> 老师
   - DOMAIN-SUFFIX, nicept.net
+# -> 备胎
+  - DOMAIN-SUFFIX, beitai.pt
 
 
 # -> 天空
