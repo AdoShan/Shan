@@ -33,10 +33,14 @@ DOMAIN-SUFFIX, ptsbao.club
 DOMAIN-SUFFIX, gainbound.net
 # -> PT时间
 DOMAIN-SUFFIX, pttime.org
-# -> 老师
+# -> NicePT
 DOMAIN-SUFFIX, nicept.net
 # -> 备胎
 DOMAIN-SUFFIX, beitai.pt
+# -> PTMSG
+DOMAIN-SUFFIX, pt.msg.vg
+# -> JoyHD
+DOMAIN-SUFFIX, joyhd.net
 
 
 
@@ -68,14 +72,10 @@ DOMAIN-SUFFIX, hdcity.city
 DOMAIN-SUFFIX, hdstreet.club
 # -> 萌猫
 DOMAIN-SUFFIX, moecat.best
-# -> JoyHD
-DOMAIN-SUFFIX, joyhd.net
 # -> TCCF
 DOMAIN-SUFFIX, et8.org
 # -> 1PT吧
 DOMAIN-SUFFIX, 1ptba.com
-# -> NicePT
-DOMAIN-SUFFIX, nicept.net
 # -> CCFBits
 DOMAIN-SUFFIX, ccfbits.org
 # -> Oshen
@@ -84,8 +84,6 @@ DOMAIN-SUFFIX, oshen.win
 DOMAIN-SUFFIX, pt.j99.info
 # -> PTer猫站
 DOMAIN-SUFFIX, pterclub.com
-# -> PTMSG
-DOMAIN-SUFFIX, pt.msg.vg
 # -> HDU
 DOMAIN-SUFFIX, pt.upxin.net
 # -> HDZone
