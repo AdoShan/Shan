@@ -43,6 +43,8 @@ DOMAIN-SUFFIX, pt.msg.vg
 DOMAIN-SUFFIX, joyhd.net
 # -> 彩虹岛
 DOMAIN-SUFFIX, chdbits.co
+# -> DiscFan
+DOMAIN-SUFFIX, discfan.net
 
 
 
@@ -90,8 +92,6 @@ DOMAIN-SUFFIX, pt.upxin.net
 DOMAIN-SUFFIX, hdzone.me
 # -> SoulVoice
 DOMAIN-SUFFIX, pt.soulvoice.club
-# -> DiscFan
-DOMAIN-SUFFIX, discfan.net
 # -> TLFBits
 DOMAIN-SUFFIX, pt.eastgame.org
 # -> Brobits

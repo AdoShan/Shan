@@ -44,6 +44,8 @@ payload:
   - DOMAIN-SUFFIX, joyhd.net
 # -> 彩虹岛
   - DOMAIN-SUFFIX, chdbits.co
+# -> DiscFan
+  - DOMAIN-SUFFIX, discfan.net
 
 
 # -> 天空
@@ -90,8 +92,6 @@ payload:
   - DOMAIN-SUFFIX, hdzone.me
 # -> SoulVoice
   - DOMAIN-SUFFIX, pt.soulvoice.club
-# -> DiscFan
-  - DOMAIN-SUFFIX, discfan.net
 # -> TLFBits
   - DOMAIN-SUFFIX, pt.eastgame.org
 # -> Brobits
