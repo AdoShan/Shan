@@ -11,7 +11,7 @@ payload:
   - DOMAIN-KEYWORD, adsystem
   - DOMAIN-KEYWORD, adwords
 #  - DOMAIN-KEYWORD, analysis
- - DOMAIN-KEYWORD, analytics
+  - DOMAIN-KEYWORD, analytics
   - DOMAIN-KEYWORD, applovin
   - DOMAIN-KEYWORD, appsflyer
   - DOMAIN-KEYWORD, domob
