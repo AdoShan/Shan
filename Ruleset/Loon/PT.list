@@ -45,6 +45,8 @@ DOMAIN-SUFFIX, joyhd.net
 DOMAIN-SUFFIX, chdbits.co
 # -> DiscFan
 DOMAIN-SUFFIX, discfan.net
+# -> SoulVoice
+DOMAIN-SUFFIX, pt.soulvoice.club
 
 
 
@@ -90,8 +92,6 @@ DOMAIN-SUFFIX, pterclub.com
 DOMAIN-SUFFIX, pt.upxin.net
 # -> HDZone
 DOMAIN-SUFFIX, hdzone.me
-# -> SoulVoice
-DOMAIN-SUFFIX, pt.soulvoice.club
 # -> TLFBits
 DOMAIN-SUFFIX, pt.eastgame.org
 # -> Brobits
