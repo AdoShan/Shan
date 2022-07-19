@@ -48,7 +48,8 @@ payload:
   - DOMAIN-SUFFIX, discfan.net
 # -> SoulVoice
   - DOMAIN-SUFFIX, pt.soulvoice.club
-
+# -> IPT
+  - DOMAIN-SUFFIX, iptorrents.com
 
 # -> 天空
   - DOMAIN-SUFFIX, hdsky.me
