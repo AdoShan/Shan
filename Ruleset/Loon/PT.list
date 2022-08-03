@@ -48,7 +48,7 @@ DOMAIN-SUFFIX, discfan.net
 # -> SoulVoice
 DOMAIN-SUFFIX, pt.soulvoice.club
 # -> IPTorrents
-DOMAIN-SUFFIX, iptorrents.com
+#DOMAIN-SUFFIX, iptorrents.com
 
 
 

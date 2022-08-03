@@ -1,3 +1,6 @@
+# -> IPTorrents不支持代理访问
+DOMAIN-SUFFIX, iptorrents.com
+
 # -->> Steam价格查询脚本需要
 DOMAIN, steamdb.info
 
