@@ -50,6 +50,8 @@ payload:
   - DOMAIN-SUFFIX, pt.soulvoice.club
 # -> IPTorrents
 #  - DOMAIN-SUFFIX, iptorrents.com
+# -> 百川PT
+  - DOMAIN-SUFFIX, hitpt.com
 
 # -> 天空
   - DOMAIN-SUFFIX, hdsky.me
@@ -105,7 +107,5 @@ payload:
   - DOMAIN-SUFFIX, pt.hdbd.us
 # -> 映客
   - DOMAIN-SUFFIX, yingk.com
-# -> 百川PT
-  - DOMAIN-SUFFIX, hitpt.com
 # -> HDR
   - DOMAIN-SUFFIX, hdroute.org
