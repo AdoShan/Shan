@@ -52,6 +52,8 @@ payload:
 #  - DOMAIN-SUFFIX, iptorrents.com
 # -> 百川PT
   - DOMAIN-SUFFIX, hitpt.com
+# -> 海棠PT
+  - DOMAIN-SUFFIX, htpt.cc
 
 # -> 天空
   - DOMAIN-SUFFIX, hdsky.me
