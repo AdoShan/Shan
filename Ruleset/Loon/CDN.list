@@ -4,6 +4,9 @@
 # -->> GitHub加速
 #DOMAIN, cdn.jsdelivr.net
 
+# -->> BiliBili视频播放
+DOMAIN, upos-hz-mirrorakam.akamaized.net
+
 # -->> Apple_CDN
 # --> Apple Music
 #DOMAIN, aod.itunes.apple.com
