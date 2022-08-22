@@ -1,4 +1,4 @@
-DOMAIN-SUFFIX, emby.aiyowei.ml
+DOMAIN-SUFFIX, emby.imovietv.ml
 DOMAIN-SUFFIX, pornemby.club
 # —>> 终点站
 DOMAIN-SUFFIX, emby.wtf
@@ -8,6 +8,8 @@ DOMAIN-SUFFIX, charontv.com
 DOMAIN-SUFFIX, jmsooo.com
 # -->> 熊猫
 DOMAIN-SUFFIX, emby.kim
+# -->> Misakaf
+DOMAIN-SUFFIX, misakaf.org
 
 # -->> 兜底
 DOMAIN-KEYWORD, emby
