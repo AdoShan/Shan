@@ -54,6 +54,8 @@ payload:
   - DOMAIN-SUFFIX, hitpt.com
 # -> 海棠PT
   - DOMAIN-SUFFIX, htpt.cc
+# -> 梓喵
+  - DOMAIN-SUFFIX, azusa.ru
 
 # -> 天空
   - DOMAIN-SUFFIX, hdsky.me
