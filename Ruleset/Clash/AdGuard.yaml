@@ -979,7 +979,7 @@ payload:
 # (J)
 # 京东
   - DOMAIN, dns.jd.com
-  - DOMAIN-SUFFIX, 101.124.19.122/32
+  - IP-CIDR, 101.124.19.122/32
 # (H)
 # -->> HunanTV
   - DOMAIN-SUFFIX, da.hunantv.com
