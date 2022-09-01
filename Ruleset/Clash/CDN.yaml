@@ -104,3 +104,8 @@ payload:
 
 # -->> AdblockPlus
   - DOMAIN, easylist-downloads.adblockplus.org
+
+# -->> Nvidia驱动下载
+  - DOMAIN-SUFFIX, download.nvidia.com
+  - DOMAIN-SUFFIX, download.nvidia.cn
+  - DOMAIN-SUFFIX, images.nvidia.com
