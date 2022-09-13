@@ -56,6 +56,8 @@ payload:
   - DOMAIN-SUFFIX, htpt.cc
 # -> 梓喵
   - DOMAIN-SUFFIX, azusa.ru
+# -> Jpop
+  - DOMAIN-SUFFIX, jpopsuki.eu
 
 # -> 天空
   - DOMAIN-SUFFIX, hdsky.me
