@@ -13,6 +13,8 @@ payload:
   - DOMAIN-SUFFIX, misakaf.org
 # -->> Misty
   - DOMAIN-SUFFIX, aaa.ax
+# -->> PoloEmby
+  - DOMAIN-SUFFIX, poloemby.xyz
 
 # -->> 兜底
   - DOMAIN-KEYWORD, emby
