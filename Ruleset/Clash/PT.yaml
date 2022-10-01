@@ -60,6 +60,10 @@ payload:
   - DOMAIN-SUFFIX, jpopsuki.eu
 # -> ExoticaZ
   - DOMAIN-SUFFIX, exoticaz.to
+# -> HHanClub
+  - DOMAIN-SUFFIX, hhanclub.top
+
+
 
 # -> 天空
   - DOMAIN-SUFFIX, hdsky.me
