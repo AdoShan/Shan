@@ -58,6 +58,8 @@ payload:
   - DOMAIN-SUFFIX, azusa.ru
 # -> Jpop
   - DOMAIN-SUFFIX, jpopsuki.eu
+# -> ExoticaZ
+  - DOMAIN-SUFFIX, exoticaz.to
 
 # -> 天空
   - DOMAIN-SUFFIX, hdsky.me
