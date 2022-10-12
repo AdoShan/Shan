@@ -8,6 +8,12 @@ payload:
   - DOMAIN-SUFFIX, qxzy.top
   - DOMAIN-SUFFIX, blog.jetbrains.com
 
+# -->> Discord
+# --> Note:登陆和图片要挂，文字聊天不用
+  - DOMAIN-SUFFIX, discord.com
+  - DOMAIN-SUFFIX, discordapp.com
+#  - DOMAIN-SUFFIX, cdn.discordapp.com
+
 # -->> Airport
   - DOMAIN-SUFFIX, wangzi.uk
   - DOMAIN-SUFFIX, git.io
