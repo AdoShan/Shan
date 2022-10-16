@@ -12,7 +12,9 @@ payload:
 # --> Note:登陆和图片要挂，文字聊天不用
   - DOMAIN-SUFFIX, discord.com
   - DOMAIN-SUFFIX, discordapp.com
+  - DOMAIN, gateway.discord.gg
 #  - DOMAIN-SUFFIX, cdn.discordapp.com
+#  - DOMAIN-KEYWORD,discord
 
 # -->> Airport
   - DOMAIN-SUFFIX, wangzi.uk
