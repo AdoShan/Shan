@@ -62,6 +62,8 @@ payload:
   - DOMAIN-SUFFIX, exoticaz.to
 # -> HHanClub
   - DOMAIN-SUFFIX, hhanclub.top
+# -> PTer猫站
+  - DOMAIN-SUFFIX, pterclub.com
 
 
 
@@ -101,8 +103,6 @@ payload:
   - DOMAIN-SUFFIX, oshen.win
 # -> PT99
   - DOMAIN-SUFFIX, pt.j99.info
-# -> PTer猫站
-  - DOMAIN-SUFFIX, pterclub.com
 # -> HDU
   - DOMAIN-SUFFIX, pt.upxin.net
 # -> HDZone
