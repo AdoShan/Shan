@@ -75,6 +75,8 @@ payload:
 # -> 完美 (注意, 完美仅在下载CSGO/Dota2时可用!)
 #  - DOMAIN, *.csgo.wmsj.cn
 #  - DOMAIN, *.dota2.wmsj.cn
+# -> 下载极品飞车热度出现
+  - DOMAIN, xz.pphimalayanrt.com
 
 # -->> Epic
   - DOMAIN-KEYWORD, epicgames-download
