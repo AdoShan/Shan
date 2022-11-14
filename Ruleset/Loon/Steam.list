@@ -13,5 +13,7 @@ DOMAIN, steamstore-a.akamaihd.net
 DOMAIN, steamusercontent-a.akamaihd.net
 DOMAIN, steamuserimages-a.akamaihd.net
 
+DOMAIN-SUFFIX, steamserver.net
+
 # -->> Steam远程畅玩
 DOMAIN-SUFFIX, wmsjsteam.com
