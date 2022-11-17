@@ -57,6 +57,12 @@ payload:
 # -->> Epic
   - DOMAIN-SUFFIX, epicgames.com
   - DOMAIN-KEYWORD, epic
+# -->> 来源：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
+# -->> 内容：Epic
+# -->> 数量：4条
+  - DOMAIN-SUFFIX, helpshift.com
+  - DOMAIN-SUFFIX, paragon.com
+  - DOMAIN-SUFFIX, unrealengine.com
 
 # -->> Ubisoft
 # --> 账户登录
