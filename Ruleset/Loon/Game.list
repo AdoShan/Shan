@@ -25,6 +25,9 @@ DOMAIN, beige.xboxservices.com
 DOMAIN, profile.gamepass.com
 # --> XboxApp下载地址读取(解决0X87e00005)
 DOMAIN, packagespc.xboxlive.com
+# --> 云游戏
+DOMAIN-SUFFIX, gssv-play-prodxhome.xboxlive.com
+#PROCESS-NAME, XboxPcApp.exe
 # --> Global
 DOMAIN-SUFFIX, xboxlive.com
 
