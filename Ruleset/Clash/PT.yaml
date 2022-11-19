@@ -66,6 +66,8 @@ payload:
   - DOMAIN-SUFFIX, pterclub.com
 # -> 朋友
   - DOMAIN-SUFFIX, keepfrds.com
+# -> 我堡
+  - DOMAIN-SUFFIX, ourbits.club
 
 
 
@@ -73,8 +75,6 @@ payload:
   - DOMAIN-SUFFIX, hdsky.me
 # -> TTG
   - DOMAIN-SUFFIX, totheglory.im
-# -> 我堡
-  - DOMAIN-SUFFIX, ourbits.club
 # -> 瓷器
   - DOMAIN-SUFFIX, hdchina.org
 # -> SSD
