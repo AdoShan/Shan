@@ -68,6 +68,8 @@ payload:
   - DOMAIN-SUFFIX, keepfrds.com
 # -> 我堡
   - DOMAIN-SUFFIX, ourbits.club
+# -> 杏林
+  - DOMAIN-SUFFIX, xinglin.one
 
 
 
