@@ -14,8 +14,12 @@ DOMAIN-SUFFIX, misakaf.org
 DOMAIN-SUFFIX, aaa.ax
 # -->> PoloEmby
 DOMAIN-SUFFIX, poloemby.xyz
-#CatFish
+# -->> CatFish
 DOMAIN-SUFFIX, catfishemby.club
+# -->> CC
+DOMAIN-SUFFIX, cc.ccemby.tk
+# -->> Orange
+DOMAIN-SUFFIX, embytv.cf
 
 # -->> 兜底
 DOMAIN-KEYWORD, emby

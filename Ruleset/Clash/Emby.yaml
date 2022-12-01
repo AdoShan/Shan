@@ -17,6 +17,10 @@ payload:
   - DOMAIN-SUFFIX, poloemby.xyz
 # -->> CatFish
   - DOMAIN-SUFFIX, catfishemby.club
+# -->> CC
+  - DOMAIN-SUFFIX, cc.ccemby.tk
+# -->> Orange
+  - DOMAIN-SUFFIX, embytv.cf
 
 # -->> 兜底
   - DOMAIN-KEYWORD, emby
