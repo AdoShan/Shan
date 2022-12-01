@@ -103,6 +103,7 @@ DOMAIN-SUFFIX, download2.vmware.com
 # -->> Jetbrains
 DOMAIN-SUFFIX, download-cdn.jetbrains.com
 DOMAIN-SUFFIX, plugins.jetbrains.com
+DOMAIN-SUFFIX, resources.jetbrains.com
 
 # -->> AdblockPlus
 DOMAIN, easylist-downloads.adblockplus.org
