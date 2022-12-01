@@ -69,6 +69,8 @@ DOMAIN-SUFFIX, keepfrds.com
 DOMAIN-SUFFIX, ourbits.club
 # -> 杏林
 DOMAIN-SUFFIX, xinglin.one
+# -> TCCF
+DOMAIN-SUFFIX, et8.org
 
 
 
@@ -96,8 +98,6 @@ DOMAIN-SUFFIX, hdcity.city
 DOMAIN-SUFFIX, hdstreet.club
 # -> 萌猫
 DOMAIN-SUFFIX, moecat.best
-# -> TCCF
-DOMAIN-SUFFIX, et8.org
 # -> 1PT吧
 DOMAIN-SUFFIX, 1ptba.com
 # -> CCFBits
