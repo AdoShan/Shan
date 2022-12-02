@@ -12,7 +12,7 @@ payload:
 # -->> Misakaf
   - DOMAIN-SUFFIX, misakaf.org
 # -->> Misty
-  - DOMAIN-SUFFIX, aaa.ax
+  - DOMAIN-SUFFIX, misty.ltd
 # -->> PoloEmby
   - DOMAIN-SUFFIX, poloemby.xyz
 # -->> CatFish
