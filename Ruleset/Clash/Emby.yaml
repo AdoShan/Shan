@@ -21,6 +21,8 @@ payload:
   - DOMAIN-SUFFIX, cc.ccemby.tk
 # -->> Orange
   - DOMAIN-SUFFIX, embytv.cf
+# -->> 酒吧影业
+  - DOMAIN-SUFFIX, o9o.nl
 
 # -->> 兜底
   - DOMAIN-KEYWORD, emby
