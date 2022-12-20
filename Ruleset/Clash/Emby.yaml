@@ -23,6 +23,11 @@ payload:
   - DOMAIN-SUFFIX, embytv.cf
 # -->> 酒吧影业
   - DOMAIN-SUFFIX, o9o.nl
+# -->> Peach
+  - DOMAIN-SUFFIX, embymv.tk
+# -->> BlueSea
+  - DOMAIN-SUFFIX, blueseamusics.com
+  - DOMAIN-SUFFIX, blueseacdn.com
 
 # -->> 兜底
   - DOMAIN-KEYWORD, emby
