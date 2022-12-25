@@ -72,6 +72,8 @@ payload:
   - DOMAIN-SUFFIX, xinglin.one
 # -> TCCF
   - DOMAIN-SUFFIX, et8.org
+# -> 瓷器
+  - DOMAIN-SUFFIX, hdchina.org
 
 
 
@@ -79,8 +81,6 @@ payload:
   - DOMAIN-SUFFIX, hdsky.me
 # -> TTG
   - DOMAIN-SUFFIX, totheglory.im
-# -> 瓷器
-  - DOMAIN-SUFFIX, hdchina.org
 # -> SSD
   - DOMAIN-SUFFIX, springsunday.net
 # -> 铂金家
