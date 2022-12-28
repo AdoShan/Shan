@@ -29,8 +29,7 @@ ruleset=DIRECT,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/ChinaMedia.
 ruleset=DIRECT,[]GEOIP,CN
 ruleset=Final,[]FINAL
 ;设置规则标志位
-ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/GlobalMedia.list
-ruleset=🌏 国内媒体,rules/lhie1/Surge3/Domestic.list
+
 
 ;设置分组标志位
 custom_proxy_group=Proxy`select`[]DIRECT`.*
