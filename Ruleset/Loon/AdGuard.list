@@ -781,7 +781,6 @@ IP-CIDR, 222.73.156.235/32
 
 # Advertising 广告
 # -->> General
-DOMAIN-keyword, adservice
 DOMAIN-SUFFIX, ad.cmvideo.cn
 DOMAIN-SUFFIX, ad.daum.net
 DOMAIN-SUFFIX, adcolony.com
