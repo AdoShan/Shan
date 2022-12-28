@@ -29,8 +29,8 @@ DOMAIN-SUFFIX, pscdn.co
 DOMAIN-SUFFIX, scdn.co
 DOMAIN-SUFFIX, spotify.com
 DOMAIN-SUFFIX, spoti.fi
-DOMAIN-keyword, spotify.com
-DOMAIN-keyword, -spotify-com
+DOMAIN-KEYWORD, spotify.com
+DOMAIN-KEYWORD, -spotify-com
 # -->> TIDAL
 USER-AGENT, TIDAL*
 DOMAIN-SUFFIX, tidal.com
@@ -64,7 +64,7 @@ DOMAIN, d25xi40x97liuc.cloudfront.net
 DOMAIN, dmqdd6hw24ucf.cloudfront.net
 DOMAIN, d22qjgkvxw22r6.cloudfront.net
 DOMAIN, d1v5ir2lpwr8os.cloudfront.net
-DOMAIN-keyword, avoddashs
+DOMAIN-KEYWORD, avoddashs
 # -->> Bahamut
 USER-AGENT, Anime*
 DOMAIN-SUFFIX, bahamut.com.tw
@@ -75,14 +75,14 @@ DOMAIN, gamer2-cds.cdn.hinet.net
 USER-AGENT, BBCiPlayer*
 DOMAIN-SUFFIX, bbc.co.uk
 DOMAIN-SUFFIX, bbci.co.uk
-DOMAIN-keyword, bbcfmt
-DOMAIN-keyword, uk-live
+DOMAIN-KEYWORD, bbcfmt
+DOMAIN-KEYWORD, uk-live
 # -->> DAZN
 USER-AGENT, DAZN*
 DOMAIN-SUFFIX, dazn.com
 DOMAIN-SUFFIX, dazn-api.com
 DOMAIN, d151l6v8er5bdm.cloudfront.net
-DOMAIN-keyword, voddazn
+DOMAIN-KEYWORD, voddazn
 # -->> Disney+
 USER-AGENT, Disney+*
 DOMAIN-SUFFIX, bamgrid.com
