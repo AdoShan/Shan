@@ -1,0 +1,61 @@
+;设置规则标志位
+ruleset=DIRECT,rules/LocalAreaNetwork.list
+ruleset=Adguard,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/AdGuard.list
+ruleset=AdGuard,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/ApplicationOfPurification.list
+ruleset=CDN,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/CDN.list
+ruleset=Google,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/Google.list
+ruleset=OneDrive,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/OneDrive.list
+ruleset=Microsoft,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/Microsoft.list
+ruleset=App Store,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/AppStore.list
+ruleset=Apple Service,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/AppleService.list
+ruleset=Telegram,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/Telegram.list
+ruleset=PayPal,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/PayPal.list
+ruleset=PT,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/PT.list
+ruleset=Emvy,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/Emby.list
+ruleset=Global Media,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/GlobalMedia.list
+ruleset=Xbox,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/Xbox.list
+ruleset=Steam,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/Steam.list
+ruleset=Ubisoft,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/Ubisoft.list
+ruleset=EA,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/EA.list
+ruleset=EA,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/Origin.list
+ruleset=Sony,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/Sony.list
+ruleset=Game,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/Game.list
+ruleset=YouTube,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/YouTube.list
+ruleset=GlobalMedia,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/GlobalMedia.list
+ruleset=Proxy,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/Global.list
+ruleset=DIRECT,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/Direct.list
+ruleset=SpeedTest,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/SpeedTest.list
+ruleset=DIRECT,https://cdn.jsdelivr.net/gh/AdoShan/Shan/Ruleset/Loon/ChinaMedia.list
+ruleset=DIRECT,[]GEOIP,CN
+ruleset=Final,[]FINAL
+;设置规则标志位
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/GlobalMedia.list
+ruleset=🌏 国内媒体,rules/lhie1/Surge3/Domestic.list
+
+;设置分组标志位
+custom_proxy_group=Proxy`select`[]DIRECT`.*
+custom_proxy_group=Auto`url-test`.*`http://www.gstatic.com/generate_204`500
+custom_proxy_group=Final`select`[]DIRECT`.*
+custom_proxy_group=CDN`select`[]DIRECT`(港|HK|Hong Kong|新加坡|坡|狮城|SG|Singapore|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+custom_proxy_group=Google`select`(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+custom_proxy_group=Microsoft`select`[]Microsoft`[]DIRECT`(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+custom_proxy_group=OneDrive`select`[]DIRECT`(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+custom_proxy_group=App Store`select`[]DIRECT`[]Apple Service`(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+custom_proxy_group=Apple Service`select`[]DIRECT`(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+custom_proxy_group=Telegram`url-test`(新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)`http://www.gstatic.com/generate_204`500
+custom_proxy_group=Emby`select`[]DIRECT`.*
+custom_proxy_group=Xbox`select`[]DIRECT`[]Game`.*
+custom_proxy_group=Steam`select`[]DIRECT`[]Game`.*
+custom_proxy_group=Ubisoft`select`[]DIRECT`[]Game`.*
+custom_proxy_group=EA`select`[]DIRECT`[]Game`.*
+custom_proxy_group=Sony`select`[]DIRECT`[]Game`.*
+custom_proxy_group=PT`Auto`url-test`(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.gstatic.com/generate_204`500
+custom_proxy_group=PayPal`select`[]DIRECT`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+custom_proxy_group=YouTube`select`[]Google`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+custom_proxy_group=GlobalMedia`select`.*
+custom_proxy_group=SpeedTest`select`.*
+custom_proxy_group=AdGuard`select`[]REJECT`.*
+;设置分组标志位
+
+enable_rule_generator=true
+overwrite_original_rules=true
