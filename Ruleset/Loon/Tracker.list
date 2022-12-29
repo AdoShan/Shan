@@ -1,0 +1,76 @@
+# -->> Jpop
+#DOMAIN, jpopsuki.eu
+# -->> SoulVoice
+#DOMAIN, pt.soulvoice.club
+# -->> IPTorrents
+DOMAIN, routing.bgp.technology
+DOMAIN, ssl.empirehost.me
+DOMAIN, localhost.stackoverflow.tech
+# -->> NicePT
+#DOMAIN, nicept.net
+# -->> HDAtmos
+#DOMAIN, hdatmos.club
+# -->> 观众
+DOMAIN, t.audiences.me
+# -->> DiscFan
+#DOMAIN, discfan.net
+# -->> 烧包
+#DOMAIN, ptsbao.club
+# -->> 馒头
+DOMAIN, tracker.m-team.cc
+# -->> PTMSG
+DOMAIN, tp.msg.vg
+# -->> 红豆饭
+#DOMAIN, hdfans.org
+# -->> 柠檬
+DOMAIN, announce.leaguehd.com
+# -->> 学校
+#DOMAIN, pt.btschool.club
+# -->> 家园
+DOMAIN, t.hdhome.org
+# -->> HDDolby
+#DOMAIN, hddolby.com
+# -->> 高清视界
+#DOMAIN, hdarea.co
+# -->> PT时间
+#DOMAIN, pttime.org
+# -->> 彩虹岛
+#DOMAIN, chdbits.co
+# -->> 52PT
+#DOMAIN, 52pt.site
+# -->> 高清时间
+DOMAIN, tracker.hdtime.org
+# -->> 百川PT
+DOMAIN, hitwh.oncampus.hitpt.com
+DOMAIN, tracker.hitpt.com
+# -->> 海胆
+DOMAIN, announce.haidan.video
+# -->> HHanClub
+#DOMAIN, hhanclub.top
+# -->> 杏林
+#DOMAIN, xinglin.one
+# -->> GPW
+DOMAIN, tracker.greatposterwall.com
+# -->> ExoticaZ
+DOMAIN, tracker.exoticaz.to
+# -->> PTer猫站
+DOMAIN, tracker.pterclub.com
+# -->> JoyHD
+DOMAIN, ipv4.joyhd.net
+DOMAIN, ipv6.joyhd.net
+# -->> 我堡
+#DOMAIN, ourbits.club
+# -->> 
+DOMAIN, t.et8.org
+# -->> 白兔俱乐部
+#DOMAIN, club.hares.top
+# -->> 自由农场
+DOMAIN, tracker.0ff.cc
+# -->> 梓喵
+DOMAIN, tracker.azusa.wiki
+# -->> 瓷器
+DOMAIN, tracker.hdchina.org
+
+# -->> 兜底
+DOMAIN-KEYWORD, tracker
+DOMAIN-KEYWORD, announce
