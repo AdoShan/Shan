@@ -1,5 +1,7 @@
 payload:
   - DOMAIN-SUFFIX, emby.imovietv.ml
+  - DOMAIN-SUFFIX, emby.x-yq.cn
+# -->> PornEmby
   - DOMAIN-SUFFIX, pornemby.club
 # -->> 终点站
   - DOMAIN-SUFFIX, emby.wtf
@@ -13,6 +15,8 @@ payload:
   - DOMAIN-SUFFIX, misakaf.org
 # -->> Misty
   - DOMAIN-SUFFIX, misty.ltd
+# -->> 品云
+  - DOMAIN-SUFFIX, py.embyplus.club
 # -->> PoloEmby
   - DOMAIN-SUFFIX, poloemby.xyz
 # -->> CatFish
@@ -25,6 +29,12 @@ payload:
   - DOMAIN-SUFFIX, o9o.nl
 # -->> Peach
   - DOMAIN-SUFFIX, embymv.tk
+# -->> DV服
+  - DOMAIN-SUFFIX, emby.lzlz.cc
+# -->> Nebula
+  - DOMAIN-SUFFIX, direct.nebula-emby.com
+# -->> gfwEmby
+  - DOMAIN-SUFFIX, gfwemby.org
 # -->> BlueSea
   - DOMAIN-SUFFIX, blueseamusics.com
   - DOMAIN-SUFFIX, blueseacdn.com
