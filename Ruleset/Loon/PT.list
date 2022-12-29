@@ -45,8 +45,12 @@ DOMAIN-SUFFIX, joyhd.net
 DOMAIN-SUFFIX, chdbits.co
 # -> DiscFan
 DOMAIN-SUFFIX, discfan.net
+# -> 自由农场
+DOMAIN-SUFFIX, pt.0ff.cc
 # -> SoulVoice
 DOMAIN-SUFFIX, pt.soulvoice.club
+# -> GPW
+DOMAIN-SUFFIX, greatposterwall.com
 # -> IPTorrents
 #DOMAIN-SUFFIX, iptorrents.com
 # -> 百川PT
