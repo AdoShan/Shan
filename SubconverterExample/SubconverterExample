@@ -35,8 +35,13 @@ ruleset=Game,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/
 ruleset=PT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/PT.list
 ;DIRECT
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Direct.list
-;ChinaMedia
+;China
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/China.list
+;ruleset=DIRECT,https://raw.githubusercontent.com/GoodHolidays/ConnersHua/master/Quantumult/X/Filter/China.list
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ChinaIP.list
+;ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ChinaMedia.list
+;ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 ;Global Media
 ruleset=Global Media,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/GlobalMedia.list
 ;Global
