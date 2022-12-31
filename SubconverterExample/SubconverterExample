@@ -4,6 +4,7 @@ ruleset=DIRECT,rules/LocalAreaNetwork.list
 ;AdGuard
 ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/AdGuard.list
 ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ApplicationOfPurification.list
+ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/TVLuanchAD.list
 ;CDN
 ruleset=CDN,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/CDN.list
 ;PayPal
