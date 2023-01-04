@@ -72,8 +72,8 @@ payload:
 # -->> 瓷器
   - DOMAIN, tracker.hdchina.org
 # -->> FileList
-DOMAIN, reactor.filelist.io
-DOMAIN, reactor.flro.org
+  - DOMAIN, reactor.filelist.io
+  - DOMAIN, reactor.flro.org
 
 # -->> 兜底
   - DOMAIN-KEYWORD, tracker
