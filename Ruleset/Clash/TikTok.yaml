@@ -1,8 +1,0 @@
-payload:
-# -->> Form nzw9314
-# -->> TikTok
-  - DOMAIN-SUFFIX, muscdn.com
-  - DOMAIN-SUFFIX, musical.ly
-  - DOMAIN-SUFFIX, tiktokv.com
-  - DOMAIN-SUFFIX, tiktokcdn.com
-  - DOMAIN-KEYWORD, -tiktokcdn-com

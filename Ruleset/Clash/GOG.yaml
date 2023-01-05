@@ -1,6 +1,0 @@
-payload:
-# -->> GOG
-  - DOMAIN-SUFFIX, gog.com
-  - DOMAIN-SUFFIX, gog-statics.com
-# --> 云存储同步
-  - DOMAIN, cloudstorage.gog.com

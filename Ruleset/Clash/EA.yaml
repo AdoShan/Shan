@@ -1,5 +1,0 @@
-payload:
-# -->> 游戏模式（⚠️所用节点需开启 UDP 转发支持）
-
-  - DOMAIN-SUFFIX, ea.com
-  - DOMAIN-SUFFIX, tnt-ea.com
