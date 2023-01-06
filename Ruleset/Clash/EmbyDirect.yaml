@@ -8,8 +8,6 @@ payload:
 # -->> CC
   - DOMAIN-SUFFIX, cc.ccemby.tk
   - DOMAIN-SUFFIX, dl.ccemby.ga
-# -->> 酒吧影业
-  - DOMAIN-SUFFIX, o9o.nl
 # -->> Peach
   - DOMAIN-SUFFIX, embymv.tk
 # -->> DV服
