@@ -8,15 +8,6 @@ ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Lo
 ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/TVLuanchAD.list
 ;CDN
 ruleset=CDN,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/CDN.list
-;China
-ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/China.list
-;ruleset=DIRECT,https://raw.githubusercontent.com/GoodHolidays/ConnersHua/master/Quantumult/X/Filter/China.list
-ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ChinaIP.list
-;ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list
-ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ChinaMedia.list
-;ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
-;PayPal
-ruleset=PayPal,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/PayPal.list
 ;Microsoft
 ruleset=OneDrive,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/OneDrive.list
 ruleset=Microsoft,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Microsoft.list
@@ -32,6 +23,8 @@ ruleset=Telegram,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/L
 ;Emby
 ruleset=EmbyDirect,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/EmbyDirect.list
 ruleset=Emby,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Emby.list
+;PayPal
+ruleset=PayPal,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/PayPal.list
 ;Game
 ruleset=Xbox,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Xbox.list
 ruleset=Steam,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Steam.list
@@ -45,6 +38,13 @@ ruleset=PT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/PT
 ruleset=Tracker,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Tracker.list
 ;DIRECT
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Direct.list
+;China
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/China.list
+;ruleset=DIRECT,https://raw.githubusercontent.com/GoodHolidays/ConnersHua/master/Quantumult/X/Filter/China.list
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ChinaIP.list
+;ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ChinaMedia.list
+;ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 ;Global Media
 ruleset=Global Media,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/GlobalMedia.list
 ;Global
