@@ -59,21 +59,21 @@ ruleset=Final,[]FINAL
 ;设置分组标志位
 custom_proxy_group=Proxy`select`[]DIRECT`[]Streaming Media`[]Auto`(?=.*(0\.|Free|免费)|.*(1x))^((?!(Game|游戏|20)).)*$
 custom_proxy_group=Final`select`[]DIRECT`[]Streaming Media`[]Auto`(?=.*(0\.|Free|免费)|.*(1x))^((?!(Game|游戏|20)).)*$
-custom_proxy_group=CDN`select`[]DIRECT`[]Streaming Media`[]Auto`(港|HK|Hong Kong|新加坡|坡|狮城|SG|Singapore|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
-custom_proxy_group=Google`url-test`(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http:/www.gstatic.com/generate_204`300,,50
+custom_proxy_group=CDN`select`[]DIRECT`[]Streaming Media`[]Auto`(?=.*(港|HK|Hong Kong|新加坡|坡|狮城|SG|Singapore|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|20)).)*$
+custom_proxy_group=Google`url-test`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|20)).)*$`http:/www.gstatic.com/generate_204`300,,50
 custom_proxy_group=Microsoft`select`[]DIRECT`[]Streaming Media`[]Auto`(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
 custom_proxy_group=App Store`select`[]DIRECT`[]Apple Service`(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
-custom_proxy_group=Apple Service`select`[]DIRECT`(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
-custom_proxy_group=Telegram`url-test`(新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)`http:/www.gstatic.com/generate_204`300,,50
-custom_proxy_group=Global Media`select`[]Streaming Media`[]Auto`(NF|奈飞|解锁|Netflix|NETFLIX|Media)
+custom_proxy_group=Apple Service`select`[]DIRECT`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|20)).)*$
+custom_proxy_group=Telegram`url-test`(?=.*(新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong))^((?!(Game|游戏|20)).)*$`http:/www.gstatic.com/generate_204`300,,50
+custom_proxy_group=Global Media`select`[]Streaming Media`[]Auto`(?=.*(NF|奈飞|解锁|Netflix|NETFLIX|Media))^((?!(Game|游戏|20)).)*$
 custom_proxy_group=EmbyDirect`select`[]DIRECT`[]Emby
 custom_proxy_group=Emby`select`[]Streaming Media`[]DIRECT`[]Auto`(?=.*(0\.|Free|免费)|.*(1x))^((?!(Game|游戏|20)).)*$
-custom_proxy_group=PT`select`[]DIRECT`(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
-custom_proxy_group=YouTube`select`[]Google`[]Streaming Media`[]Auto`[]Global Media`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+custom_proxy_group=PT`select`[]DIRECT`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|20)).)*$
+custom_proxy_group=YouTube`select`[]Google`[]Streaming Media`[]Auto`[]Global Media`(?=.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|20)).)*$
 custom_proxy_group=Streaming Media`url-test`(?=.*(0.|Free|免费)(x|X)|(流|媒体|Media|media|1x|1X))^((?!(Game|游戏)).)*$`http:/www.gstatic.com/generate_204`300,,50
 custom_proxy_group=Auto`url-test`(?=.*(0\.|Free|免费)|.*(1x))^((?!(Game|游戏|20)).)*$`http:/www.gstatic.com/generate_204`300,,50
 custom_proxy_group=Game`select`[]DIRECT`.*
-custom_proxy_group=OneDrive`select`[]DIRECT`[]Streaming Media`[]Microsoft`(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+custom_proxy_group=OneDrive`select`[]DIRECT`[]Streaming Media`[]Microsoft`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|20)).)*$
 custom_proxy_group=AdGuard`select`[]REJECT`[]DIRECT`[]Streaming Media`[]Auto`[]Proxy
 custom_proxy_group=Xbox`select`[]Game`[]DIRECT`.*
 custom_proxy_group=Steam`select`[]Game`[]DIRECT`.*
@@ -81,7 +81,7 @@ custom_proxy_group=Ubisoft`select`[]Game`[]DIRECT`.*
 custom_proxy_group=EA`select`[]Game`[]DIRECT`.*
 custom_proxy_group=Sony`select`[]Game`[]DIRECT`.*
 custom_proxy_group=Tracker`select`[]DIRECT`[]PT`[]Streaming Media`[]Auto`[]Proxy
-custom_proxy_group=PayPal`select`[]DIRECT`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+custom_proxy_group=PayPal`select`[]DIRECT`(?=.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|20)).)*$
 custom_proxy_group=SpeedTest`select`[]DIRECT`.*
 ;设置分组标志位
 
