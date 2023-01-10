@@ -3,54 +3,54 @@
 ruleset=DIRECT,./rules/LocalAreaNetwork.list
 ;ruleset=DIRECT,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list
 ;AdGuard
-ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/AdGuard.list
-ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ApplicationOfPurification.list
-ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/TVLuanchAD.list
+ruleset=AdGuard,./rules/Loon/AdGuard.list
+ruleset=AdGuard,./rules/Loon/ApplicationOfPurification.list
+ruleset=AdGuard,./rules/Loon/TVLuanchAD.list
 ;CDN
-ruleset=CDN,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/CDN.list
+ruleset=CDN,./rules/Loon/CDN.list
 ;Microsoft
-ruleset=OneDrive,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/OneDrive.list
-ruleset=Microsoft,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Microsoft.list
+ruleset=OneDrive,./rules/Loon/OneDrive.list
+ruleset=Microsoft,./rules/Loon/Microsoft.list
 ;YouTube
-ruleset=YouTube,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/YouTube.list
+ruleset=YouTube,./rules/Loon/YouTube.list
 ;Google
-ruleset=Google,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Google.list
+ruleset=Google,./rules/Loon/Google.list
 ;Apple Service
-ruleset=App Store,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/AppStore.list
-ruleset=Apple Service,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/AppleService.list
+ruleset=App Store,./rules/Loon/AppStore.list
+ruleset=Apple Service,./rules/Loon/AppleService.list
 ;Telegram
-ruleset=Telegram,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Telegram.list
+ruleset=Telegram,./rules/Loon/Telegram.list
 ;Emby
-ruleset=EmbyDirect,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/EmbyDirect.list
-ruleset=Emby,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Emby.list
+ruleset=EmbyDirect,./rules/Loon/EmbyDirect.list
+ruleset=Emby,./rules/Loon/Emby.list
 ;PayPal
-ruleset=PayPal,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/PayPal.list
+ruleset=PayPal,./rules/Loon/PayPal.list
 ;Game
-ruleset=Xbox,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Xbox.list
-ruleset=Steam,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Steam.list
-ruleset=Ubisoft,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Ubisoft.list
-ruleset=EA,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/EA.list
-ruleset=EA,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Origin.list
-ruleset=Sony,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Sony.list
-ruleset=Game,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Game.list
+ruleset=Xbox,./rules/Loon/Xbox.list
+ruleset=Steam,./rules/Loon/Steam.list
+ruleset=Ubisoft,./rules/Loon/Ubisoft.list
+ruleset=EA,./rules/Loon/EA.list
+ruleset=EA,./rules/Loon/Origin.list
+ruleset=Sony,./rules/Loon/Sony.list
+ruleset=Game,./rules/Loon/Game.list
 ;PT
-ruleset=PT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/PT.list
-ruleset=Tracker,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Tracker.list
+ruleset=PT,./rules/Loon/PT.list
+ruleset=Tracker,./rules/Loon/Tracker.list
 ;DIRECT
-ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Direct.list
+ruleset=DIRECT,./rules/Loon/Direct.list
 ;China
-ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/China.list
+ruleset=DIRECT,./rules/Loon/China.list
 ;ruleset=DIRECT,https://raw.githubusercontent.com/GoodHolidays/ConnersHua/master/Quantumult/X/Filter/China.list
-ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ChinaIP.list
+ruleset=DIRECT,./rules/Loon/ChinaIP.list
 ;ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list
-ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ChinaMedia.list
+ruleset=DIRECT,./rules/Loon/ChinaMedia.list
 ;ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 ;Global Media
-ruleset=Global Media,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/GlobalMedia.list
+ruleset=Global Media,./rules/Loon/GlobalMedia.list
 ;Global
-ruleset=Proxy,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Global.list
+ruleset=Proxy,./rules/Loon/Global.list
 ;SpeedTest
-ruleset=SpeedTest,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/SpeedTest.list
+ruleset=SpeedTest,./rules/Loon/SpeedTest.list
 ruleset=DIRECT,[]GEOIP,CN
 ruleset=Final,[]FINAL
 ;设置规则标志位
@@ -71,7 +71,7 @@ custom_proxy_group=Emby`select`[]Streaming Media`[]DIRECT`[]Auto`.*
 custom_proxy_group=PT`select`[]DIRECT`(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
 custom_proxy_group=YouTube`select`[]Google`[]Streaming Media`[]Auto`[]Global Media`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
 custom_proxy_group=Streaming Media`url-test`(?=.*(0.|Free|免费)(x|X)|(流|媒体|Media|media|1x|1X))^((?!(Game|游戏)).)*$`http:/www.gstatic.com/generate_204`300,,50
-custom_proxy_group=Auto`url-test`.*`http:/www.gstatic.com/generate_204`300,,50
+custom_proxy_group=Auto`url-test`(?=.*(0\.|Free|免费)|.*(1x))^((?!(Game|游戏|20)).)*$`http:/www.gstatic.com/generate_204`300,,50
 custom_proxy_group=Game`select`[]DIRECT`.*
 custom_proxy_group=OneDrive`select`[]DIRECT`[]Streaming Media`[]Microsoft`(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
 custom_proxy_group=AdGuard`select`[]REJECT`[]DIRECT`[]Streaming Media`[]Auto`[]Proxy
