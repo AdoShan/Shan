@@ -7,3 +7,6 @@ DOMAIN-SUFFIX, 1drv.com
 DOMAIN-SUFFIX, onedrive.com
 DOMAIN-SUFFIX, storage.live.com
 DOMAIN, oneclient.sfx.ms
+
+# -->> SharePoint
+DOMAIN-SUFFIX, sharepoint.com

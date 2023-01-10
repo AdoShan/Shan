@@ -6,3 +6,6 @@ payload:
   - DOMAIN-SUFFIX, onedrive.com
   - DOMAIN-SUFFIX, storage.live.com
   - DOMAIN, oneclient.sfx.ms
+
+# -->> SharePoint
+  - DOMAIN-SUFFIX, sharepoint.com
