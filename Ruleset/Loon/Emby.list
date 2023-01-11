@@ -23,6 +23,7 @@ DOMAIN-SUFFIX, catfishemby.club
 # -->> CC
 DOMAIN-SUFFIX, cc.ccemby.tk
 DOMAIN-SUFFIX, dl.ccemby.ga
+IP-CIDR, 129.150.49.70
 # -->> Orange
 DOMAIN-SUFFIX, embytv.cf
 # -->> Peach

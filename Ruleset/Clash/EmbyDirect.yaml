@@ -8,6 +8,7 @@ payload:
 # -->> CC
   - DOMAIN-SUFFIX, cc.ccemby.tk
   - DOMAIN-SUFFIX, dl.ccemby.ga
+  - IP-CIDR, 129.150.49.70
 # -->> Peach
   - DOMAIN-SUFFIX, embymv.tk
 # -->> DV服
