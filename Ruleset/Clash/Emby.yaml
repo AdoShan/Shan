@@ -24,7 +24,7 @@ payload:
 # -->> CC
   - DOMAIN-SUFFIX, cc.ccemby.tk
   - DOMAIN-SUFFIX, dl.ccemby.ga
-  - IP-CIDR, 129.150.49.70
+  - IP-CIDR, 129.150.49.70/32
 # -->> Orange
   - DOMAIN-SUFFIX, embytv.cf
 # -->> Peach
@@ -32,7 +32,7 @@ payload:
 # -->> DV服
   - DOMAIN-SUFFIX, emby.lzlz.cc
 # -->> 酒吧影业
-  - IP-CIDR, 37.128.247.203
+  - IP-CIDR, 37.128.247.203/32
 # -->> Nebula
   - DOMAIN-SUFFIX, direct.nebula-emby.com
 # -->> gfwEmby
