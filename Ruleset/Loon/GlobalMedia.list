@@ -1,5 +1,8 @@
 # -->> 影视追踪服务
 DOMAIN-SUFFIX, trakt.tv
+# -->> TMDB
+DOMAIN-SUFFIX, themoviedb.org
+DOMAIN-SUFFIX, tmdb.org
 #https://github.com/787a68/Rules/blob/master/QuantumultX/Filter/GlobalMedia.txt
 # GlobalMedia.list
 # (Music)
