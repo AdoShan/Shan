@@ -13,6 +13,8 @@ payload:
   - DOMAIN-SUFFIX, embymv.tk
 # -->> DV服
   - DOMAIN-SUFFIX, emby.lzlz.cc
+# -->> 酒吧影业
+  - IP-CIDR, 37.128.247.203
 # -->> BlueSea
   - DOMAIN-SUFFIX, bsem.ddns.me
 # -->> Magpie
