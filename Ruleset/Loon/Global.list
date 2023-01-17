@@ -23,12 +23,20 @@ DOMAIN-SUFFIX, freedog.buzz
 
 # -->> Other
 DOMAIN-SUFFIX, appsir.shop
-# --> Freenom
+# -->> Freenom
 DOMAIN-SUFFIX, freenom.com
-# --> V2EX
+# -->> V2EX
 DOMAIN-SUFFIX, v2ex.com
-# --> IMDB
+# -->> IMDB
 DOMAIN-SUFFIX, imdb.com
+# -->> GitHub加速
+DOMAIN-SUFFIX, gh.api.99988866.xyz
+DOMAIN-SUFFIX, github.rc1844.workers
+DOMAIN-SUFFIX, ghgo.feizhuqwq.worker
+DOMAIN-SUFFIX, git.yumenaka.net
+DOMAIN-SUFFIX, github.com.cnpmjs.org
+DOMAIN-SUFFIX, ghproxy.com
+DOMAIN-SUFFIX, toolwa.com
 
 # -->> Magisk Module Repository
 #DOMAIN-SUFFIX, magisk-modules-repo.github.io
