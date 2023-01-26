@@ -10,7 +10,15 @@
 // @include       *.charontv.com*
 // @include       *jmsooo.com*
 // @include       *misakaf.org*
-// @include       *aaa.ax*
+// @include       *misty.ltd*
+// @include       *bsem.ddns.me*
+// @include       *catfishemby.club*
+// @include       *cc.ccemby.tk*
+// @include       *emby.lzlz.cc*
+// @include       *direct.nebula-emby.com*
+// @include       *embymv.tk*
+// @include       *poloemby.xyz*
+// @include       *embyplus.club*
 // @run-at      document-start
 // @grant       unsafeWindow
 // @require      https://cdn.bootcdn.net/ajax/libs/jquery-url-parser/2.3.1/purl.js
