@@ -1,4 +1,7 @@
-# -> IPTorrents不支持代理访问
+# --> 不需要代理
+DOMAIN-SUFFIX, api.o9o.nl
+
+# --> IPTorrents不支持代理访问
 DOMAIN-SUFFIX, iptorrents.com
 
 # -->> Steam价格查询脚本需要
