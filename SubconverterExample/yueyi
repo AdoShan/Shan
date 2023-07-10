@@ -11,6 +11,8 @@ ruleset=YouTube,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Lo
 ruleset=Google,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Google.list
 ;Telegram
 ruleset=Telegram,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Telegram.list
+;Linkedin
+ruleset=Linkedin,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Linkedin.list
 ;DIRECT
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Direct.list
 ;China
@@ -33,6 +35,7 @@ ruleset=Final,[]FINAL
 custom_proxy_group=Proxy`select`[]Auto`[]DIRECT`.*
 custom_proxy_group=Final`select`[]Auto`[]DIRECT`.*
 custom_proxy_group=Google`select`[]Auto`[]DIRECT`.*
+custom_proxy_group=Linkedin`select`[]Auto`[]Google`[]DIRECT`.*
 custom_proxy_group=OneDrive`select`[]DIRECT`[]Microsoft`.*
 custom_proxy_group=Microsoft`select`[]Auto`[]DIRECT`.*
 custom_proxy_group=Telegram`select`[]Auto`[]DIRECT`.*
