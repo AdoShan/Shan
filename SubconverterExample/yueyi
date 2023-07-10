@@ -1,0 +1,45 @@
+﻿;设置规则标志位
+;LocalDIRECT
+ruleset=DIRECT,./rules/LocalAreaNetwork.list
+;ruleset=DIRECT,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list
+;Microsoft
+ruleset=OneDrive,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/OneDrive.list
+ruleset=Microsoft,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Microsoft.list
+;YouTube
+ruleset=YouTube,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/YouTube.list
+;Google
+ruleset=Google,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Google.list
+;Telegram
+ruleset=Telegram,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Telegram.list
+;DIRECT
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Direct.list
+;China
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/China.list
+;ruleset=DIRECT,https://raw.githubusercontent.com/GoodHolidays/ConnersHua/master/Quantumult/X/Filter/China.list
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ChinaIP.list
+;ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ChinaMedia.list
+;ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+;Global Media
+ruleset=Global Media,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/GlobalMedia.list
+;Global
+ruleset=Proxy,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Global.list
+ruleset=DIRECT,[]GEOIP,CN
+ruleset=Final,[]FINAL
+;设置规则标志位
+
+
+;设置分组标志位
+custom_proxy_group=Proxy`select`[]Auto`[]DIRECT`.*
+custom_proxy_group=Final`select`[]Auto`[]DIRECT`.*
+custom_proxy_group=Google`select`[]Auto`[]DIRECT`.*
+custom_proxy_group=OneDrive`select`[]DIRECT`[]Microsoft`.*
+custom_proxy_group=Microsoft`select`[]Auto`[]DIRECT`.*
+custom_proxy_group=Telegram`select`[]Auto`[]DIRECT`.*
+custom_proxy_group=Global Media`select`[]Auto`[]DIRECT`.*
+custom_proxy_group=YouTube`select`[]Google`[]Auto`[]DIRECT`.*
+custom_proxy_group=Auto`url-test`.*`http:/www.gstatic.com/generate_204`300,,100
+
+
+enable_rule_generator=true
+overwrite_original_rules=true
