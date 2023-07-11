@@ -40,8 +40,8 @@ DOMAIN-SUFFIX, gfwemby.org
 DOMAIN-SUFFIX, blueseamusics.com
 DOMAIN-SUFFIX, blueseacdn.com
 DOMAIN-SUFFIX, bsem.ddns.me
-# -->> Magpie
-DOMAIN-SUFFIX, magpie.cyou
+# -->> TreeDiagram
+DOMAIN-SUFFIX, 789.123456.al
 
 # -->> 兜底
 DOMAIN-KEYWORD, emby
