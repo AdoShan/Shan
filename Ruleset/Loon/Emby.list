@@ -43,6 +43,8 @@ DOMAIN-SUFFIX, blueseacdn.com
 DOMAIN-SUFFIX, bsem.ddns.me
 # -->> TreeDiagram
 DOMAIN-SUFFIX, 789.123456.al
+# -->> Dolphin Emby
+DOMAIN-SUFFIX, public.emby.ws
 
 # -->> 兜底
 DOMAIN-KEYWORD, emby
