@@ -19,7 +19,7 @@ payload:
 # -> 家园
   - DOMAIN-SUFFIX, hdhome.org
 # -> 柠檬
-  - DOMAIN-SUFFIX, lemonhd.org
+#  - DOMAIN-SUFFIX, lemonhd.org
 # -> 白兔俱乐部
   - DOMAIN-SUFFIX, club.hares.top
 # -> HDAtmos
@@ -31,7 +31,7 @@ payload:
 # -> 烧包
   - DOMAIN-SUFFIX, ptsbao.club
 # -> 丐帮
-  - DOMAIN-SUFFIX, gainbound.net
+#  - DOMAIN-SUFFIX, gainbound.net
 # -> PT时间
   - DOMAIN-SUFFIX, pttime.org
 # -> NicePT
