@@ -1,0 +1,21 @@
+# Resource:  https://github.com/sve1r/Rules-For-Quantumult-X/blob/develop/Rules/Services/OpenAI.list# > OpenAI
+# >> OpenAI Challenge & SSO
+DOMAIN-SUFFIX,auth0.com
+DOMAIN,challenges.cloudflare.com
+
+# >> OpenAI Related
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,identrust.com
+
+# >> OpenAI CDN
+DOMAIN-SUFFIX,chat.openai.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+
+# >> OpenAI Other
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,invoice.stripe.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,poe.com
