@@ -1,8 +1,11 @@
 # -->> Global
-#DOMAIN-KEYWORD, cdn
+DOMAIN-KEYWORD, cdn
 
 # -->> GitHub加速
 #DOMAIN, cdn.jsdelivr.net
+
+# -->> GitHub
+DOMAIN, objects.githubusercontent.com
 
 # -->> BiliBili视频播放
 DOMAIN, upos-hz-mirrorakam.akamaized.net
