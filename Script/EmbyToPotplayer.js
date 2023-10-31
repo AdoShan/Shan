@@ -19,6 +19,8 @@
 // @include       *embymv.tk*
 // @include       *poloemby.xyz*
 // @include       *embyplus.club*
+// @include       *ju.dog*
+// @include       *gugumedia.link*
 // @run-at      document-start
 // @grant       unsafeWindow
 // @require      https://cdn.bootcdn.net/ajax/libs/jquery-url-parser/2.3.1/purl.js
