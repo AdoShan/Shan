@@ -48,6 +48,8 @@ payload:
   - DOMAIN-SUFFIX, public.emby.ws
 # -->> 剧狗
   - DOMAIN-SUFFIX, ju.dog
+# -->> SYN Streaming
+  - DOMAIN-SUFFIX, ntrrr.top
 
 # -->> 兜底
   - DOMAIN-KEYWORD, emby
