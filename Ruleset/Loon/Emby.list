@@ -1,7 +1,5 @@
-DOMAIN-SUFFIX, emby.imovietv.ml
-DOMAIN-SUFFIX, aiyowei.club
 DOMAIN-SUFFIX, emby.x-yq.cn
-# -->> PornEmby
+# --> PornEmby
 DOMAIN-SUFFIX, pornemby.club
 # —>> 终点站
 DOMAIN-SUFFIX, emby.wtf
@@ -9,46 +7,50 @@ DOMAIN-SUFFIX, emby.wtf
 DOMAIN-SUFFIX, charontv.com
 # —>> 卷毛鼠
 DOMAIN-SUFFIX, jmsooo.com
-# -->> 熊猫
+# --> 熊猫
 DOMAIN-SUFFIX, emby.kim
-# -->> Misakaf
+# --> Misty
+DOMAIN-SUFFIX, misty.cx
+# --> CC
+DOMAIN-SUFFIX, cc.coemn.com
+# --> Peach
+DOMAIN-SUFFIX, peachmv.me
+# --> TreeDiagram
+DOMAIN-SUFFIX, 789.123456.al
+# --> SYN Streaming
+DOMAIN-SUFFIX, ntrrr.top
+# --> Temby
+DOMAIN-SUFFIX, 285286.xyz
+
+# -->> 转公费
+# --> Misakaf
 DOMAIN-SUFFIX, misakaf.org
-# -->> Misty
-DOMAIN-SUFFIX, misty.ltd
-# -->> 品云
-DOMAIN-SUFFIX, py.embyplus.club
-# -->> PoloEmby
-DOMAIN-SUFFIX, poloemby.xyz
-# -->> CatFish
-DOMAIN-SUFFIX, catfishemby.club
-# -->> CC
-DOMAIN-SUFFIX, cc.ccemby.tk
-DOMAIN-SUFFIX, ccemby.ga
-IP-CIDR, 129.150.49.70/32
-# -->> Orange
+# --> Orange
 DOMAIN-SUFFIX, embytv.cf
-# -->> Peach
-DOMAIN-SUFFIX, embymv.tk
-# -->> DV服
+# --> Dolphin Emby
+DOMAIN-SUFFIX, public.emby.ws
+
+# -->> 已关闭
+# --> 品云
+DOMAIN-SUFFIX, py.embyplus.club
+# --> PoloEmby
+DOMAIN-SUFFIX, poloemby.xyz
+# --> CatFish
+DOMAIN-SUFFIX, catfishemby.club
+# --> DV服
 DOMAIN-SUFFIX, emby.lzlz.cc
-# -->> 酒吧影业
+# --> 酒吧影业
 DOMAIN-SUFFIX, the98.ltd
-# -->> Nebula
+# --> Nebula
 DOMAIN-SUFFIX, direct.nebula-emby.com
-# -->> gfwEmby
+# --> gfwEmby
 DOMAIN-SUFFIX, gfwemby.org
-# -->> BlueSea
+# --> BlueSea
 DOMAIN-SUFFIX, blueseamusics.com
 DOMAIN-SUFFIX, blueseacdn.com
 DOMAIN-SUFFIX, bsem.ddns.me
-# -->> TreeDiagram
-DOMAIN-SUFFIX, 789.123456.al
-# -->> Dolphin Emby
-DOMAIN-SUFFIX, public.emby.ws
-# -->> 剧狗
+# --> 剧狗
 DOMAIN-SUFFIX, ju.dog
-# -->> SYN Streaming
-DOMAIN-SUFFIX, ntrrr.top
 
 # -->> 兜底
 DOMAIN-KEYWORD, emby

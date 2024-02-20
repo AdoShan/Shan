@@ -1,23 +1,13 @@
 payload:
-  - DOMAIN-SUFFIX, emby.imovietv.ml
-  - DOMAIN-SUFFIX, aiyowei.club
   - DOMAIN-SUFFIX, emby.x-yq.cn
   - # —>> 终点站
   - DOMAIN-SUFFIX, emby.wtf
 # -->> Misakaf
   - DOMAIN-SUFFIX, misakaf.org
 # -->> CC
-  - DOMAIN-SUFFIX, cc.ccemby.tk
-  - DOMAIN-SUFFIX, ccemby.ga
-  - IP-CIDR, 129.150.49.70/32
+  - DOMAIN-SUFFIX, cc.coemn.com
 # -->> Peach
-  - DOMAIN-SUFFIX, embymv.tk
-# -->> DV服
-  - DOMAIN-SUFFIX, emby.lzlz.cc
-# -->> 酒吧影业
-  - DOMAIN-SUFFIX, the98.ltd
-# -->> BlueSea
-  - DOMAIN-SUFFIX, bsem.ddns.me
+  - DOMAIN-SUFFIX, peachmv.me
 # -->> Magpie
   - DOMAIN-SUFFIX, magpie.cyou
 # -->> GuGu Media
