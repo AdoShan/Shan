@@ -59,7 +59,7 @@ payload:
 # -> 海棠PT
   - DOMAIN-SUFFIX, htpt.cc
 # -> 梓喵
-  - DOMAIN-SUFFIX, azusa.ru
+  - DOMAIN-SUFFIX, azusa.wiki
 # -> Jpop
   - DOMAIN-SUFFIX, jpopsuki.eu
 # -> ExoticaZ
@@ -72,8 +72,8 @@ payload:
   - DOMAIN-SUFFIX, keepfrds.com
 # -> 我堡
   - DOMAIN-SUFFIX, ourbits.club
-# -> 杏林
-  - DOMAIN-SUFFIX, xinglin.one
+# -> 杏坛
+  - DOMAIN-SUFFIX, xingtan.one
 # -> TCCF
   - DOMAIN-SUFFIX, et8.org
 # -> 瓷器
