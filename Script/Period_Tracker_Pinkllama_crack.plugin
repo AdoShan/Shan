@@ -1,0 +1,9 @@
+#!name=粉红羊驼-月经期助手
+#!desc= 解锁全员功能
+#!icon=https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/24/78/23/2478231f-6a05-d351-8d4f-fbab754b968f/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.png
+
+[Script]
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/AdoShan/Shan/main/Script/Period_Tracker_Pinkllama.js, requires-body=true, timeout=60, tag=粉红羊驼-月经期助手
+
+[MITM]
+hostname = buy.itunes.apple.com
