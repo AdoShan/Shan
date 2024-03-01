@@ -4,7 +4,7 @@
 #!icon=https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/fc/70/8a/fc708a3b-b06b-6187-4bd1-86d4aa2ccf2b/AppIconLLC-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.png
 
 [Script]
-http-response ^https?:\/\/(nicegram\.cloud\/api\/v\d\/user\/info|restore-access\.indream\.app\/restoreAccess) script-path=https://raw.githubusercontent.com/AdoShan/Shan/master/Script/nameicegram.js, requires-body=true, timeout=60, tag=Nicegram
+http-response ^https?:\/\/(nicegram\.cloud\/api\/v\d\/user\/info|restore-access\.indream\.app\/restoreAccess) script-path=https://raw.githubusercontent.com/AdoShan/Shan/master/Script/nicegram.js, requires-body=true, timeout=60, tag=Nicegram
 
 [MITM]
 hostname = nicegram.cloud, restore-access.indream.app
