@@ -12,7 +12,7 @@ ruleset=Google,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loo
 ;Telegram
 ruleset=Telegram,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Telegram.list
 ;Linkedin
-ruleset=Linkedin,https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Loon/LinkedIn/LinkedIn.list
+ruleset=Linkedin,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/LinkedIn/LinkedIn.list
 ;DIRECT
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Direct.list
 ;China
