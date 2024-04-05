@@ -1,0 +1,13 @@
+#!name = Notability
+#!desc = 解锁订阅
+#!openurl = https://apps.apple.com/app/id360593530
+#!author = 
+#!homepage = 
+#!icon = https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/a8/55/d8a85557-fc99-16cb-673a-e938e149383d/AppIcon-0-0-1x_U007emarketing-0-10-0-0-sRGB-85-220.png/512x512bb.png
+#!date = 
+
+[Script]
+http-response ^https?:\/\/notability\.com\/(global|subscriptions) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/notability.js, requires-body=true, tag=Notability
+
+[MITM]
+hostname = notability.com

@@ -1,0 +1,14 @@
+#!name = Goodnotes 6
+#!desc = 解锁订阅
+#!openurl = https://apps.apple.com/app/id1444383602
+#!author = 
+#!homepage = 
+#!icon = https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/65/c9/a065c919-9a06-7a29-d688-3be917efd7a6/AppIcon-0-0-1x_U007epad-0-0-0-85-220.png/512x512bb.png
+#!date = 
+
+[Script]
+http-response ^https:\/\/isi\..*\.g.*\.(com\..*|com)\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=http://git.yycm.link/chxm1023/Rewrite/raw/main/gg.js, requires-body=true, tag=goodnotes6
+http-request ^https:\/\/isi\..*\.g.*\.(com\..*|com)\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=http://git.yycm.link/chxm1023/Rewrite/raw/main/gg.js, requires-body=false, tag=goodnotes
+
+[MITM]
+hostname = isi.*.g*.com*

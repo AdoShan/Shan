@@ -1,0 +1,13 @@
+#!name = Fimo-复古胶片相机
+#!desc = 解锁Vip
+#!openurl = https://apps.apple.com/app/id1454219307
+#!author = 
+#!homepage = 
+#!icon = https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/3e/f2/c03ef2f8-0f93-3f5b-1ef0-8faff26535b9/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.png
+#!date = 
+
+[Script]
+http-response ^https?:\/\/server\.(yoyiapp|zbisq)\.com script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/fimo.js, requires-body=true, tag=Fimo复古相机
+
+[MITM]
+hostname = server.*.com
