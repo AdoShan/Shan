@@ -1,10 +1,34 @@
-#!name=马士兵-语言编程学习
-#!desc=解锁全课程
-#!openurl= https://apps.apple.com/app/id1576154151
-#!icon=https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/45/e4/91/45e4916a-697d-cf4f-a6e5-167a3b538ca4/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.png
+/*
 
-[Script]
-http-response https:\/\/gateway\.mashibing\.com\/edu-course\/(coursePackage\/app\/1|app\/systemCourse|courseWeb) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/msb.js, requires-body=true, timeout=60, tag=msb
+马士兵
+编程语言学习
 
-[MITM]
+
+[rewrite_local]
+
+
+https:\/\/gateway\.mashibing\.com\/edu-course\/(coursePackage\/app\/1|app\/systemCourse|courseWeb) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/msb.js
+
+[mitm] 
+
 hostname = gateway.mashibing.com
+*/
+
+
+var body = $response.body;
+
+//试用状态
+body = body.replace(/"isTrial":\s*false/g, '"isTrial":true');
+
+
+//分享状态
+body = body.replace(/"shareState":\s*0/g, '"shareState":1');
+
+body = body.replace(/"accredit":\s*false/g, '"accredit":true');
+//https://gateway.mashibing.com/edu-course/app/systemCourse/course这个url的时候不能修改 会提示更新无法观看课程资料 但是这个控制vip课程观看权限
+body = body.replace(/"plateId":\s*\d+/g, '"plateId":0');
+
+$done({ body });
+
+
+
