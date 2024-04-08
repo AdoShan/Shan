@@ -1,0 +1,13 @@
+#!name = 美颜相机
+#!desc = 解锁VIP
+#!openurl = https://apps.apple.com/app/id592331499
+#!author = 
+#!homepage = 
+#!icon = https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/d1/b0/54d1b069-915b-8c83-6cf0-520448fbe433/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/512x512bb.png
+#!date = 
+
+[Script]
+http-response ^https?:\/\/(api|community)\.meiyan\.com\/(vip|v\d)\/(user_center|user_info|user\/(.*?)) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/myxj.js, requires-body=true, tag=美颜相机
+
+[MITM]
+hostname = *.meiyan.com
