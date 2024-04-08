@@ -1,0 +1,13 @@
+#!name = Xmind
+#!desc = 先登录Xmind账号再恢复购买
+#!openurl = https://apps.apple.com/app/id1286983622
+#!author = 
+#!homepage = 
+#!icon = https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/69/6c/e3/696ce344-b2d6-8336-0f45-1750438dfbf6/AppIcon-0-0-1x_U007emarketing-0-10-0-sRGB-85-220-0.png/512x512bb.png
+#!date = 
+
+[Script]
+http-response ^https?:\/\/(?:www\.)?xmind\..*\/.+\/(devices|token\/.+) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Xmind.js, requires-body=true, tag=Xmind
+
+[MITM]
+hostname = *xmind.*
