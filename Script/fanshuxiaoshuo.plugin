@@ -1,0 +1,13 @@
+#!name = 番薯小说
+#!desc = 解锁VIP
+#!openurl = https://apps.apple.com/app/id1489960199
+#!author = 
+#!homepage = 
+#!icon = https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/61/5f/0d/615f0d3d-cf93-97bb-e558-9d4b0405da02/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/246x0w.png
+#!date = 
+
+[Script]
+http-response ^https?:\/\/ggs\.manmeng168\.com script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/fanshuxiaoshuo.js, requires-body=true, tag=番薯小说
+
+[MITM]
+hostname = ggs.manmeng168.com
