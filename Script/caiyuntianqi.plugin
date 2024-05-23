@@ -1,0 +1,19 @@
+#!name = 彩云天气
+#!desc = 净化/解锁SVIP
+#!openurl = https://apps.apple.com/app/id847764912
+#!author = 
+#!homepage = 
+#!icon = https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/98/fb/25/98fb2542-9ba0-a9fa-a30e-9cc722190dcc/AppIcon-pro-0-1x_U007emarketing-0-7-0-0-85-220-0.png/512x512bb.png
+#!date = 
+
+[URL Rewrite]
+# 彩云天气广告
+^https?:\/\/ad\.(caiyunapp|cyapi)\.(cn|com) - reject
+^http:\/\/adx\.sogaha\.cn\/sdk\/ad\/get - reject-200
+
+[Script]
+http-response ^https?:\/\/(biz|wrapper|starplucker)\.(cyapi|caiyunapp)\.(cn|com)\/(.+\/(user\?app_name|activity\?app_name|visitors|operation\/banners)|p\/v\d\/(vip_info|user_info)) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyuntianqi.js, requires-body=true, tag=彩云天气-SVIP会员
+http-request ^https?:\/\/(api|wrapper)\.(cyapi|caiyunapp)\.(cn|com)\/v\d\/(satellite|nafp\/origin_images) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyuntianqi.js, requires-body=false, tag=彩云天气-SVIP地图
+
+[MITM]
+hostname = *.cyapi.cn, *.caiyunapp.com, adx.sogaha.cn
