@@ -12,7 +12,7 @@ ruleset=CDN,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/C
 ;;OneDrive
 ruleset=OneDrive,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/OneDrive.list
 ;;Microsoft Copilot
-ruleset=Microsoft,https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/Copilot.list
+ruleset=Microsoft,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Copilot.list
 ruleset=Microsoft,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Microsoft.list
 ;Google
 ;;YouTube
