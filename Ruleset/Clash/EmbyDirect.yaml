@@ -11,8 +11,10 @@ payload:
 # -->> Magpie
   - DOMAIN-SUFFIX, magpie.cyou
 # -->> GuGu Media
-  - DOMAIN-SUFFIX, gugumedia.link
+  - DOMAIN-SUFFIX, gugu.media
 # -->> Temby
   - DOMAIN-SUFFIX, temby4837.285286.xyz
 # -->> StarCat
   - DOMAIN-SUFFIX, flarex.starcat.eu.org
+# -->> EmbyPlus 纸片人
+  - DOMAIN-SUFFIX, embyplus.org

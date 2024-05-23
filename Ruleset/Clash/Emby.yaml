@@ -8,8 +8,6 @@ payload:
   - DOMAIN-SUFFIX, charontv.com
 # --> 卷毛鼠
   - DOMAIN-SUFFIX, jmsooo.com
-# --> 熊猫
-  - DOMAIN-SUFFIX, emby.kim
 # --> Misty
   - DOMAIN-SUFFIX, misty.cx
 # --> CC
@@ -18,12 +16,16 @@ payload:
   - DOMAIN-SUFFIX, peachmv.me
 # --> TreeDiagram
   - DOMAIN-SUFFIX, 789.123456.al
+# -->> GuGu Media
+  - DOMAIN-SUFFIX, gugu.media
 # --> SYN Streaming
   - DOMAIN-SUFFIX, ntrrr.top
 # --> Temby
   - DOMAIN-SUFFIX, 285286.xyz
 # -->> StarCat
   - DOMAIN-SUFFIX, flarex.starcat.eu.org
+# -->> EmbyPlus 纸片人
+  - DOMAIN-SUFFIX, embyplus.org
 
 # -->> 转公费
 # --> Misakaf
@@ -54,6 +56,8 @@ payload:
   - DOMAIN-SUFFIX, bsem.ddns.me
 # --> 剧狗
   - DOMAIN-SUFFIX, ju.dog
+# --> 熊猫
+  - DOMAIN-SUFFIX, emby.kim
 
 # -->> 兜底
   - DOMAIN-KEYWORD, emby
