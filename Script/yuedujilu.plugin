@@ -1,0 +1,13 @@
+#!name = 阅读记录
+#!desc = 解锁终身会员
+#!openurl = https://apps.apple.com/app/id1227407668
+#!author = 
+#!homepage = 
+#!icon = https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/c1/db/aac1db19-a7d0-108c-b787-2574ec0bec4d/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.png
+#!date = 
+
+[Script]
+http-response ^https?:\/\/app\.yidiansz\.com\/api\/v\d\/(app\/user\/info|banner) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/yuedujilu.js, requires-body=true, tag=阅读记录
+
+[MITM]
+hostname = app.yidiansz.com

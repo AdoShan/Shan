@@ -1,0 +1,13 @@
+#!name = 滚动截屏
+#!desc = 解锁永久会员
+#!openurl = https://apps.apple.com/app/id1494098739
+#!author = 
+#!homepage = 
+#!icon = https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/30/cf/d9/30cfd981-b6fa-bcb7-2c49-600585961cf4/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220-0.png/512x512bb.png
+#!date = 
+
+[Script]
+http-response ^http:\/\/tailor\.tomax\.xyz\/api\/users\/fetch\/info script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/gdjp.js, requires-body=true, tag=滚动截屏
+
+[MITM]
+hostname = tailor.tomax.xyz

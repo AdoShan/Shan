@@ -1,0 +1,23 @@
+#!name = 追书神器
+#!desc = 解锁VIP会员去除广告(可能涉及其他App)
+#!openurl = https://apps.apple.com/app/id575826903
+#!author = 
+#!homepage = 
+#!icon = https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/47/a0/e347a0be-7649-afb0-a4bd-833e5465f54c/AppIcon-0-0-1x_U007emarketing-0-10-0-0-sRGB-85-220.png/512x512bb.png
+#!date = 
+
+[Script]
+http-response ^https?:\/\/.*\.zhuishushenqi\.com\/(user|charge\/voice\/state|pay\/products|advert_center|push\/pop-config|book\/recommend-pop|api|video\/adConfig|book\/bookshelf.*|activity\/popup\/scenes\/init) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/zhuishushenqi.js, requires-body=true, tag=追书神器解锁VIP
+# 开屏广告/也可去除其他APP的广告，用处广泛
+^https?:\/\/.*\.pangolin-sdk-toutiao.*\.com url reject
+^https?:\/\/mhjk\.1391\.com url reject-200
+^https?:\/\/opencloud\.wostore\.cn url reject-200
+^https?:\/\/open\.e\.kuaishou\.com url reject-200
+^https?:\/\/mi\.gdt\.qq\.com url reject-200
+^https?:\/\/mobads\.baidu\.com url reject-200
+^https?:\/\/ios\.bugly\.qq\.com url reject-200
+^https?:\/\/sdk\.e\.qq\.com url reject-200
+^https?:\/\/analytics\.oceanengine\.com url reject-200
+
+[MITM]
+hostname = *.zhuishushenqi.com, *.pangolin-sdk-toutiao*.com, mhjk.1391.com, opencloud.wostore.cn, open.e.kuaishou.com, mi.gdt.qq.com, mobads.baidu.com, ios.bugly.qq.com, sdk.e.qq.com, analytics.oceanengine.com

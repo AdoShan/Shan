@@ -1,0 +1,13 @@
+#!name = 逗逗表情包
+#!desc = 解锁VIP会员
+#!openurl = https://apps.apple.com/app/id1621941520
+#!author = 
+#!homepage = 
+#!icon = https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d9/fc/cd/d9fccd26-f59e-7065-e7ba-ee86c851c1e4/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.png
+#!date = 
+
+[Script]
+http-response ^https?:\/\/www\.dbbqb\.com\/api\/(refresh\/token|login|sms\/register|user\/expire|orderForm) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/ddbqb.js, requires-body=true, tag=逗逗表情包
+
+[MITM]
+hostname = www.dbbqb.com
