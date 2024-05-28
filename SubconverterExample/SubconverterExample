@@ -63,8 +63,8 @@ ruleset=Final,[]FINAL
 custom_proxy_group=Global`select`[]Streaming Media`[]Auto`[]DIRECT`.*
 custom_proxy_group=Auto`url-test`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC)).)*$`http:/www.gstatic.com/generate_204`300,,100
 ;custom_proxy_group=Auto`url-test`(?=.*(\d+(\.\d+)?[xX]|[01](\.\d+)?(倍)?[xX]?|[Ff]ree|免费))^((?!(Game|游戏|IPLC|15)).)*$`http:/www.gstatic.com/generate_204`300,,100
-custom_proxy_group=Final`select`[]Auto`[]Streaming Media`[]DIRECT`.*
-custom_proxy_group=CDN`select`[]DIRECT`[]Global`.*
+custom_proxy_group=Final`select`[]Global`[]Auto`[]Streaming Media`[]DIRECT`.*
+custom_proxy_group=CDN`select`[]DIRECT`[]Auto`[]Global`.*
 ;custom_proxy_group=Google`url-test`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC)).)*$`http:/www.gstatic.com/generate_204`300,,100
 custom_proxy_group=Google`select`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC)).)*$
 custom_proxy_group=Microsoft`select`[]DIRECT`[]Streaming Media`[]Auto`(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
