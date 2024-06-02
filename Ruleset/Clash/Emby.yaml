@@ -58,6 +58,8 @@ payload:
   - DOMAIN-SUFFIX, ju.dog
 # --> 熊猫
   - DOMAIN-SUFFIX, emby.kim
+# -->> 牢大科蜜直升机餐厅
+  - DOMAIN-SUFFIX, mius.uk
 
 # -->> 兜底
   - DOMAIN-KEYWORD, emby
