@@ -50,6 +50,10 @@ ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loo
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 ;Streaming Media
 ruleset=Streaming Media,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/GlobalMedia.list
+;WhatsApp
+ruleset=Global,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Whatsapp/Whatsapp.list
+;Line
+ruleset=Global,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Line/Line.list
 ;Global
 ruleset=Global,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Global.list
 ;SpeedTest
