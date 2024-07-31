@@ -1,3 +1,10 @@
+# -- >> 禁止Chrome更新增强型安全浏览数据库
+# - > 同时存在于AdGuard文件中并被注释
+#DOMAIN, sb-ssl.google.com
+#DOMAIN, safebrowsing.googleapis.com
+#DOMAIN, safebrowsing.clients.google.com
+#DOMAIN, safebrowsing-cache.google.com
+
 # -->> Google
 DOMAIN-SUFFIX, appspot.com
 DOMAIN-SUFFIX, blogger.com
@@ -70,10 +77,3 @@ DOMAIN-SUFFIX, x.company
 DOMAIN-SUFFIX, youtu.be
 DOMAIN-SUFFIX, yt.be
 DOMAIN-SUFFIX, ytimg.com
-
-# -- >> 禁止Chrome更新增强型安全浏览数据库
-# - > 同时存在于AdGuard文件中并被注释
-#DOMAIN, sb-ssl.google.com
-#DOMAIN, safebrowsing.googleapis.com
-#DOMAIN, safebrowsing.clients.google.com
-#DOMAIN, safebrowsing-cache.google.com
