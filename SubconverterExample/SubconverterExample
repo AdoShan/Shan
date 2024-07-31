@@ -21,9 +21,9 @@ ruleset=OneDrive,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/
 ;;Microsoft Copilot
 ruleset=Microsoft,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Copilot.list
 ;;Bing
-ruleset=Bing,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Bing/Bing.list
+ruleset=Microsoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Bing/Bing.list
 ;;Microsoft Edge
-ruleset=MicrosoftEdge,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/MicrosoftEdge/MicrosoftEdge.list
+ruleset=Microsoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/MicrosoftEdge/MicrosoftEdge.list
 ruleset=Microsoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Microsoft/Microsoft.list
 ;Google
 ;;YouTube
@@ -35,7 +35,7 @@ ruleset=Apple Service,https://raw.githubusercontent.com/blackmatrix7/ios_rule_sc
 ;Telegram
 ruleset=Telegram,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Telegram/Telegram.list
 ;Emby
-ruleset=EmbyDirect,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/EmbyDirect.list
+ruleset=Emby Direct,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/EmbyDirect.list
 ruleset=Emby,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Emby.list
 ;PayPal
 ruleset=PayPal,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PayPal/PayPal.list
@@ -45,7 +45,7 @@ ruleset=Steam,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/mas
 ruleset=Ubisoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Ubisoft/Ubisoft.list
 ruleset=EA,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/EA/EA.list
 ruleset=EA,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Origin/Origin.list
-ruleset=PlayStation,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PlayStation/PlayStation.list
+ruleset=Play Station,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PlayStation/PlayStation.list
 ruleset=Game,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Game/Game.list
 ;PT
 ruleset=Tracker,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Tracker.list
@@ -101,7 +101,7 @@ ruleset=Global,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/ma
 ;;;Telegram
 ;ruleset=Telegram,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Telegram.list
 ;;Emby
-;ruleset=EmbyDirect,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/EmbyDirect.list
+;ruleset=Emby Direct,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/EmbyDirect.list
 ;ruleset=Emby,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Emby.list
 ;;PayPal
 ;ruleset=PayPal,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/PayPal.list
@@ -111,7 +111,7 @@ ruleset=Global,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/ma
 ;ruleset=Ubisoft,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Ubisoft.list
 ;ruleset=EA,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/EA.list
 ;ruleset=EA,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Origin.list
-;ruleset=Sony,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Sony.list
+;ruleset=Play Station,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Sony.list
 ;ruleset=Game,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Game.list
 ;;PT
 ;ruleset=Tracker,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Tracker.list
@@ -157,7 +157,7 @@ custom_proxy_group=App Store`select`[]DIRECT`[]Apple Service`(港|HK|Hong Kong|�
 custom_proxy_group=Apple Service`select`[]DIRECT`[]Auto`[]Global`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC|15)).)*$
 custom_proxy_group=Telegram`url-test`(?=.*(新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong))^((?!(Game|游戏|IPLC|15)).)*$`http://www.gstatic.com/generate_204`300,,100
 ;custom_proxy_group=Global Media`select`[]Streaming Media`[]Auto`(?=.*(\d+(\.\d+)?[xX]|[01](\.\d+)?(倍)?[xX]?|[Ff]ree|免费)|(流|媒体|[Mm]edia))^((?!(Game|游戏|IPLC|15)).)*$
-custom_proxy_group=EmbyDirect`select`[]DIRECT`[]Emby
+custom_proxy_group=Emby Direct`select`[]DIRECT`[]Emby
 custom_proxy_group=Emby`select`[]Streaming Media`[]Auto`[]Global`[]DIRECT`.*
 custom_proxy_group=PT`select`[]DIRECT`[]Auto`[]Global`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC|15)).)*$
 custom_proxy_group=YouTube`select`[]Google`[]Streaming Media`[]Auto`[]Streaming Media`(?=.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC|15)).)*$
@@ -170,7 +170,7 @@ custom_proxy_group=Xbox`select`[]Game`[]DIRECT`.*
 custom_proxy_group=Steam`select`[]Game`[]DIRECT`.*
 custom_proxy_group=Ubisoft`select`[]Game`[]DIRECT`.*
 custom_proxy_group=EA`select`[]Game`[]DIRECT`.*
-custom_proxy_group=Sony`select`[]Game`[]DIRECT`.*
+custom_proxy_group=Play Station`select`[]Game`[]DIRECT`.*
 custom_proxy_group=Tracker`select`[]DIRECT`[]PT`[]Streaming Media`[]Auto`[]Global
 custom_proxy_group=SpeedTest`select`[]DIRECT`.*
 custom_proxy_group=AdGuard`select`[]REJECT`[]DIRECT`[]Streaming Media`[]Auto`[]Global
