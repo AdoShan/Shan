@@ -3,25 +3,24 @@
 ruleset=DIRECT,./rules/LocalAreaNetwork.list
 ruleset=DIRECT,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list
 ;Microsoft
-ruleset=OneDrive,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/OneDrive.list
-ruleset=Microsoft,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Microsoft.list
+ruleset=OneDrive,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OneDrive/OneDrive.list
+ruleset=Microsoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Microsoft/Microsoft.list
 ;YouTube
-ruleset=YouTube,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/YouTube.list
+ruleset=YouTube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTube/YouTube.list
 ;Google
 ruleset=Google,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Google.list
 ;Telegram
-ruleset=Telegram,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Telegram.list
+ruleset=Telegram,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
 ;Linkedin
 ruleset=Linkedin,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/LinkedIn/LinkedIn.list
 ;DIRECT
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Direct.list
+ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Direct/Direct.list
 ;China
+ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list
+ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax_Domain.list
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/China.list
-ruleset=DIRECT,https://raw.githubusercontent.com/GoodHolidays/ConnersHua/master/Quantumult/X/Filter/China.list
-ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ChinaIP.list
-ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ChinaMedia.list
-ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 ;Global Media
 ruleset=Global Media,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/GlobalMedia.list
 ;WhatsApp
