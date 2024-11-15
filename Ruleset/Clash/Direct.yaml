@@ -2,6 +2,9 @@ payload:
 # --> 不需要代理
   - DOMAIN-SUFFIX, api.o9o.nl
 
+# --> 解决Windows 手机连接 无法连接问题
+  - DOMAIN-SUFFIX, dcg.microsoft.com
+
 # --> IPTorrents不支持代理访问
   - DOMAIN-SUFFIX, iptorrents.com
 

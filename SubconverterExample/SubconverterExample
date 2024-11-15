@@ -2,6 +2,8 @@
 ;LocalDIRECT
 ruleset=DIRECT,./rules/LocalAreaNetwork.list
 ;ruleset=DIRECT,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list
+;DIRECT
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Direct.list
 ;AdGuard
 ;; ios_rule_script 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 ruleset=AdGuard,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list
@@ -50,8 +52,6 @@ ruleset=Game,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/mast
 ;PT
 ruleset=Tracker,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Tracker.list
 ruleset=PT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/PT.list
-;DIRECT
-ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Direct.list
 ;China
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/China.list
 ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list
