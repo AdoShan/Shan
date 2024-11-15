@@ -26,6 +26,8 @@ payload:
   - DOMAIN-SUFFIX, flare.catlinks.co.uk
 # -->> EmbyPlus 纸片人
   - DOMAIN-SUFFIX, embyplus.org
+# -->> 天南小筑
+  - DOMAIN-SUFFIX, nanflix.net
 
 # -->> 转公费
 # --> Misakaf
