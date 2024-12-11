@@ -1,17 +1,18 @@
-;设置规则标志位
-;LocalDIRECT
+;;设置规则标志位
+;;LocalDIRECT
 ruleset=DIRECT,./rules/LocalAreaNetwork.list
 ;ruleset=DIRECT,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list
-;DIRECT
+;;DIRECT
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Direct.list
-;AdGuard
-;; ios_rule_script 分流规则中含有URL-REGEX类型，建议搭配MITM使用
+;;AdGuard
+ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/AdGuard.list
+; ios_rule_script 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 ruleset=AdGuard,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list
 ruleset=AdGuard,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising_Domain.list
 ruleset=AdGuard,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingMiTV/AdvertisingMiTV.list
 ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ApplicationOfPurification.list
 ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/TVLuanchAD.list
-;CDN
+;;CDN
 ruleset=CDN,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/CDN.list
 ruleset=CDN,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Game/GameDownload/GameDownload.list
 ;ruleset=CDN,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Game/GameDownload/GameDownloadCN.list
@@ -27,21 +28,21 @@ ruleset=Microsoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script
 ;;Microsoft Edge
 ruleset=Microsoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/MicrosoftEdge/MicrosoftEdge.list
 ruleset=Microsoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Microsoft/Microsoft.list
-;Google
-;;YouTube
+;;Google
+;YouTube
 ruleset=YouTube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTube/YouTube.list
 ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Google/Google.list
-;Apple Service
+;;Apple Service
 ruleset=App Store,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AppStore/AppStore.list
 ruleset=Apple Service,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple.list
-;Telegram
+;;Telegram
 ruleset=Telegram,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Telegram/Telegram.list
-;Emby
+;;Emby
 ruleset=Emby Direct,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/EmbyDirect.list
 ruleset=Emby,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Emby.list
-;PayPal
+;;PayPal
 ruleset=PayPal,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PayPal/PayPal.list
-;Game
+;;Game
 ;ruleset=Xbox,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Xbox.list
 ruleset=Steam,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Steam/Steam.list
 ruleset=Ubisoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Ubisoft/Ubisoft.list
@@ -49,23 +50,25 @@ ruleset=EA,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master
 ruleset=EA,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Origin/Origin.list
 ruleset=Play Station,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PlayStation/PlayStation.list
 ruleset=Game,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Game/Game.list
-;PT
+;;PT
 ruleset=Tracker,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Tracker.list
 ruleset=PT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/PT.list
-;China
-ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/China.list
-ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list
-ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax_Domain.list
-;ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list ;已失效
-;Streaming Media
-; 需要搭配https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/GlobalMedia/GlobalMedia_MITM.plugin
-ruleset=Streaming Media,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GlobalMedia/GlobalMedia.list
+;;Global Social
 ;WhatsApp
 ruleset=Global Social,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Whatsapp/Whatsapp.list
 ;Line
 ruleset=Global Social,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Line/Line.list
 ;LinkedIn
 ruleset=Global Social,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/LinkedIn/LinkedIn.list
+;;China
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/China.list
+ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list
+ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax_Domain.list
+;ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list ;已失效
+;;Streaming Media
+; 需要搭配https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/GlobalMedia/GlobalMedia_MITM.plugin
+ruleset=Streaming Media,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GlobalMedia/GlobalMedia.list
+
 
 
 
