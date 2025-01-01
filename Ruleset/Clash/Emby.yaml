@@ -30,6 +30,13 @@ payload:
   - DOMAIN-SUFFIX, nanflix.net
 # -->> Levilde Luminia
   - DOMAIN-SUFFIX, eggtartemby.itsmyduty.top
+# -->> 星云Emby
+  - DOMAIN, emby.nebula-media.org
+  - DOMAIN-SUFFIX, nebula-media.org
+# -->> 西瓜Emby
+  - DOMAIN, 1024.name
+# -> 直连线路
+#  - DOMAIN, spare.1024.name
 
 # -->> 转公费
 # --> Misakaf
