@@ -17,6 +17,7 @@ payload:
 # -->> 修正知乎直播
 
 # -->> GeoIP China
+#  - GEOIP, CN
 
 # -->> AppRaven
   - DOMAIN-SUFFIX, appraven.net

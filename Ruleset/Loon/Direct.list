@@ -17,7 +17,7 @@ IP-CIDR, 182.254.116.0/24
 URL-REGEX, ^https?:\/\/api\.zhihu\.com\/drama\/
 
 # -->> GeoIP China
-GEOIP, CN
+#GEOIP, CN
 
 # -->> AppRaven
 DOMAIN-SUFFIX, appraven.net
