@@ -6,7 +6,8 @@ payload:
 #  - DOMAIN, cdn.jsdelivr.net
 
 # -->> GitHub
-  - DOMAIN, objects.githubusercontent.com
+  - DOMAIN-SUFFIX, githubusercontent.com
+  - DOMAIN-KEYWORD, github
 
 # -->> BiliBili视频播放
   - DOMAIN, upos-hz-mirrorakam.akamaized.net
@@ -85,8 +86,8 @@ payload:
 
 # -->> Epic
   - DOMAIN-KEYWORD, epicgames-download
-  - DOMAIN-KEYWORD, download.epicgames.com
-  - DOMAIN-KEYWORD, download2.epicgames.com
+  - DOMAIN, download.epicgames.com
+  - DOMAIN, download2.epicgames.com
 
 # -->> EA
   - DOMAIN-SUFFIX, cdn.ea.com
