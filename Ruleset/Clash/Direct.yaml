@@ -1,4 +1,7 @@
 payload:
+# -->> Bitz机场禁止使用22端口
+  - DEST-PORT, 22
+
 # --> 不需要代理
   - DOMAIN-SUFFIX, api.o9o.nl
 
