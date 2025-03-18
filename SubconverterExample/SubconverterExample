@@ -21,7 +21,8 @@ ruleset=CDN,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/C
 ruleset=YouTube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTube/YouTube.list
 ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Google/Google.list
 ;;OpenAI
-ruleset=Google,https://github.com/sve1r/Rules-For-Quantumult-X/blob/develop/Rules/Services/OpenAI.list
+;ruleset=Google,https://github.com/sve1r/Rules-For-Quantumult-X/raw/refs/heads/develop/Rules/Services/OpenAI.list
+ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OpenAI/OpenAI.list
 ;Microsoft
 ;;Xbox
 ruleset=Xbox,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Xbox/Xbox.list
