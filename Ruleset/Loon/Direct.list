@@ -1,8 +1,9 @@
 # -->> Bitz机场禁止使用22端口
-DEST-PORT, 22
+DST-PORT, 22
 
 # --> 不需要代理
-DOMAIN-SUFFIX, api.o9o.nl
+  - DOMAIN-SUFFIX, 19833.cc
+  - DOMAIN-SUFFIX, wanglol.xyz
 
 # --> 解决Windows 手机连接 无法连接问题
 DOMAIN-SUFFIX, dcg.microsoft.com

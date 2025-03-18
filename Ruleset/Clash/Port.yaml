@@ -1,5 +1,0 @@
-payload:
-  - SRC-PORT,42187
-  - DST-PORT,42187
-  - SRC-PORT,51413
-  - DST-PORT,51413
