@@ -3,6 +3,7 @@
 ruleset=DIRECT,./rules/LocalAreaNetwork.list
 ;ruleset=DIRECT,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list
 ;;DIRECT
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/First.list
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Direct.list
 ;;AdGuard
 ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/AdGuard.list
@@ -152,6 +153,7 @@ ruleset=Global,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loo
 ;SpeedTest
 ruleset=SpeedTest,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/SpeedTest.list
 ruleset=DIRECT,[]GEOIP,CN
+ruleset=Hong Kong,[]GEOIP,HK
 ruleset=Final,[]FINAL
 ;设置规则标志位
 
