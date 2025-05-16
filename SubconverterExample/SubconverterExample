@@ -55,6 +55,7 @@ ruleset=Streaming Media,https://raw.githubusercontent.com/blackmatrix7/ios_rule_
 ;;Game
 ;ruleset=Xbox,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Xbox.list
 ruleset=Steam,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Steam/Steam.list
+ruleset=Epic,https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/Loon/Epic/Epic.list
 ruleset=Ubisoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Ubisoft/Ubisoft.list
 ruleset=EA,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/EA/EA.list
 ruleset=EA,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Origin/Origin.list
@@ -181,8 +182,9 @@ custom_proxy_group=Streaming Media`select`[]Global`[]Auto`[]United States`[]Hong
 custom_proxy_group=OneDrive`select`[]Microsoft`[]DIRECT`[]United States`[]Hong Kong`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC|15)).)*$
 custom_proxy_group=PayPal`select`[]DIRECT`[]Global`[]United States`[]Hong Kong`(?=.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC|15)).)*$
 custom_proxy_group=Game`select`[]DIRECT`[]Auto`[]Global`[]United States`[]Hong Kong`.*
-custom_proxy_group=Xbox`select`[]Game`[]DIRECT`.*
 custom_proxy_group=Steam`select`[]Game`[]DIRECT`.*
+custom_proxy_group=Epic`select`[]Game`[]DIRECT`.*
+custom_proxy_group=Xbox`select`[]Game`[]DIRECT`.*
 custom_proxy_group=Ubisoft`select`[]Game`[]DIRECT`.*
 custom_proxy_group=EA`select`[]Game`[]DIRECT`.*
 custom_proxy_group=Play Station`select`[]Game`[]DIRECT`.*
