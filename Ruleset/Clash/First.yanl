@@ -7,6 +7,17 @@ payload:
   # - DOMAIN-SUFFIX, 19833.cc
   # - DOMAIN-SUFFIX, wanglol.xyz
 
+# --> FCM推送服务可直连
+  - DOMAIN, mtalk.google.com
+  - DOMAIN, alt1-mtalk.google.com
+  - DOMAIN, alt2-mtalk.google.com
+  - DOMAIN, alt3-mtalk.google.com
+  - DOMAIN, alt4-mtalk.google.com
+  - DOMAIN, alt5-mtalk.google.com
+  - DOMAIN, alt6-mtalk.google.com
+  - DOMAIN, alt7-mtalk.google.com
+  - DOMAIN, alt8-mtalk.google.com
+
 # --> 解决Windows 手机连接 无法连接问题
   - DOMAIN-SUFFIX, dcg.microsoft.com
 
