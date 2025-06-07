@@ -1,31 +1,21 @@
 payload:
-  - DOMAIN-SUFFIX, emby.x-yq.cn
-# --> PornEmby
-  - DOMAIN-SUFFIX, pornemby.club
-# --> 终点站
+# -->> 终点站
   - DOMAIN-SUFFIX, emby.wtf
-# --> 卡戎
+# -->> 卡戎
   - DOMAIN-SUFFIX, charontv.com
-# --> 卷毛鼠
-  - DOMAIN-SUFFIX, jmsooo.com
-# --> Misty
+# -->> Misty
   - DOMAIN-SUFFIX, misty.cx
-# --> CC
+# -->> CC
   - DOMAIN-SUFFIX, cc.coemn.com
-# --> Peach
-  - DOMAIN-SUFFIX, peachmv.me
-# --> TreeDiagram
-  - DOMAIN-SUFFIX, 789.123456.al
-# -->> GuGu Media
-  - DOMAIN-SUFFIX, gugu.media
-# --> SYN Streaming
+# -->> Peach
+  - DOMAIN-SUFFIX, peachmv.link
+# -->> SYN Streaming
+  - DOMAIN, stream.ntrrr.top
   - DOMAIN-SUFFIX, ntrrr.top
-# --> Temby
-  - DOMAIN-SUFFIX, 285286.xyz
-# -->> StarCat
-  - DOMAIN-SUFFIX, flare.catlinks.co.uk
 # -->> EmbyPlus 纸片人
   - DOMAIN-SUFFIX, embyplus.org
+# -->> 牢大科蜜直升机餐厅
+  - DOMAIN-SUFFIX, mius.uk
 # -->> 天南小筑
   - DOMAIN-SUFFIX, nanflix.net
 # -->> Levilde Luminia
@@ -33,10 +23,19 @@ payload:
 # -->> 星云Emby
   - DOMAIN, emby.nebula-media.org
   - DOMAIN-SUFFIX, nebula-media.org
-# -->> 西瓜Emby
-  - DOMAIN, 1024.name
-# -> 直连线路
-#  - DOMAIN, spare.1024.name
+# -->> 冰镇西瓜
+  - DOMAIN-SUFFIX, chilledmelon.com
+# -->> Lyrebird
+  - DOMAIN-SUFFIX, lyrebirdemby.com
+# -->> 惊蛰
+  - DOMAIN, emby.jingzhe.pro
+# -->> iKun音乐服
+  - DOMAIN, music.xxxh.de
+# -->> MeFun
+  - DOMAIN-SUFFIX, mefun.org
+# --> Future Echo音乐服
+  - DOMAIN, music.mefun.org
+
 
 # -->> 转公费
 # --> Misakaf
@@ -45,6 +44,12 @@ payload:
   - DOMAIN-SUFFIX, embytv.cf
 # --> Dolphin Emby
   - DOMAIN-SUFFIX, public.emby.ws
+# --> GuGu Media
+  - DOMAIN-SUFFIX, gugu.media
+# --> StarCat
+  - DOMAIN-SUFFIX, flare.catlinks.co.uk
+# --> Temby
+  - DOMAIN-SUFFIX, 285286.xyz
 
 # -->> 已关闭
 # --> 品云
@@ -71,6 +76,12 @@ payload:
   - DOMAIN-SUFFIX, emby.kim
 # -->> 牢大科蜜直升机餐厅
   - DOMAIN-SUFFIX, mius.uk
+# --> 卷毛鼠
+  - DOMAIN-SUFFIX, jmsooo.com
+# --> PornEmby
+  - DOMAIN-SUFFIX, pornemby.club
+# -->> TreeDiagram
+  - DOMAIN-SUFFIX, 789.123456.al
 
 # -->> 兜底
   - DOMAIN-KEYWORD, emby
