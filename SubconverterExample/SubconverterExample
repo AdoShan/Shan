@@ -48,9 +48,8 @@ ruleset=PayPal,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/ma
 ;;PT
 ruleset=Tracker,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Tracker.list
 ruleset=PT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/PT.list
-;;Bank
-;;HSBC HK
-ruleset=Hong Kong,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/HSBCHK.list
+;;Bank Of Hong Kong
+ruleset=Hong Kong,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/BankHK.list
 ;;Emby
 ruleset=Emby Direct,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/EmbyDirect.list
 ruleset=Emby,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Emby.list
