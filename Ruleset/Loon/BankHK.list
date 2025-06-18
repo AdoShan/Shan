@@ -1,9 +1,22 @@
+# -->> Bank Of China Hong Kong
+DOMAIN-SUFFIX, hochk.com
+# 不知道干啥用
+DOMAIN, bochk02.etnet.com.hk
+DOMAIN, mds1a.trkd-hs.com
+  
+# -->> HSBC Bank Hong Kong
 DOMAIN-SUFFIX, hsbc.com.hk
 DOMAIN-SUFFIX, liveperson.net
 DOMAIN-SUFFIX, lpsnmedia.net
 DOMAIN-SUFFIX, tealiumiq.com
+#LexisNexis ThreatMetrix防欺诈服务
+DOMAIN-SUFFIX, online-metrix.net
+# 不知道干啥用
 DOMAIN, mobile.eum-appdynamics.com
 DOMAIN, cdnbc-wup.hsbc.com.hk
 DOMAIN, tags.tiqcdn.com
-# 不知道干啥用
 DOMAIN-SUFFIX, hk.cloud1.vv1865.com
+
+# -->> ZA Bank
+DOMAIN-SUFFIX, za.group
+DOMAIN-SUFFIX, zajourney.com

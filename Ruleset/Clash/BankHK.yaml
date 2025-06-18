@@ -10,11 +10,13 @@ payload:
   - DOMAIN-SUFFIX, liveperson.net
   - DOMAIN-SUFFIX, lpsnmedia.net
   - DOMAIN-SUFFIX, tealiumiq.com
+  #LexisNexis ThreatMetrix防欺诈服务
+  - DOMAIN-SUFFIX, online-metrix.net
+    # 不知道干啥用
   - DOMAIN, mobile.eum-appdynamics.com
   - DOMAIN, cdnbc-wup.hsbc.com.hk
   - DOMAIN, tags.tiqcdn.com
-    # 不知道干啥用
   - DOMAIN-SUFFIX, hk.cloud1.vv1865.com
-  # -->> ZA Bank
+# -->> ZA Bank
   - DOMAIN-SUFFIX, za.group
   - DOMAIN-SUFFIX, zajourney.com
