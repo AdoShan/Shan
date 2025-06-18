@@ -10,7 +10,7 @@ payload:
   - DOMAIN-SUFFIX, liveperson.net
   - DOMAIN-SUFFIX, lpsnmedia.net
   - DOMAIN-SUFFIX, tealiumiq.com
-  #LexisNexis ThreatMetrix防欺诈服务
+    #LexisNexis ThreatMetrix防欺诈服务
   - DOMAIN-SUFFIX, online-metrix.net
     # 不知道干啥用
   - DOMAIN, mobile.eum-appdynamics.com
