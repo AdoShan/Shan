@@ -7,10 +7,11 @@ payload:
   
 # -->> HSBC Bank Hong Kong
   - DOMAIN-SUFFIX, hsbc.com.hk
+    # 提供聊天支持和信息服务
   - DOMAIN-SUFFIX, liveperson.net
   - DOMAIN-SUFFIX, lpsnmedia.net
   - DOMAIN-SUFFIX, tealiumiq.com
-    #LexisNexis ThreatMetrix防欺诈服务
+    #LexisNexis ThreatMetrix防欺诈服务(识别您的设备上是否安装了任何恶意软件或有风险的软件来保护您免受欺诈 https://www.us.hsbc.com/credit-cards/fraud-alert/)
   - DOMAIN-SUFFIX, online-metrix.net
     # 不知道干啥用
   - DOMAIN, mobile.eum-appdynamics.com
