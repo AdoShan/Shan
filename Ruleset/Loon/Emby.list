@@ -36,6 +36,10 @@ DOMAIN, music.xxxh.de
 DOMAIN-SUFFIX, mefun.org
 # --> Future Echo音乐服
 DOMAIN, music.mefun.org
+# -->> PaoluEmby
+DOMAIN, cctv.paoluma.de
+# --> ZoxFree
+DOMAIN, zoxfree.3767483.xyz
 
 
 # -->> 转公费

@@ -35,6 +35,10 @@ payload:
   - DOMAIN-SUFFIX, mefun.org
 # --> Future Echo音乐服
   - DOMAIN, music.mefun.org
+# --> Paolu
+  - DOMAIN, cctv.paoluma.de
+# --> ZoxFree
+  - DOMAIN, zoxfree.3767483.xyz
 
 
 # -->> 转公费
