@@ -70,14 +70,14 @@ ruleset=Final,[]FINAL
 
 ;设置分组标志位
 custom_proxy_group=Global`select`[]Auto`[]United States`[]Hong Kong`[]DIRECT`.*
-custom_proxy_group=Auto`url-test`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC)).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Auto`url-test`.*`http://www.gstatic.com/generate_204`300,,100
 ;custom_proxy_group=Auto`url-test`(?=.*(\d+(\.\d+)?[xX]|[01](\.\d+)?(倍)?[xX]?|[Ff]ree|免费))^((?!(Game|游戏|IPLC|15)).)*$`http://www.gstatic.com/generate_204`300,,100
 custom_proxy_group=Final`select`[]Global`[]Auto`[]United States`[]Hong Kong`[]DIRECT`.*
 custom_proxy_group=CDN`select`[]Auto`[]Global`[]United States`[]Hong Kong`[]DIRECT`.*
 ;custom_proxy_group=Google`url-test`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC)).)*$`http://www.gstatic.com/generate_204`300,,100
-custom_proxy_group=Google`select`[]Global`[]United States`[]Hong Kong`[]Auto`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC)).)*$
-custom_proxy_group=Microsoft`select`[]Auto`[]Global`[]United States`[]Hong Kong`[]DIRECT`(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
-custom_proxy_group=Apple Service`select`[]DIRECT`[]Auto`[]Global`[]United States`[]Hong Kong`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC|15)).)*$
+custom_proxy_group=Google`select`[]Global`[]United States`[]Hong Kong`[]Auto`.*
+custom_proxy_group=Microsoft`select`[]Auto`[]Global`[]United States`[]Hong Kong`[]DIRECT`.*
+custom_proxy_group=Apple Service`select`[]DIRECT`[]Auto`[]Global`[]United States`[]Hong Kong`.*
 custom_proxy_group=Global Social`select`[]Global`[]Auto`[]United States`[]Hong Kong`.*
 custom_proxy_group=AdGuard`select`[]REJECT`[]DIRECT`[]Auto`[]Global`[]United States`[]Hong Kong
 custom_proxy_group=United States`url-test`(?=.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))`http://www.gstatic.com/generate_204`300,,100
