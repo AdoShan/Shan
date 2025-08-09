@@ -23,7 +23,7 @@ ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/ma
 ;;Google
 ;YouTube
 ruleset=Google,https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/Loon/Gemini/Gemini.list
-ruleset=YouTube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTube/YouTube.list
+ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTube/YouTube.list
 ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Chromecast/Chromecast.list
 ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Google/Google.list
 ;;OpenAI
