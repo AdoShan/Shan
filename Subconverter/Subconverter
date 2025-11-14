@@ -4,6 +4,7 @@ ruleset=DIRECT,./rules/LocalAreaNetwork.list
 ;ruleset=DIRECT,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list
 ;;DIRECT
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/First.list
+ruleset=OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OpenAI/OpenAI.list
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Direct.list
 ;;AdGuard
 ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/AdGuard.list
@@ -28,7 +29,7 @@ ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/ma
 ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Google/Google.list
 ;;OpenAI
 ;ruleset=Google,https://github.com/sve1r/Rules-For-Quantumult-X/raw/refs/heads/develop/Rules/Services/OpenAI.list
-ruleset=OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OpenAI/OpenAI.list
+; ruleset=OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OpenAI/OpenAI.list
 ;Microsoft
 ;;Xbox
 ruleset=Xbox,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Xbox/Xbox.list
