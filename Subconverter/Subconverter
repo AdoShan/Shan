@@ -102,6 +102,7 @@ ruleset=SpeedTest,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/
 ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Direct/Direct.list
 ruleset=DIRECT,[]GEOIP,CN
 ruleset=Hong Kong,[]GEOIP,HK
+ruleset=Russia,[]GEOIP,RU
 ruleset=Final,[]FINAL
 ;设置规则标志位
 
@@ -143,6 +144,7 @@ custom_proxy_group=United States`url-test`(?=.*(美|波特兰|达拉斯|俄勒�
 custom_proxy_group=Hong Kong`url-test`(?=.*(港|HK|Hong Kong))`http://www.gstatic.com/generate_204`300,,100
 custom_proxy_group=Singapore`url-test`(?=.*(新加坡|坡|狮城|SG|Singapore))`http://www.gstatic.com/generate_204`300,,100
 custom_proxy_group=India`url-test`(?=.*(印度|India|IN))`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Russia`url-test`(?=.*(俄罗斯|Russia|RU))`http://www.gstatic.com/generate_204`300,,100
 ;设置分组标志位
 
 enable_rule_generator=true
