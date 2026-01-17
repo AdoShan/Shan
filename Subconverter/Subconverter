@@ -95,8 +95,10 @@ ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/ma
 ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaASN/ChinaASN.list
 ;ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list ;已失效
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ChinaIP.list
-;Global
+;;Global
 ruleset=Global,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Global.list
+;PikPak
+ruleset=Global,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PikPak/PikPak.list
 ;SpeedTest
 ruleset=SpeedTest,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/SpeedTest.list
 ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Direct/Direct.list
