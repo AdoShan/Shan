@@ -3,8 +3,9 @@ payload:
   - DOMAIN-SUFFIX, emby.wtf
 # -->> 卡戎
   - DOMAIN-SUFFIX, charontv.com
-# -->> Misty
-  - DOMAIN-SUFFIX, misty.cx
+# —>> 卷毛鼠
+  - DOMAIN-SUFFIX, jmsooo.com
+  - DOMAIN-SUFFIX, cr18.eu.org
 # -->> CC
   - DOMAIN-SUFFIX, cc.coemn.com
 # -->> Peach
@@ -88,6 +89,8 @@ payload:
   - DOMAIN-SUFFIX, pornemby.club
 # -->> TreeDiagram
   - DOMAIN-SUFFIX, 789.123456.al
+# -->> Misty
+  - DOMAIN-SUFFIX, misty.cx
 
 # -->> 兜底
   - DOMAIN-KEYWORD, emby
