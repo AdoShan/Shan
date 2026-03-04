@@ -25,7 +25,7 @@ ruleset=Global Media,https://raw.githubusercontent.com/AdoShan/Shan/master/Rules
 ;Global
 ruleset=Global,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Global.list
 ;DIRECT
-ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Direct.list
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/DirectIPs.list
 ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Direct/Direct.list
 ;China
 ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list
