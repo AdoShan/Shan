@@ -1,6 +1,8 @@
 # App Store
 # Store content such as apps, books, and music
 DOMAIN-SUFFIX, apps.apple.com
+##  App Store Download API
+#DOMAIN, downloaddispatch.itunes.apple.com
 DOMAIN-SUFFIX, itunes.apple.com
 DOMAIN-SUFFIX, itunes-apple.com.akadns.net
 DOMAIN-SUFFIX, mzstatic.com
