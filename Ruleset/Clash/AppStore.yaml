@@ -2,7 +2,8 @@ payload:
 # App Store
 # Store content such as apps, books, and music
   - DOMAIN-SUFFIX, apps.apple.com
-  # App Store Download API
+  # App Store Download API 
+  # iOS 跨区重新下载 App 可能须使用对应区域 IP，具体现象为下载失败，提示“Unable to Install XXX; This app cloud not be installed.”，但使用对应区域 IP 后可正常下载。
   # - DOMAIN-SUFFIX, downloaddispatch.itunes.apple.com
   - DOMAIN-SUFFIX, itunes.apple.com
   - DOMAIN-SUFFIX, itunes-apple.com.akadns.net
