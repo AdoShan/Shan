@@ -1,0 +1,33 @@
+# -->> 来源于AI
+# -> Google Pixel
+DOMAIN, android.clients.google.com
+DOMAIN, android-cdn-downloads.google.com
+# -> MIUI / HyperOS
+DOMAIN, update.miui.com
+DOMAIN, bigota.d.miui.com
+# -> HarmonyOS / EMUI
+DOMAIN, update.huawei.com
+# -> Samsung
+DOMAIN, update.samsungmobile.com
+DOMAIN, ota-cdn.samsung.com
+# -> ColorOS / OxygenOS
+DOMAIN, update.oppo.com
+DOMAIN, update.oppomobile.com
+DOMAIN, software-cdn.oneplus.com
+DOMAIN, download.oneplus.com
+# -> OriginOS / FuntouchOS
+DOMAIN, update.vivo.com.cn
+ # 内容分发
+DOMAIN, bss.vivo.com
+# -> realme
+DOMAIN, update.realmebbs.com
+# -> Flyme
+DOMAIN, update.flyme.cn
+# -> Sony
+DOMAIN, update.sony.com
+DOMAIN, sonymobile.com
+DOMAIN, productinformation.sony.com
+# -> Motorola Mobility
+DOMAIN, motorola-global-portal.custhelp.com
+# -> Nothing
+DOMAIN, update.nothing.tech

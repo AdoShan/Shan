@@ -1,4 +1,5 @@
 payload:
+  # -> iOS
   - DOMAIN, gdmf.apple.com
   - DOMAIN, gdmf.apple.com.akadns.net
   - DOMAIN, mesu.apple.com
@@ -7,3 +8,8 @@ payload:
   - DOMAIN, mesu.g.aaplimg.com
   - DOMAIN, appldnld.apple.com
   - DOMAIN, appldnld.apple.com.akadns.net
+  # -> macOS
+  - DOMAIN, swquery.apple.com
+  - DOMAIN, swscan.apple.com
+  - DOMAIN, swcdn.apple.com
+  - DOMAIN, updates-http.cdn-apple.com
