@@ -15,13 +15,11 @@ DOMAIN, gateway.discord.gg
 #DOMAIN-SUFFIX, cdn.discordapp.com
 #DOMAIN-KEYWORD,discord
 
-# —->> Airport
-DOMAIN-SUFFIX, wangzi.uk
-DOMAIN-SUFFIX, git.io
-DOMAIN-SUFFIX, freedog.me
-DOMAIN-SUFFIX, freedog.buzz
+# -->> AI
+DOMAIN-SUFFIX, api.mistral.ai
 
 # -->> Other
+DOMAIN-SUFFIX, git.io
 DOMAIN-SUFFIX, appsir.shop
 # -->> Freenom
 DOMAIN-SUFFIX, freenom.com

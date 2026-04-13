@@ -32,7 +32,7 @@ ruleset=YouTube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/m
 ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Chromecast/Chromecast.list
 ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Google/Google.list
 ;;OpenAI
-;ruleset=Google,https://github.com/sve1r/Rules-For-Quantumult-X/raw/refs/heads/develop/Rules/Services/OpenAI.list
+;ruleset=OpenAI,https://github.com/sve1r/Rules-For-Quantumult-X/raw/refs/heads/develop/Rules/Services/OpenAI.list
 ; ruleset=OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OpenAI/OpenAI.list
 ;Microsoft
 ;;Xbox
