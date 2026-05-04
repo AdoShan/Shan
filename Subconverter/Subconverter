@@ -90,6 +90,10 @@ ruleset=Global Social,https://raw.githubusercontent.com/blackmatrix7/ios_rule_sc
 ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GitBook/GitBook.list
 ;;ApkPure
 ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apkpure/Apkpure.list
+;;XiaoHongShu
+ruleset=XiaoHongShu,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/XiaoHongShu/XiaoHongShu.list
+;;DouYin
+ruleset=DouYin,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/DouYin/DouYin.list
 ;;China
 ruleset=DIRECT,https://raw.githubusercontent.com/GoodHolidays/ConnersHua/master/Quantumult/X/Filter/China.list
 ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list
@@ -144,6 +148,8 @@ custom_proxy_group=Xbox`select`[]Microsoft`[]Game`[]United States`[]Hong Kong`[]
 custom_proxy_group=Ubisoft`select`[]United States`[]Hong Kong`[]Game`[]DIRECT`.*
 custom_proxy_group=EA`select`[]Game`[]United States`[]Hong Kong`[]DIRECT`.*
 custom_proxy_group=Play Station`select`[]DIRECT`[]Game`[]United States`[]Hong Kong`.*
+custom_proxy_group=XiaoHongShu,select,`[]DIRECT.*
+custom_proxy_group=DouYin,select,`[]DIRECT.*
 custom_proxy_group=System OTA`select`[]REJECT`[]DIRECT
 custom_proxy_group=Tracker`select`[]DIRECT`[]PT`[]Auto`[]Global
 custom_proxy_group=SpeedTest`select`[]DIRECT`.*
