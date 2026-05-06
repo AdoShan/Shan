@@ -11,6 +11,9 @@ DOMAIN-KEYWORD, github
 # -->> BiliBili视频播放
 DOMAIN, upos-hz-mirrorakam.akamaized.net
 
+# -->> Samsung App Store
+#DOMAIN, cdnet-dn.galaxyappstore.com
+
 # -->> Apple_CDN
 # --> Apple Music
 #DOMAIN, aod.itunes.apple.com
