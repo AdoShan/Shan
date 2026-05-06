@@ -9,7 +9,7 @@ ruleset=System OTA,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset
 ;;DIRECT
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/First.list
 ;;XiaoHongShu
-ruleset=XiaoHongShu,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/XiaoHongShu/XiaoHongShu.list
+ruleset=XiaoHongShu,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/XiaoHongShu/XiaoHongShu.list 
 ;;DouYin
 ruleset=DouYin,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/DouYin/DouYin.list
 ;;OpenAI
@@ -51,6 +51,8 @@ ruleset=Microsoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script
 ;;OneDrive
 ruleset=OneDrive,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OneDrive/OneDrive.list
 ruleset=Microsoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Microsoft/Microsoft.list
+;;Samsung App Store
+;ruleset=App Store,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/SamsungAppStore.list
 ;;Apple Service
 ruleset=App Store,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AppStore/AppStore.list
 ruleset=Apple Service,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple.list

@@ -1,0 +1,11 @@
+# NAME: Samsung App Store
+# AUTHOR: AdoShan
+# REPO: https://github.com/AdoShan/Shan
+# UPDATED: 2026-05-06 19:51:50
+# DOMAIN-SUFFIX: 1
+# DOMAIN: 2
+# TOTAL: 3
+payload:
+  - DOMAIN-SUFFIX, galaxyappstore.com
+  - DOMAIN, pp.myapp.com
+  - DOMAIN, sspapi-prd.samsungrs.com
