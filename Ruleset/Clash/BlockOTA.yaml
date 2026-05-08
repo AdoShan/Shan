@@ -11,5 +11,6 @@ payload:
   # -> macOS
   - DOMAIN, swquery.apple.com
   - DOMAIN, swscan.apple.com
-  - DOMAIN, swcdn.apple.com
+  # 影响系统组件安装升级
+  # - DOMAIN, swcdn.apple.com
   - DOMAIN, updates-http.cdn-apple.com
