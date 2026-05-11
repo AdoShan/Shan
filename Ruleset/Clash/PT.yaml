@@ -5,7 +5,7 @@ payload:
 # -> 学校
   - DOMAIN-SUFFIX, pt.btschool.club
 # -> 海胆
-  - DOMAIN-SUFFIX, haidan.video
+  - DOMAIN-SUFFIX, haidan.cc
 # -> 高清粉/红豆饭
   - DOMAIN-SUFFIX, hdfans.org
 # -> 高清时间
@@ -20,8 +20,8 @@ payload:
   - DOMAIN-SUFFIX, hdhome.org
 # -> 柠檬
 #  - DOMAIN-SUFFIX, lemonhd.org
-# -> 白兔俱乐部
-  - DOMAIN-SUFFIX, club.hares.top
+# # -> 白兔俱乐部
+#   - DOMAIN-SUFFIX, club.hares.top
 # -> HDAtmos
   - DOMAIN-SUFFIX, hdatmos.club
 # -> 馒头
@@ -65,7 +65,7 @@ payload:
 # -> ExoticaZ
   - DOMAIN-SUFFIX, exoticaz.to
 # -> HHanClub
-  - DOMAIN-SUFFIX, hhanclub.top
+  - DOMAIN-SUFFIX, hhanclub.net
 # -> PTer猫站
   - DOMAIN-SUFFIX, pterclub.com
 # -> 朋友
