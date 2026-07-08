@@ -41,6 +41,12 @@ DOMAIN, cctv.paoluma.de
 DOMAIN, zoxfree.3767483.xyz
 # --> PlayZ
 DOMAIN, playz.mjji.de
+# --> HG
+DOMAIN-SUFFIX, 111660.xyz
+# --> JMS
+DOMAIN-SUFFIX, cr18.eu.org
+# --> Unbound Emby
+DOMAIN-SUFFIX, faemby.vip
 
 
 # -->> 转公费

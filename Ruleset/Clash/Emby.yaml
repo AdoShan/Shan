@@ -57,6 +57,12 @@ payload:
   - DOMAIN-SUFFIX, flare.catlinks.co.uk
 # --> Temby
   - DOMAIN-SUFFIX, 285286.xyz
+# --> HG
+  - DOMAIN-SUFFIX, 111660.xyz
+# --> JMS
+  - DOMAIN-SUFFIX, cr18.eu.org
+# --> Unbound Emby
+  - DOMAIN-SUFFIX, faemby.vip
 
 # -->> 已关闭
 # --> 品云
