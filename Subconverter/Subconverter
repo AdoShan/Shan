@@ -123,7 +123,7 @@ ruleset=Final,[]FINAL
 
 ;设置分组标志位
 custom_proxy_group=Global`select`[]United States`[]Hong Kong`[]Auto`[]DIRECT`.*
-custom_proxy_group=Auto`url-test`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|下载|[Dd]own)).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Auto`url-test`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(下载|免费|流?媒体|[Ff]ree|[Mm]edia|[Dd]own|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
 ;custom_proxy_group=Auto`url-test`(?=.*(港|HK|Hong Kong|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC|IEPL|CN2|GIA)).)*$`http://www.gstatic.com/generate_204`300,,100
 ;custom_proxy_group=Auto`url-test`(?=.*(\d+(\.\d+)?[xX]|[01](\.\d+)?(倍)?[xX]?|[Ff]ree|免费))^((?!(Game|游戏|IPLC|IEPL|CN2|GIA)).)*$`http://www.gstatic.com/generate_204`300,,100
 custom_proxy_group=Final`select`[]United States`[]Hong Kong`[]United States High-Multiplier`[]Hong Kong High-Multiplier`[]Global`[]Auto`[]DIRECT`.*
@@ -159,12 +159,12 @@ custom_proxy_group=Tracker`select`[]DIRECT`[]PT`[]Auto`[]Global
 custom_proxy_group=SpeedTest`select`[]DIRECT`.*
 custom_proxy_group=AdGuard`select`[]REJECT`[]DIRECT`[]Auto`[]Global`[]United States`[]Hong Kong
 custom_proxy_group=Traffic Saver`url-test`^.*(?i:(下载|免费|流?媒体|free|media|down|0\.\d+[xX倍]?|[xX]-?0\.\d+|-?0\.\d+[xX倍])).*$`http://www.gstatic.com/generate_204`300,,100
-custom_proxy_group=United States`url-test`(?=.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(下载|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
-custom_proxy_group=Hong Kong`url-test`(?=.*(港|HK|Hong Kong))^((?!(下载|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
-custom_proxy_group=Singapore`url-test`(?=.*(新加坡|坡|狮城|SG|Singapore))^((?!(下载|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
-custom_proxy_group=India`url-test`(?=.*(印度|India|IN))^((?!(下载|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
-custom_proxy_group=Russia`url-test`(?=.*(俄罗斯|Russia|RU))^((?!(下载|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
-custom_proxy_group=Japan`url-test`(?=.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan))^((?!(下载|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=United States`url-test`(?=.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(下载|免费|流?媒体|[Ff]ree|[Mm]edia|[Dd]own|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Hong Kong`url-test`(?=.*(港|HK|Hong Kong))^((?!(下载|免费|流?媒体|[Ff]ree|[Mm]edia|[Dd]own|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Singapore`url-test`(?=.*(新加坡|坡|狮城|SG|Singapore))^((?!(下载|免费|流?媒体|[Ff]ree|[Mm]edia|[Dd]own|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=India`url-test`(?=.*(印度|India|IN))^((?!(下载|免费|流?媒体|[Ff]ree|[Mm]edia|[Dd]own|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Russia`url-test`(?=.*(俄罗斯|Russia|RU))^((?!(下载|免费|流?媒体|[Ff]ree|[Mm]edia|[Dd]own|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Japan`url-test`(?=.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan))^((?!(下载|免费|流?媒体|[Ff]ree|[Mm]edia|[Dd]own|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
 custom_proxy_group=United States High-Multiplier`url-test`(?=.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))(?=.*(?:[xX][2-9]|[xX][1-9]\d+|(?<![\d.])[2-9](?:\.\d+)?|(?<![\d.])[1-9]\d+(?:\.\d+)?)[xX倍]?)`http://www.gstatic.com/generate_204`300,,100
 custom_proxy_group=Hong Kong High-Multiplier`url-test`(?=.*(港|HK|Hong Kong))(?=.*(?:[xX][2-9]|[xX][1-9]\d+|(?<![\d.])[2-9](?:\.\d+)?|(?<![\d.])[1-9]\d+(?:\.\d+)?)[xX倍]?)`http://www.gstatic.com/generate_204`300,,100
 custom_proxy_group=Singapore High-Multiplier`url-test`(?=.*(新加坡|坡|狮城|SG|Singapore))(?=.*(?:[xX][2-9]|[xX][1-9]\d+|(?<![\d.])[2-9](?:\.\d+)?|(?<![\d.])[1-9]\d+(?:\.\d+)?)[xX倍]?)`http://www.gstatic.com/generate_204`300,,100
