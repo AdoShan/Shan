@@ -1,0 +1,25 @@
+# NAME: Tailscale
+# AUTHOR: AdoShan
+# REPO: https://github.com/AdoShan/Shan
+# UPDATED: 2026-08-18 17:16:44
+# IP-CIDR: 1
+# DOMAIN-SUFFIX: 2
+# PROCESS-NAME: 6
+# TOTAL: 9
+payload:
+  # IP 与 域名匹配
+  - IP-CIDR, 100.64.0.0/10, no-resolve
+  - DOMAIN-SUFFIX, ts.net
+  # - DOMAIN-SUFFIX, tailscale.com
+  # - DOMAIN-KEYWORD, tailscale
+
+  # 多平台进程匹配 (PROCESS-NAME)
+  - PROCESS-NAME, tailscale          # Linux / macOS CLI
+  - PROCESS-NAME, tailscaled         # Linux / macOS 核心守护进程
+  - PROCESS-NAME, tailscale.exe      # Windows 客户端 / 守护进程
+  - PROCESS-NAME, tailscaled.exe     # Windows 服务端进程
+  - PROCESS-NAME, Tailscale          # macOS GUI App 名称 (区分大小写)
+  - PROCESS-NAME, Tailscale.app      # macOS App 包路径匹配
+
+  # Android 平台 (Android 依赖 PROCESS-NAME-PACKAGE / Android App 包名)
+  - PROCESS-NAME, com.tailscale.ipn

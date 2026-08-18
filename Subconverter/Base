@@ -3,6 +3,7 @@
 ruleset=DIRECT,./rules/LocalAreaNetwork.list
 ;ruleset=DIRECT,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list
 ;;DIRECT
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Tailscale.list
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/First.list
 ruleset=System OTA,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/SystemOTA.list
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/DirectIPs.list

@@ -6061,7 +6061,3 @@ IP-CIDR6, ::1/128, no-resolve
 IP-CIDR6, fc00::/7, no-resolve
 IP-CIDR6, fe80::/10, no-resolve
 IP-CIDR6, fd00::/8, no-resolve
-
-IP-CIDR, 100.64.0.0/10, no-resolve
-DOMAIN-SUFFIX, ts.net
-PROCESS-NAME, tailscale

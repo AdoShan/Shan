@@ -1,0 +1,20 @@
+# Tailscale 分流规则集 (Loon Format)
+
+# 1. IP 与 域名匹配
+IP-CIDR, 100.64.0.0/10, no-resolve
+DOMAIN-SUFFIX, ts.net
+#DOMAIN-SUFFIX, tailscale.com
+#DOMAIN-KEYWORD, tailscale
+
+# 2. iOS / macOS App Bundle ID 匹配 (iOS & macOS 建议优先使用 PROCESS-NAME 包名)
+# 在 macOS 上，io.tailscale.ipn.macos（App Store 版/Standalone）和 io.tailscale.ipn.macsys（系统扩展版）能够非常精准地识别 Tailscale 流量
+# iOS 系统的沙盒机制限制了网络扩展获取进程名
+# 在 iOS 上，Loon 主要依靠 IP-CIDR, 100.64.0.0/10 和 DOMAIN-SUFFIX, ts.net 进行精准匹配；PROCESS-NAME, io.tailscale.ipn.ios 在 iOS 15+ 部分模式下可作为辅助补充
+PROCESS-NAME, io.tailscale.ipn.macos
+PROCESS-NAME, io.tailscale.ipn.macsys
+PROCESS-NAME, io.tailscale.ipn.ios
+
+# 3. macOS / Linux 进程名匹配
+PROCESS-NAME, Tailscale
+PROCESS-NAME, tailscale
+PROCESS-NAME, tailscaled
