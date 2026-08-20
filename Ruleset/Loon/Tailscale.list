@@ -14,7 +14,12 @@ PROCESS-NAME, io.tailscale.ipn.macos
 PROCESS-NAME, io.tailscale.ipn.macsys
 PROCESS-NAME, io.tailscale.ipn.ios
 
-# 3. macOS / Linux 进程名匹配
-PROCESS-NAME, Tailscale
-PROCESS-NAME, tailscale
-PROCESS-NAME, tailscaled
+# 3. macOS / Linux / Windows 进程名匹配
+PROCESS-NAME, Tailscale, DIRECT
+PROCESS-NAME, tailscale, DIRECT
+PROCESS-NAME, tailscaled, DIRECT
+PROCESS-NAME, tailscale.exe, DIRECT
+PROCESS-NAME, tailscaled.exe, DIRECT
+
+# 4. Android 包名匹配
+PROCESS-NAME, com.tailscale.ipn, DIRECT
