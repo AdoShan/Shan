@@ -15,11 +15,12 @@ PROCESS-NAME, io.tailscale.ipn.macsys
 PROCESS-NAME, io.tailscale.ipn.ios
 
 # 3. macOS / Linux / Windows 进程名匹配
-PROCESS-NAME, Tailscale, DIRECT
-PROCESS-NAME, tailscale, DIRECT
-PROCESS-NAME, tailscaled, DIRECT
-PROCESS-NAME, tailscale.exe, DIRECT
-PROCESS-NAME, tailscaled.exe, DIRECT
+PROCESS-NAME, Tailscale          # macOS GUI App 名称 (区分大小写)
+PROCESS-NAME, tailscale          # Linux / macOS CLI
+PROCESS-NAME, tailscaled         # Linux / macOS 核心守护进程
+PROCESS-NAME, tailscale.exe      # Windows 客户端 / 守护进程
+PROCESS-NAME, tailscaled.exe     # Windows 服务端进程
+PROCESS-NAME, Tailscale.app      # macOS App 包路径匹配
 
 # 4. Android 包名匹配
-PROCESS-NAME, com.tailscale.ipn, DIRECT
+PROCESS-NAME, com.tailscale.ipn
