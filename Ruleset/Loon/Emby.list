@@ -47,6 +47,9 @@ DOMAIN-SUFFIX, 111660.xyz
 DOMAIN-SUFFIX, cr18.eu.org
 # --> Unbound Emby
 DOMAIN-SUFFIX, faemby.vip
+# --> 乐蛙 Emby
+DOMAIN-SUFFIX, taotu.ink
+DOMAIN-SUFFIX, atrct.cn
 
 
 # -->> 转公费
