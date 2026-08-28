@@ -7,7 +7,7 @@ ruleset=DIRECT,./rules/LocalAreaNetwork.list
 ruleset=System OTA,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/BlockOTA.list
 ruleset=System OTA,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/SystemOTA.list
 ;;DIRECT
-;ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Tailscale.list
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Tailscale.list
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/First.list
 ;;XiaoHongShu
 ruleset=XiaoHongShu,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/XiaoHongShu/XiaoHongShu.list 
@@ -18,7 +18,7 @@ ruleset=OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/ma
 ;;CDN
 ruleset=CDN,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Game/GameDownload/GameDownload.list
 ruleset=CDN,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/CDN.list
-;ruleset=CDN,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Game/GameDownload/GameDownloadCN.list
+;ruleset=CDN,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Game/GameDownload/GameDownloadCN.list;已失效
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/DirectIPs.list
 ;;AdGuard
 ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/AdGuard.list
