@@ -16,6 +16,7 @@ ruleset=XiaoHongShu,https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 ruleset=DouYin,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/DouYin/DouYin.list
 ;;OpenAI
 ruleset=OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OpenAI/OpenAI.list
+ruleset=OpenAI,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/AIProxies.list
 ;;CDN
 ruleset=CDN,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Game/GameDownload/GameDownload.list
 ruleset=CDN,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/CDN.list
