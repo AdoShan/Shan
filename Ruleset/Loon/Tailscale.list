@@ -1,7 +1,8 @@
 # Tailscale 分流规则集 (Loon Format)
 
 # 1. IP 与 域名匹配
-IP-CIDR, 100.64.0.0/10, no-resolve
+IP-CIDR, 100.64.0.0/10, no-resolve            # Tailscale 内部设备IPv4网段
+IP-CIDR6, fd7a:115c:a1e0::/48, no-resolve     # Tailscale 内部设备IPv6网段
 DOMAIN-SUFFIX, ts.net
 #DOMAIN-SUFFIX, tailscale.com
 #DOMAIN-KEYWORD, tailscale
