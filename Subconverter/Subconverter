@@ -7,6 +7,7 @@ ruleset=DIRECT,./rules/LocalAreaNetwork.list
 ruleset=System OTA,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/BlockOTA.list
 ruleset=System OTA,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/SystemOTA.list
 ;;DIRECT
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/CloudflareTunnel.list
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Tailscale.list
 ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/First.list
 ;;XiaoHongShu

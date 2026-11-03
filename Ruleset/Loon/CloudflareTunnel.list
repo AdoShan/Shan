@@ -1,0 +1,4 @@
+# -->> Cloudflare Tunnel 域名及IP段 禁止代理
+DOMAIN-SUFFIX,argotunnel.com
+IP-CIDR,198.41.192.0/24,no-resolve
+IP-CIDR,198.41.200.0/24,no-resolve
