@@ -161,12 +161,12 @@ custom_proxy_group=Tracker`select`[]DIRECT`[]PT`[]Auto`[]Global
 custom_proxy_group=SpeedTest`select`[]DIRECT`.*
 custom_proxy_group=AdGuard`select`[]REJECT`[]DIRECT`[]Auto`[]Global`[]United States`[]Hong Kong
 ;custom_proxy_group=Traffic Saver`url-test`^.*(?i:(下载|免费|流?媒体|free|media|down|0\.\d+[xX倍]?|[xX]-?0\.\d+|-?0\.\d+[xX倍])).*$`http://www.gstatic.com/generate_204`300,,100
-custom_proxy_group=United States`url-test`(?=.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))`https://www.gstatic.com/generate_204`300,,100
-custom_proxy_group=Hong Kong`url-test`(?=.*(港|HK|Hong Kong))`https://www.gstatic.com/generate_204`300,,100
-custom_proxy_group=Singapore`url-test`(?=.*(新加坡|坡|狮城|SG|Singapore))`https://www.gstatic.com/generate_204`300,,100
-custom_proxy_group=India`url-test`(?=.*(印度|India|IN))`https://www.gstatic.com/generate_204`300,,100
-custom_proxy_group=Russia`url-test`(?=.*(俄罗斯|Russia|RU))`https://www.gstatic.com/generate_204`300,,100
-custom_proxy_group=Japan`url-test`(?=.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan))`https://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=United States`url-test`(?=.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Hong Kong`url-test`(?=.*(港|HK|Hong Kong))`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Singapore`url-test`(?=.*(新加坡|坡|狮城|SG|Singapore))`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=India`url-test`(?=.*(印度|India|IN))`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Russia`url-test`(?=.*(俄罗斯|Russia|RU))`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Japan`url-test`(?=.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan))`http://www.gstatic.com/generate_204`300,,100
 ;设置分组标志位
 
 enable_rule_generator=true
