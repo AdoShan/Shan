@@ -1,0 +1,180 @@
+;;设置规则标志位
+;;LocalDIRECT
+ruleset=DIRECT,./rules/LocalAreaNetwork.list
+;ruleset=DIRECT,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list
+;;System OTA
+;Apple System OTA
+ruleset=System OTA,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/BlockOTA.list
+ruleset=System OTA,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/SystemOTA.list
+;;DIRECT
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/CloudflareTunnel.list
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Tailscale.list
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/First.list
+;;XiaoHongShu
+ruleset=XiaoHongShu,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/XiaoHongShu/XiaoHongShu.list 
+;;DouYin
+ruleset=DouYin,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/DouYin/DouYin.list
+;;Personal Agent
+ruleset=Personal Agent,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OpenAI/OpenAI.list
+ruleset=Personal Agent,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/AIProxies.list
+;;CDN
+ruleset=CDN,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Game/GameDownload/GameDownload.list
+ruleset=CDN,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/CDN.list
+;ruleset=CDN,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Game/GameDownload/GameDownloadCN.list;已失效
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/DirectIPs.list
+;;AdGuard
+ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/AdGuard.list
+;ios_rule_script 分流规则中含有URL-REGEX类型，建议搭配MITM使用
+ruleset=AdGuard,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list
+ruleset=AdGuard,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising_Domain.list
+ruleset=AdGuard,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingMiTV/AdvertisingMiTV.list
+ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ApplicationOfPurification.list
+;ruleset=AdGuard,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/MiTVLuanchAD.list
+ruleset=AdGuard,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdobeActivation/AdobeActivation.list
+;; Tesla
+ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Tesla/Tesla.list
+;;Google
+;Gemini
+ruleset=Personal Agent,https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/Loon/Gemini/Gemini.list
+;YouTube
+ruleset=YouTube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTube/YouTube.list
+ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Chromecast/Chromecast.list
+ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Google/Google.list
+;;Personal Agent
+;ruleset=Personal Agent,https://github.com/sve1r/Rules-For-Quantumult-X/raw/refs/heads/develop/Rules/Services/OpenAI.list
+;ruleset=Personal Agent,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OpenAI/OpenAI.list
+;Microsoft
+;;Xbox
+ruleset=Xbox,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Xbox/Xbox.list
+;;Bing
+ruleset=Microsoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Bing/Bing.list
+;;Microsoft Edge
+ruleset=Microsoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/MicrosoftEdge/MicrosoftEdge.list
+;;Microsoft Copilot
+ruleset=Microsoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Copilot/Copilot.list
+;;OneDrive
+ruleset=OneDrive,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OneDrive/OneDrive.list
+ruleset=Microsoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Microsoft/Microsoft.list
+;;Samsung App Store
+;ruleset=App Store,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/SamsungAppStore.list
+;;Apple Service
+ruleset=App Store,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AppStore/AppStore.list
+ruleset=Apple Service,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple.list
+;;Telegram
+ruleset=Telegram,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Telegram/Telegram.list
+;;PayPal
+ruleset=PayPal,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PayPal/PayPal.list
+;;PT
+ruleset=Tracker,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Tracker.list
+ruleset=PT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/PT.list
+;;Bank Of Hong Kong
+ruleset=Hong Kong,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/BankHK.list
+;;Emby
+ruleset=Emby Direct,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/EmbyDirect.list
+ruleset=Emby,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Emby.list
+;;Streaming Media
+; 需要搭配https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/GlobalMedia/GlobalMedia_MITM.plugin
+ruleset=Streaming Media,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GlobalMedia/GlobalMedia.list
+;;Game
+;ruleset=Xbox,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Xbox.list
+ruleset=Steam,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Steam/Steam.list
+ruleset=Epic,https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/Loon/Epic/Epic.list
+ruleset=Ubisoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Ubisoft/Ubisoft.list
+ruleset=EA,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/EA/EA.list
+ruleset=EA,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Origin/Origin.list
+ruleset=Play Station,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PlayStation/PlayStation.list
+ruleset=Game,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Nintendo/Nintendo.list
+ruleset=Game,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Game/Game.list
+;;Global Social
+;WhatsApp
+ruleset=Global Social,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Whatsapp/Whatsapp.list
+;Line
+ruleset=Global Social,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Line/Line.list
+;LinkedIn
+ruleset=Global Social,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/LinkedIn/LinkedIn.list
+;Discord
+; ruleset=Global Social,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Discord.list
+ruleset=Global Social,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Discord/Discord.list
+;;Mega
+ruleset=Global Social,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Loon/MEGA/MEGA.list
+;;GitBook
+ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GitBook/GitBook.list
+;;ApkPure
+ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apkpure/Apkpure.list
+;;China
+ruleset=DIRECT,https://raw.githubusercontent.com/GoodHolidays/ConnersHua/master/Quantumult/X/Filter/China.list
+ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list
+ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax_Domain.list
+ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaIPs/ChinaIPs.list
+;可使用ChinaIPs.list替代
+ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaASN/ChinaASN.list
+;ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list ;已失效
+ruleset=DIRECT,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/ChinaIP.list
+;;Global
+ruleset=Global,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/Global.list
+;PikPak
+ruleset=Global,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PikPak/PikPak.list
+;SpeedTest
+ruleset=SpeedTest,https://raw.githubusercontent.com/AdoShan/Shan/master/Ruleset/Loon/SpeedTest.list
+ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Direct/Direct.list
+ruleset=DIRECT,[]GEOIP,CN
+ruleset=Hong Kong,[]GEOIP,HK
+ruleset=Russia,[]GEOIP,RU
+ruleset=Japan,[]GEOIP,JP
+ruleset=Final,[]FINAL
+;设置规则标志位
+
+
+;设置分组标志位
+custom_proxy_group=Global`select`[]United States`[]Hong Kong`[]Auto`[]DIRECT`.*
+custom_proxy_group=Auto`url-test`(?=.*(港|HK|Hong Kong|美(?!属)|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(下载|免费|流?媒体|[Ff]ree|[Mm]edia|[Dd]own|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
+;custom_proxy_group=Auto`url-test`(?=.*(港|HK|Hong Kong|美(?!属)|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC|IEPL|CN2|GIA)).)*$`http://www.gstatic.com/generate_204`300,,100
+;custom_proxy_group=Auto`url-test`(?=.*(\d+(\.\d+)?[xX]|[01](\.\d+)?(倍)?[xX]?|[Ff]ree|免费))^((?!(Game|游戏|IPLC|IEPL|CN2|GIA)).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Final`select`[]United States`[]Hong Kong`[]United States High Multiplier`[]Hong Kong High Multiplier`[]Global`[]Auto`[]DIRECT`.*
+custom_proxy_group=CDN`select`[]DIRECT`[]Traffic Saver`[]United States`[]Hong Kong`[]Global`[]Auto`.*
+;custom_proxy_group=Google`url-test`(?=.*(港|HK|Hong Kong|美(?!属)|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC|IEPL|CN2|GIA)).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Google`select`[]United States`[]Hong Kong`[]United States High Multiplier`[]Hong Kong High Multiplier`[]Global`[]Auto`(?=.*(港|HK|Hong Kong|美(?!属)|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^.*$
+custom_proxy_group=Microsoft`select`[]DIRECT`[]United States`[]Hong Kong`[]United States High Multiplier`[]Hong Kong High Multiplier`[]Global`[]Auto`(港|HK|Hong Kong|美(?!属)|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+custom_proxy_group=App Store`select`[]Apple Service`[]United States`[]Hong Kong`[]DIRECT`(港|HK|Hong Kong|美(?!属)|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+custom_proxy_group=Apple Service`select`[]DIRECT`[]United States`[]Hong Kong`[]United States High Multiplier`[]Hong Kong High Multiplier`[]Global`[]Auto`(?=.*(港|HK|Hong Kong|美(?!属)|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^.*$
+custom_proxy_group=Telegram`url-test`(?=.*(新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong))^((?!(Game|游戏|IPLC|IEPL|CN2|GIA)).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Personal Agent`select`[]United States`[]India`[]Hong Kong`[]United States High Multiplier`[]Hong Kong High Multiplier`[]Global`[]Auto`.*
+custom_proxy_group=Global Social`select`[]United States`[]Hong Kong`[]United States High Multiplier`[]Hong Kong High Multiplier`[]Global`[]Auto`.*
+custom_proxy_group=Emby Direct`select`[]DIRECT`[]Emby
+custom_proxy_group=Emby`select`[]Traffic Saver`[]United States`[]Hong Kong`[]Singapore`[]India`[]Russia`[]Japan`[]Streaming Media`[]Auto`[]Global`[]DIRECT`.*
+custom_proxy_group=PT`select`[]United States`[]Hong Kong`[]United States High Multiplier`[]Hong Kong High Multiplier`[]Global`[]Auto`[]DIRECT`(?=.*(港|HK|Hong Kong|美(?!属)|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^.*$
+custom_proxy_group=YouTube`select`[]Google`[]United States`[]Hong Kong`[]Auto`(?=.*(美(?!属)|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC|IEPL|CN2|GIA)).)*$
+;custom_proxy_group=Streaming Media`url-test`(?=.*(\b([xX]\d+(\.\d+)?|\d+(\.\d+)?([xX]|倍))\b|[Ff]ree|免费|下载|[Dd]own|流?媒体|[Mm]edia))^((?!(Game|游戏|IPLC|IEPL|CN2|GIA)).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Streaming Media`select`[]Traffic Saver`[]United States`[]Hong Kong`[]Global`[]Auto`[]DIRECT`(?=.*(\b([xX]\d+(\.\d+)?|\d+(\.\d+)?([xX]|倍))\b|[Ff]ree|免费|下载|[Dd]own|流?媒体|[Mm]edia))^((?!(Game|游戏|IPLC|IEPL|CN2|GIA)).)*$
+custom_proxy_group=OneDrive`select`[]Microsoft`[]United States`[]Hong Kong`[]DIRECT`(?=.*(港|HK|Hong Kong|美(?!属)|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(Game|游戏|IPLC|IEPL|CN2|GIA)).)*$
+custom_proxy_group=PayPal`select`[]DIRECT`[]United States`[]Hong Kong`[]United States High Multiplier`[]Hong Kong High Multiplier`[]Global`(?=.*(美(?!属)|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^.*$
+custom_proxy_group=Game`select`[]United States`[]Hong Kong`[]United States High Multiplier`[]Hong Kong High Multiplier`[]Global`[]Auto`[]DIRECT`.*
+custom_proxy_group=Steam`select`[]Game`[]United States`[]Hong Kong`[]Russia`[]United States High Multiplier`[]Hong Kong High Multiplier`[]Russia High Multiplier`[]Russia`[]DIRECT`.*
+custom_proxy_group=Epic`select`[]United States`[]Hong Kong`[]United States High Multiplier`[]Hong Kong High Multiplier`[]Game`[]DIRECT`.*
+custom_proxy_group=Xbox`select`[]Microsoft`[]Game`[]United States`[]Hong Kong`[]United States High Multiplier`[]Hong Kong High Multiplier`[]DIRECT`.*
+custom_proxy_group=Ubisoft`select`[]United States`[]Hong Kong`[]United States High Multiplier`[]Hong Kong High Multiplier`[]Game`[]DIRECT`.*
+custom_proxy_group=EA`select`[]Game`[]United States`[]Hong Kong`[]United States High Multiplier`[]Hong Kong High Multiplier`[]DIRECT`.*
+custom_proxy_group=Play Station`select`[]DIRECT`[]Game`[]United States`[]Hong Kong`[]United States High Multiplier`[]Hong Kong High Multiplier`.*
+custom_proxy_group=XiaoHongShu`select`[]DIRECT`[]United States`[]Hong Kong`[]Global Social`[]Global`.*
+custom_proxy_group=DouYin`select`[]DIRECT`[]United States`[]Hong Kong`[]Global Social`[]Global`.*
+custom_proxy_group=System OTA`select`[]REJECT`[]DIRECT
+custom_proxy_group=Tracker`select`[]DIRECT`[]PT`[]Auto`[]Global
+custom_proxy_group=SpeedTest`select`[]DIRECT`.*
+custom_proxy_group=AdGuard`select`[]REJECT`[]DIRECT`[]Auto`[]Global`[]United States`[]Hong Kong
+custom_proxy_group=Traffic Saver`url-test`^.*(?i:(下载|免费|流?媒体|free|media|down|0\.\d+[xX倍]?|[xX]-?0\.\d+|-?0\.\d+[xX倍])).*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=United States`url-test`(?=.*(美(?!属)|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))^((?!(下载|免费|流?媒体|[Ff]ree|[Mm]edia|[Dd]own|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Hong Kong`url-test`(?=.*(港|HK|Hong Kong))^((?!(下载|免费|流?媒体|[Ff]ree|[Mm]edia|[Dd]own|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Singapore`url-test`(?=.*(新加坡|坡|狮城|SG|Singapore))^((?!(下载|免费|流?媒体|[Ff]ree|[Mm]edia|[Dd]own|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=India`url-test`(?=.*(印度(?!洋)|India|IN))^((?!(下载|免费|流?媒体|[Ff]ree|[Mm]edia|[Dd]own|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Russia`url-test`(?=.*(俄罗斯|Russia|RU))^((?!(下载|免费|流?媒体|[Ff]ree|[Mm]edia|[Dd]own|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Japan`url-test`(?=.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan))^((?!(下载|免费|流?媒体|[Ff]ree|[Mm]edia|[Dd]own|0\.\d+|[xX]0\.\d+|[xX][2-9]|[xX]\d{2,}|[2-9](?:\.\d+)?[xX倍]|\d{2,}(?:\.\d+)?[xX倍])).)*$`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=United States High Multiplier`url-test`(?=.*(美(?!属)|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))(?=.*(?:[xX](?:[2-9]|\d{2,})(?:\.\d+)?|(?<![\d.a-zA-Z])(?:[2-9]|\d{2,})(?:\.\d+)?[xX倍]))`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Hong Kong High Multiplier`url-test`(?=.*(港|HK|Hong Kong))(?=.*(?:[xX](?:[2-9]|\d{2,})(?:\.\d+)?|(?<![\d.a-zA-Z])(?:[2-9]|\d{2,})(?:\.\d+)?[xX倍]))`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Singapore High Multiplier`url-test`(?=.*(新加坡|坡|狮城|SG|Singapore))(?=.*(?:[xX](?:[2-9]|\d{2,})(?:\.\d+)?|(?<![\d.a-zA-Z])(?:[2-9]|\d{2,})(?:\.\d+)?[xX倍]))`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=India High Multiplier`url-test`(?=.*(印度(?!洋)|India|IN))(?=.*(?:[xX](?:[2-9]|\d{2,})(?:\.\d+)?|(?<![\d.a-zA-Z])(?:[2-9]|\d{2,})(?:\.\d+)?[xX倍]))`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Russia High Multiplier`url-test`(?=.*(俄罗斯|Russia|RU))(?=.*(?:[xX](?:[2-9]|\d{2,})(?:\.\d+)?|(?<![\d.a-zA-Z])(?:[2-9]|\d{2,})(?:\.\d+)?[xX倍]))`http://www.gstatic.com/generate_204`300,,100
+custom_proxy_group=Japan High Multiplier`url-test`(?=.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan))(?=.*(?:[xX](?:[2-9]|\d{2,})(?:\.\d+)?|(?<![\d.a-zA-Z])(?:[2-9]|\d{2,})(?:\.\d+)?[xX倍]))`http://www.gstatic.com/generate_204`300,,100
+;设置分组标志位
+
+enable_rule_generator=true
+overwrite_original_rules=true
